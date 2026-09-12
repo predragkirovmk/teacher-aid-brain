@@ -1,0 +1,8 @@
+# Obsidian local/session state — not shared, changes on every open
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# OS cruft
+.DS_Store
