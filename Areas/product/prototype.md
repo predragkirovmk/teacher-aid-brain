@@ -1,7 +1,7 @@
 ---
 created: 2026-09-12
 type: area
-status: being built — URL filled in on deploy
+status: deployed 2026-09-12 — teacher-aid-bitola.vercel.app
 ---
 
 # Prototype — the demo web app
@@ -30,10 +30,15 @@ will have.
 
 ## URLs
 
-- Host: `<PROTOTYPE_URL>/host` — **fill in after deploy**
-- Join: `<PROTOTYPE_URL>/j/BITOLA`
-- Print: `<PROTOTYPE_URL>/print`
-- Repo: `github.com/predragkirovmk/teacher-aid-app` (private)
+- Host (projector): https://teacher-aid-bitola.vercel.app/host
+- Join (the QR points here): https://teacher-aid-bitola.vercel.app/j/BITOLA — short form to say out loud:
+  **teacher-aid-bitola.vercel.app/j/BITOLA**
+- Print sheet: https://teacher-aid-bitola.vercel.app/print
+- Landing with all links: https://teacher-aid-bitola.vercel.app
+- Repo: github.com/predragkirovmk/teacher-aid-app (private) — pushes to `main` deploy
+  automatically; Vercel project `teacher-aid`, Upstash Redis `teacher-aid-redis` attached.
+- Host key: `bitola` (default; set `HOST_KEY` in Vercel to change, then open
+  `/host?key=...`).
 
 ## What it is not
 
@@ -50,8 +55,12 @@ purpose — nothing to reconnect on stage.
 
 ## How to reset / rehearse
 
-- Press **R** on `/host` or open `/host?reset=1`. Everyone has to re-scan.
-- Multiple rehearsals: reset between them; nicknames are regenerated each join.
+- Press **R** on `/host` (confirm dialog) or open `/host?reset=1`. Everyone has to
+  re-scan; phones drop back to the Join screen on their own.
+- `/host?motion=0` turns off entrance animations if the projector stutters.
+- **S** flips to simulation in place (fake students join and vote); the header shows
+  "simulation" so it stays honest. Press S again to go back to the live session.
+- Rehearse the whole flow once from a real phone on mobile data before Sunday.
 
 ## After the weekend
 

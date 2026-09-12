@@ -1,7 +1,7 @@
 ---
 created: 2026-09-12
 type: plan
-status: v1 — URL and session code filled in when the prototype deploys
+status: v1 — prototype deployed, URLs below
 ---
 
 # Demo plan — the live opener with the judges
@@ -29,13 +29,15 @@ Total: ~60 s. Scanning is the slow part; the script waits a maximum of 15 s for 
 
 ## URLs and codes
 
-- Host screen: `<PROTOTYPE_URL>/host` (fill in after deploy — see [[prototype]])
-- Join link (the QR points here): `<PROTOTYPE_URL>/j/BITOLA`
-- Short URL shown under the QR for anyone whose camera will not scan.
+- Host screen: https://teacher-aid-bitola.vercel.app/host
+- Join link (the QR points here): https://teacher-aid-bitola.vercel.app/j/BITOLA
+- Short URL shown under the QR, for anyone whose camera will not scan:
+  **teacher-aid-bitola.vercel.app/j/BITOLA**
 - Reset between rehearsals: press **R** on the host screen (asks to confirm), or open
-  `<PROTOTYPE_URL>/host?reset=1`.
-- Simulation mode (no network needed): `<PROTOTYPE_URL>/host?sim=1` — fake players join and
-  vote on their own.
+  https://teacher-aid-bitola.vercel.app/host?reset=1.
+- Simulation mode (no network needed): https://teacher-aid-bitola.vercel.app/host?sim=1 — fake students join and vote on
+  their own; or press **S** on the live host screen to flip into it mid-demo.
+- Print sheet: https://teacher-aid-bitola.vercel.app/print
 
 ## Room checklist (Sunday morning, one teammate)
 

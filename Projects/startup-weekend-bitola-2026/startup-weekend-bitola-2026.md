@@ -23,7 +23,7 @@ survives Q&A becomes the plan; what does not becomes [[risks-and-assumptions]].
 - Canvas: corrected — [[business-model-canvas]].
 - Pitch: script, slides outline, Q&A prep written — [[pitch-script]], [[slide-outline]],
   [[qa-prep]].
-- Demo: web prototype for the live opener — [[prototype]] (URL inside once deployed).
+- Demo: web prototype for the live opener, deployed — [[prototype]] — https://teacher-aid-bitola.vercel.app/host
 - Validation: teachers interviewed (quotes to log — [[validation-log]]); one warm headmaster
   contact, no yes yet; education mentor available.
 - Team: 4+, presenter alone on stage, deck in Canva by the presenter.
