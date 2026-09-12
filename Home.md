@@ -3,6 +3,9 @@
 Second brain for TeacherAid — an AI classroom system for Macedonian secondary schools.
 Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 
+- [[teacheraid-handbook]] — the whole business in one document (v1, 12 Sep 2026);
+  shareable page: https://claude.ai/code/artifact/d26086d1-5fde-4fef-982d-69f44615c608
+
 ## Now: the pitch (Sunday 13 Sep)
 
 - [[startup-weekend-bitola-2026]] — goal, status, next actions per teammate
