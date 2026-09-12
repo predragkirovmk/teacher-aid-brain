@@ -1,24 +1,51 @@
 # Teacher Aid
 
-Dashboard for this vault. Keep this file short — it's a map, not a notebook.
+Second brain for TeacherAid — an AI classroom system for Macedonian secondary schools.
+Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 
-## Active projects
+## Now: the pitch (Sunday 13 Sep)
 
-- [[Projects/]]
+- [[startup-weekend-bitola-2026]] — goal, status, next actions per teammate
+- [[pitch-script]] — word for word, with timings
+- [[slide-outline]] — the Canva deck, slide by slide
+- [[demo-plan]] — the live QR opener, room checklist, fallbacks
+- [[qa-prep]] — 18 judge questions with answers
+- [[validation-log]] — every teacher and headmaster conversation (fill tonight)
+- [[rehearsal]] — run of show, cut order
 
-## Areas
+## The business
 
-- [[Areas/]]
+- [[business-model-canvas]] — v2, all nine blocks, with what changed from the poster
+- [[customer-segments]] · [[value-propositions]] · [[channels-and-relationships]]
+- [[revenue-and-pricing]] · [[cost-structure]] · [[key-partners-resources-activities]]
+- [[risks-and-assumptions]] — every assumption, the evidence it needs, an owner
+
+## The product
+
+- [[product-overview]] — the 45-minute class, minute by minute
+- [[features]] · [[user-flows]] · [[technical-architecture]] · [[data-and-privacy]]
+- [[prototype]] — the demo web app: URLs, keys, reset
+
+## The market
+
+- [[macedonian-education-system]] — who decides, who pays, the phone policy, sources
+- [[market-size]] — SSO 2024/25 numbers, TAM/SAM/SOM
+- [[competitors]] — Curipod, Kahoot, MagicSchool, Teams, EDUINO — and why us
+
+## Brand
+
+- [[name-and-mascot]] — working name, alternatives, Zvonko the bell
+- [[messaging]] — one-liners, proof lines, humor beats, words to avoid
 
 ## Resources
 
-- [[Resources/]]
+- [[learning-from-mistakes-research]] — productive failure, pretesting, hypercorrection
+- [[startup-weekend-judging]] — format, criteria, what wins
 
-## Daily notes
+## Daily
 
-- [[Daily/]]
+- [[2026-09-12]]
 
 ---
 
-Optional: install the Dataview community plugin and replace the lists above with
-live queries, e.g. `LIST FROM "Projects" WHERE !completed`.
+Conventions and folder rules: [[CLAUDE]]. Templates in `Templates/`.
