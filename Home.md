@@ -47,7 +47,7 @@ Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 
 ## Daily
 
-- [[2026-09-12]]
+- [[2026-09-12]] · [[2026-09-13]]
 
 ---
 

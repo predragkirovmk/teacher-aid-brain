@@ -7,7 +7,7 @@ tags: [handbook, business, reference]
 
 # TeacherAid Handbook
 
-Version 1 · 12 September 2026 · compiled the night before the Startup Weekend Bitola pitch. Every section here has a living note in the vault; when they disagree, the vault note is newer. This document exists so that one person — a teammate, a mentor, the first headmaster — can read the whole business in half an hour.
+Version 1.1 · compiled 12 September 2026, pricing updated 13 September 2026 · the night before and the morning of the Startup Weekend Bitola pitch. Every section here has a living note in the vault; when they disagree, the vault note is newer. This document exists so that one person — a teammate, a mentor, the first headmaster — can read the whole business in half an hour.
 
 ## 1. The business on one page
 
@@ -17,9 +17,9 @@ Version 1 · 12 September 2026 · compiled the night before the Startup Weekend 
 
 **Why it works.** Predicting before instruction improves what is learned afterwards, even when the prediction is wrong (productive failure, the pretesting effect). Attention in a lecture lapses within minutes and recovers during active tasks. The phone is already in every pocket; as of May 2026 the Minister of Education says the teacher decides when it is used. TeacherAid is the sanctioned use.
 
-**How it makes money.** EUR 5 per teacher per month, invoiced yearly per school. A 50-teacher gymnasium pays EUR 3,000 a year. First month free. Private gymnasiums first, public schools through the municipalities second.
+**How it makes money.** EUR 199 a month, flat, per school — every teacher included, not just volunteers. EUR 2,388 a year, invoiced yearly. First month free. Private gymnasiums first, public schools through the municipalities second.
 
-**How big.** 128 upper secondary schools, about 7,000 secondary teachers, 67,143 students (State Statistical Office, 2024/25). Every teacher in the country would be about EUR 1.6 million a year; every secondary teacher about EUR 420,000. The honest year-3 target is 40 schools, about EUR 120,000 a year.
+**How big.** 128 upper secondary schools, about 7,000 secondary teachers, 67,143 students (State Statistical Office, 2024/25). Every school in the country would be about EUR 2.6 million a year; every secondary school about EUR 306,000. The honest year-3 target is 40 schools, about EUR 95,500 a year.
 
 **What it costs to run.** About five cents of AI per generated lesson — roughly EUR 20 per teacher per year at heavy use — plus hosting, support and the team.
 
@@ -137,7 +137,7 @@ Parents (informed by the school through a template notice; the objection to expe
 
 **Student — "A class that starts with a question."** Predict first, learn second. Being wrong earns points for reasoning — the app is on the student's side. The phone is allowed, for once, and it is the game controller. Rank in class, in school, nationally. A private line to the teacher.
 
-**Headmaster — "Does nothing. Gets everything."** "AI in every classroom" as a sentence they can say to parents this year without a training day, an IT project or a login. A monthly one-page report written to be forwarded — the measurable version of praise. Risk-free: first month free, per-seat pricing, nothing installed on school infrastructure, the school owns the data.
+**Headmaster — "Does nothing. Gets everything."** "AI in every classroom" as a sentence they can say to parents this year without a training day, an IT project or a login. A monthly one-page report written to be forwarded — the measurable version of praise. Risk-free: first month free, one flat fee covering the whole staff, nothing installed on school infrastructure, the school owns the data.
 
 **Against the alternatives, in one line.** Everything else is a tool for the teacher or a game for the students. TeacherAid is the lesson.
 
@@ -151,7 +151,7 @@ Version 1 was the handwritten poster from Saturday morning with revenue, costs a
 | **2. Value propositions** | Teacher: one tool for the whole lesson; plan in three sentences; attention handled by the game; anonymous questions. Student: a class that starts with a question; safe to be wrong; points and rank. Headmaster: AI in every classroom with nothing to learn; a monthly report to forward. Differentiator: MK curriculum and language, the 45-minute period as the unit, the headmaster gets a report not a login. |
 | **3. Channels** | Teacher referral (bottom-up); direct outreach to private-school headmasters; the free live session in a school; education events and teacher social media; later, municipality introductions. |
 | **4. Customer relationships** | In-app tutorials and videos; in-app help and the teacher chatbot with a human behind it; the monthly report; the school-versus-school leaderboard as the retention hook. |
-| **5. Revenue streams** | EUR 5 per teacher per month, invoiced yearly per school (EUR 60 per seat per year); first month free; minimum 10 seats; EUR 4 for municipality volume. Later: sponsorship (telecom or bank CSR), grants (EU, UNICEF, МОН programs), premium content packs. |
+| **5. Revenue streams** | EUR 199 a month, flat per school (EUR 2,388/year), whole staff included, no seat count; invoiced yearly; first month free. Later: sponsorship (telecom or bank CSR), grants (EU, UNICEF, МОН programs), premium content packs. |
 | **6. Key resources** | The AI lesson engine and prompt library; the MK curriculum corpus (БРО programs, then teacher-edited lessons — the asset that compounds); the live-session engine including the native focus lock; the team; an advising teacher (missing); AI credits; the trust artefacts (ДПА template, privacy notice, sample report). |
 | **7. Key activities** | Build the planner, live session, dashboard and report; curate curriculum content per subject and year; sell to headmasters and run free live sessions; onboard and support teachers; run the leaderboard seasons; report monthly. |
 | **8. Key partners** | МОН and БРО (legitimacy, curriculum data); Municipality of Bitola (payer for public schools, door-opener); UKLO Faculty of Education and teacher associations (advising teacher, a small study, credibility); telecom — A1 or Makedonski Telekom (CSR sponsorship, connectivity); the AI provider (credits); EDUINO (integration or ally, not a competitor). |
@@ -161,57 +161,85 @@ Version 1 was the handwritten poster from Saturday morning with revenue, costs a
 
 ### 7.1 The model
 
-- **EUR 5 per teacher per month → EUR 60 per seat per year**, invoiced once a year to the school. Unlimited students and lessons per seat.
-- **First month free**, whole school, no card. Conversion is decided on the first monthly report and on teacher usage.
-- Minimum 10 seats per school so a pilot is a real pilot. Municipality volume: EUR 4 per seat per month.
-- Per seat rather than per school because it prices the tool where value is felt, lets a school start with the champions, and grows automatically as adoption spreads — the bottom-up route needs a price that follows adoption.
+- **EUR 199 a month, flat per school → EUR 2,388 a year**, invoiced once a year. Whole
+  staff included — every teacher, not just volunteers. No seat count, no tiers.
+- **First month free**, whole school, no card. Conversion is decided on the first monthly
+  report and on how the staff actually uses it.
+- Flat per school rather than per seat because it is one number a headmaster approves in a
+  single meeting, with nothing to count and nothing to negotiate as staff changes. It also
+  makes the school-vs-school leaderboard real from day one — every class in the building is
+  on it immediately, not just two volunteers' classes.
+- The trade-off: **cost still scales with active teachers, revenue does not** — see 7.2 and
+  [[cost-structure]] for the margin-by-school-size risk this creates.
 
-### 7.2 Why EUR 5
+### 7.2 Why EUR 199, and the real trade-off
 
-A 50-teacher gymnasium pays EUR 3,000 a year — less than one interactive whiteboard and about one month's net salary of one teacher (MK teacher net pay ≈ EUR 600–700 per month; verify). Per teacher it is comparable to the paid tiers of Curipod or Kahoot, but paid by the school, not the teacher. Gross margin at full use: AI ≈ EUR 20 per seat per year, hosting and support ≈ EUR 5, so about 55–60% at EUR 60 — thin for SaaS, acceptable for year one, improving with caching, cheaper models and lesson reuse. If private schools do not blink at EUR 5 (likely), test EUR 8. Never below 4.
+EUR 2,388 a year for a whole school is less than one interactive whiteboard, and a number a
+private-school headmaster can approve without a board meeting. For a public school it
+comfortably fits most small-value procurement thresholds for the entire staff (verify the
+exact threshold with the municipality). But because AI cost is roughly EUR 20 per *active*
+teacher per year while revenue is flat, margin swings hard with school size:
 
-### 7.3 Sample school, year one (private gymnasium, 50 teachers)
+| School size | Teachers | Cost | Revenue | Margin |
+|---|---|---|---|---|
+| Small | 20 | ~EUR 500/yr | EUR 2,388 | ~79% |
+| Average MK secondary | ~55 | ~EUR 1,375/yr | EUR 2,388 | ~42% |
+| Large | 80 | ~EUR 2,000/yr | EUR 2,388 | ~16% |
+| Very large | 100+ | ~EUR 2,500+/yr | EUR 2,388 | negative |
+
+Decided: no size tiers for now, deliberately, for the simplicity of the sale. Small schools
+are very profitable; a handful of very large, heavy-usage schools could run at a loss. A
+size tier above a certain teacher count is the fix if the pilot data says so — not before.
+
+### 7.3 Sample school, year one (private gymnasium, ~55 teachers)
 
 | | EUR |
 |---|---|
-| Revenue (50 × 60) | 3,000 |
-| AI inference (50 × ~20) | −1,000 |
+| Revenue (flat) | 2,388 |
+| AI inference (55 × ~20) | −1,100 |
 | Hosting, realtime, storage | −150 |
 | Support time (10 h × 15) | −150 |
-| **Contribution** | **1,700** |
+| **Contribution** | **~988** |
 
 ### 7.4 Market math (North Macedonia only)
 
-| | Schools | Teachers (seats) | ARR at EUR 60 |
-|---|---|---|---|
-| Upper secondary (SAM) | 128 | ~7,000 (estimate) | ~EUR 420,000 |
-| Primary and lower secondary (later) | 943 | 19,447 | ~EUR 1.17 M |
-| **All MK schools (TAM)** | ~1,070 | ~26,500 | **~EUR 1.6 M per year** |
+Revenue is now per school, not per seat.
+
+| | Schools | ARR at EUR 2,388/school |
+|---|---|---|
+| Upper secondary (SAM) | 128 | ~EUR 306,000 |
+| Primary and lower secondary (later) | 943 | ~EUR 2.25 M |
+| **All MK schools (TAM)** | ~1,070 | **~EUR 2.6 M per year** |
 
 Obtainable, honestly:
 
-| | Schools | Seats | ARR |
-|---|---|---|---|
-| Year 1 (2026/27) | 3 private + 2 public pilots | ~250 | ~EUR 15,000 |
-| Year 2 | 15 | ~750 | ~EUR 45,000 |
-| Year 3 | 40 (all Bitola, Skopje private, first municipalities) | ~2,000 | ~EUR 120,000 |
+| | Schools | ARR |
+|---|---|---|
+| Year 1 (2026/27) | 3 private + 2 public pilots | ~EUR 12,000 |
+| Year 2 | 15 | ~EUR 36,000 |
+| Year 3 | 40 (all Bitola, Skopje private, first municipalities) | ~EUR 95,500 |
 
-Say the small number on stage. The upside line for Q&A: the same product works in any country with one national curriculum — Serbia, Bosnia and Herzegovina, Albania, Kosovo, Montenegro are next and roughly ten times the seats.
+Note: this ceiling is lower than a per-seat model would give at the same school count,
+because flat pricing is deliberately cheap for a large staff — that's the trade for a
+simpler, faster, whole-school sale. Say the small number on stage. The upside line for
+Q&A: the same product works in any country with one national curriculum — Serbia, Bosnia
+and Herzegovina, Albania, Kosovo, Montenegro are next and roughly ten times the schools.
 
 ### 7.5 Secondary revenue
 
-Sponsorship: a telecom or bank sponsors "AI in Bitola's schools", pays the seats for public schools as CSR, gets its name on the leaderboard season. Grants: EU (Erasmus+ and IPA education calls), UNICEF (EDUINO partner), МОН innovation programs — they pay for the public-school rollout municipalities cannot. Premium content packs: ready lesson sets per subject and year, curated with teachers, sold per school, only after the corpus exists.
+Sponsorship: a telecom or bank sponsors "AI in Bitola's schools", pays the flat fee for public schools as CSR, gets its name on the leaderboard season. Grants: EU (Erasmus+ and IPA education calls), UNICEF (EDUINO partner), МОН innovation programs — they pay for the public-school rollout municipalities cannot. Premium content packs: ready lesson sets per subject and year, curated with teachers, sold per school, only after the corpus exists.
 
 ### 7.6 Payment mechanics
 
-Private schools: invoice, bank transfer, yearly. Public schools: the municipality pays; under the small-value threshold of the public procurement law a direct contract is possible — verify the current threshold and whether software subscriptions qualify, because it decides whether a EUR 3,000 contract is a one-week or a three-month process. No card payments and no teacher-paid plans in version one; a teacher paying personally undermines the headmaster sale.
+Private schools: invoice, bank transfer, yearly. Public schools: the municipality pays; under the small-value threshold of the public procurement law a direct contract is possible — verify the current threshold and whether software subscriptions qualify, because it decides whether a EUR 2,388 contract is a one-week or a three-month process. No card payments and no teacher-paid plans — the whole point of a flat school fee is that no individual teacher ever sees a bill.
 
 ### 7.7 Assumptions to validate first
 
-1. A private-school headmaster says yes to EUR 5 per seat without negotiating.
-2. Average active seats per school ≥ 60% of teachers by month three.
+1. A private-school headmaster says yes to EUR 199/month flat, for the whole staff, without negotiating.
+2. Whole-staff rollout doesn't stall on teachers who never opted in — watch real usage rate in the free month.
 3. Renewal ≥ 80% after year one.
-4. The municipality can contract a EUR 3,000 pilot directly.
+4. The municipality can contract a EUR 2,388/year pilot directly.
+5. The margin holds at real school sizes — instrument AI cost per school from day one.
 
 ## 8. Costs
 
@@ -227,7 +255,7 @@ One lesson, generously counted: plan generation (system prompt, curriculum excer
 | Haiku 4.5 | $0.025 | ~$10 |
 | Opus 5 | $0.12 | ~$49 |
 
-400 generations a year assumes about 20 lessons a week over 36 weeks with reuse across parallel classes and repeats from last year. Prompt caching on the system prompt and curriculum excerpt cuts the input side by roughly 90% on repeated calls; the numbers above ignore it. Recommendation: Sonnet 5 for full plans (Macedonian quality, instruction following), Haiku 4.5 for ad-hoc pop-ups and chatbot small talk. The stage number: about five cents per lesson. Consequence: at EUR 60 per seat, AI is about 30% of revenue — the main variable cost and the reason the price cannot go below EUR 4.
+400 generations a year assumes about 20 lessons a week over 36 weeks with reuse across parallel classes and repeats from last year. Prompt caching on the system prompt and curriculum excerpt cuts the input side by roughly 90% on repeated calls; the numbers above ignore it. Recommendation: Sonnet 5 for full plans (Macedonian quality, instruction following), Haiku 4.5 for ad-hoc pop-ups and chatbot small talk. The stage number: about five cents per lesson. Consequence of flat per-school pricing: AI cost scales with active teachers per school while revenue does not — at the MK secondary average (~55 teachers), AI alone is about 46% of the EUR 2,388/year fee. This is the real margin risk of a flat model — see 7.2.
 
 ### 8.2 Hosting, support, fixed
 
@@ -247,7 +275,7 @@ One lesson, generously counted: plan generation (system prompt, curriculum excer
 
 ### 8.4 Break-even sketch
 
-At EUR 60 per seat per year and about EUR 25 variable cost per seat, each seat contributes about EUR 35. A team of three at MK salaries (say EUR 4,500 a month all-in) needs about 1,550 seats — roughly 30 schools of 50 teachers, the year-3 target. Grants and sponsorship bridge years one and two.
+At EUR 2,388/year per school and an average school (~55 teachers, ~EUR 1,375 variable cost), each school contributes about EUR 1,000/year. A team of three at MK salaries (say EUR 4,500 a month all-in) needs about 54 average-sized schools — beyond the year-3 target of 40. That gap is real; it's closed by grants and sponsorship bridging years one and two, a size tier on large schools if the pilot margin data calls for it, or premium content packs arriving sooner than planned.
 
 ## 9. The market and its context
 
@@ -303,17 +331,17 @@ Public schools receive block grants from the state via municipalities; a headmas
 
 ### 11.1 Channels, in decided order
 
-1. **Teacher referral (bottom-up).** A champion teacher runs TeacherAid in their own class during the free month, colleagues see the students behave, the teacher brings it to the headmaster. This is the primary route and the reason pricing is per seat.
-2. **Direct outreach to private-school headmasters.** Call, visit, twenty minutes, the sample report in hand. Bitola is home; Skopje is two hours.
-3. **The free live session.** Two people, one real class, one lesson, filmed with permission. The school gets a story; the team gets a video and a referral. Run it only where a headmaster meeting is already possible.
+1. **Direct outreach to headmasters (now the primary close, updated 13 Sep).** Since pricing moved to a flat, whole-staff fee, the sale is top-down: the headmaster commits the entire staff in one twenty-minute meeting — call, visit, the sample report in hand — not one teacher trying it first. Bitola is home; Skopje is two hours.
+2. **Teacher referral as the door-opener.** A champion teacher who's excited about it gets you the introduction and vouches for it inside the building, but the deal itself is whole-school from day one — their job shifted from "adopt it, then convince the headmaster" to "introduce us to the headmaster."
+3. **The free live session.** Two people, one real class, one lesson, filmed with permission. Now doubles as proof for the headmaster meeting that a whole staff can be onboarded in a day, not just a marketing stunt.
 4. **Education events and teacher social media.** Teacher Facebook groups, the annual education conferences, Instagram for the student side.
-5. **Municipality introductions** for public schools: one meeting with the education department opens seven schools in Bitola.
+5. **Municipality introductions** for public schools: one meeting with the education department opens seven schools in Bitola, each a flat-fee, whole-staff deal.
 
-Evaluation happens in the free month; the artefacts that close the sale are the sample monthly report and usage by the school's own teachers.
+Evaluation happens in a whole-school pilot month; the artefacts that close the sale are the sample monthly report and usage across the actual staff, not just one teacher's results.
 
 ### 11.2 Relationships
 
-- **Onboard:** in-app tutorials, three short videos (teacher first lesson, student first scan, focus lock explained), a "first lesson in ten minutes" checklist; the champion teacher is the in-school trainer.
+- **Onboard:** because every teacher is on it from day one, not just volunteers, onboarding has to reach the whole staff at once — in-app tutorials, three short videos, a "first lesson in ten minutes" checklist, plus a single kickoff session with the whole staff in week one (the free live session, scaled up). The champion teacher is the in-building point of contact, not the only path in.
 - **Support:** in-app help and the teacher chatbot as first line; a founder on WhatsApp behind it for the first schools. Login at 08:05 is the moment that matters — magic links, no passwords to forget.
 - **Retain:** teacher habit measured as lessons run per active teacher per week (intervene below two); the monthly report as the headmaster's reason to renew; the school-versus-school leaderboard as a small real switching cost; a renewal conversation built on the year in numbers and the teachers' own words.
 - **Signals of trouble:** a school where only the champion is active after month two; focus flags rising (students revoking the lock — the game stopped being worth it); anonymous questions at zero (students do not trust it).
@@ -402,7 +430,8 @@ Decide after the weekend. Checklist: domain (.mk and .com or .app), no existing 
 
 | # | Assumption | Evidence needed | How | Status |
 |---|---|---|---|---|
-| 1 | A private-school headmaster will pay EUR 5 per teacher per month | One verbal yes | Ask the warm contact this week; ask the education mentor if the number is sane | Open |
+| 1 | A private-school headmaster will pay EUR 199/month flat for the whole staff | One verbal yes | Ask the warm contact this week; ask the education mentor if the number is sane | Open |
+| 1b | A large school stays profitable at the flat fee — AI cost could exceed EUR 2,388/year revenue if usage is heavy | Measured AI cost per school after 100+ lessons | Instrument from day one; add a size tier if the data says so | New |
 | 2 | Teachers will type three sentences or upload a plan before class | 3 of 5 interviewed teachers say it is less than they do now | Every teacher conversation, logged | Partly — teachers interviewed, quotes to log |
 | 3 | Students will authorize focus lock on their own phones | ≥ 70% authorize in week one of the pilot | Pilot class | Untested |
 | 4 | Focus lock is deliverable on iOS and Android | Working build; Apple entitlement granted | Build after the weekend; start the entitlement request early, it takes weeks | Mechanism documented, untested |
@@ -417,7 +446,7 @@ Decide after the weekend. Checklist: domain (.mk and .com or .app), no existing 
 | 13 | Curipod does not localize to Macedonian before we have 20 schools | Their language list | Quarterly check | Open |
 | 14 | A teacher on the team or advising by end of September | A named person | UKLO, the mentor, the interviewed teachers | Open |
 
-Risks that will happen regardless: the veteran teacher who refuses (per-seat pricing means the school pays only for those who use it); points gaming (speed bonus, per-device sessions, and teacher discretion on grades removes the stakes); support at 08:05 (magic links, champion teacher as first line); a data incident (minimal data and controller/processor structure keep the blast radius to names and points); a small market (MK is the proving ground; every neighbor has one national curriculum).
+Risks that will happen regardless: the veteran teacher who refuses (the flat whole-staff fee means the school pays regardless, so nobody has to opt in — the veteran just comes around slower); points gaming (speed bonus, per-device sessions, and teacher discretion on grades removes the stakes); support at 08:05 (magic links, champion teacher as first line); a data incident (minimal data and controller/processor structure keep the blast radius to names and points); a small market (MK is the proving ground; every neighbor has one national curriculum).
 
 ## 17. Startup Weekend Bitola — the pitch
 
@@ -434,7 +463,7 @@ Final pitches Sunday 13 September 2026, House of the Army, Bitola: five minutes 
 | 1:20 | Problem | Three people walk into a Macedonian classroom: a teacher, thirty students, a headmaster who is not in the room |
 | 1:55 | Solution | The 45 minutes from the bell: QR, opener, pop-ups and focus, review and anonymous questions; class, school, national leaderboards |
 | 3:00 | Teacher and headmaster | Three sentences in, a lesson out; the headmaster does nothing and gets the monthly report |
-| 3:35 | Business | EUR 5 per teacher per month; 50 teachers = EUR 3,000 a year; first month free; private gymnasiums first; 128 schools, ~7,000 teachers, 67,000 students |
+| 3:35 | Business | EUR 199 a month, flat, per school — whole staff included; EUR 2,388 a year; first month free; private gymnasiums first; 128 schools, ~7,000 teachers, 67,000 students |
 | 4:15 | Validation and why now | The teacher quote; the Minister's "the teacher decides"; a lesson costs five cents |
 | 4:40 | Close | "Every class in Macedonia starts the same way: a teacher talking, thirty heads looking down. We want every class to start with a question." No ask. |
 
@@ -449,7 +478,7 @@ Before walking up: tab 1 is the host screen at `/host` showing the QR (session r
 1. Why not ChatGPT plus Kahoot for free? — Five tabs and a paper list, and none of them talk to the headmaster; the school pays for the whole lesson and the report.
 2. How do you block apps on a personal phone? — Apple's Screen Time API and Android usage access, the mechanism Opal and AppBlock use, with the student's one-time permission; revoking shows as a focus flag.
 3. Phones are being banned across Europe. — In May the Minister said the teacher decides; any ban carves out educational use; that is why we start in secondary.
-4. Who pays in a public school? — The municipality; which is why private gymnasiums come first; a EUR 3,000 pilot fits under small-value procurement (confirming next week).
+4. Who pays in a public school? — The municipality; which is why private gymnasiums come first; a EUR 2,388/year flat-fee pilot fits under small-value procurement (confirming next week).
 5. The market is tiny. — Yes, EUR 420k a year if we had every secondary teacher; the right first market because one curriculum, one language, one ministry; Serbia alone is ten times the seats.
 6. What did you validate? — [N] teachers, their quotes, what we changed because of them, the headmaster call booked.
 7. Curipod exists. — A slide tool sold to teachers in English, with no attendance, focus or report; our moat is school habit and the school-versus-school board.

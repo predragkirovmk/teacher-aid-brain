@@ -37,9 +37,11 @@ Notes:
   on repeated calls; the numbers above ignore it (conservative).
 - Ad-hoc pop-ups and chatbot small talk on Haiku 4.5; full plans on Sonnet 5.
 - **The stage number: "about five cents per lesson."**
-- Consequence for pricing: at EUR 60 / seat / year, AI is ~30% of revenue at Sonnet prices.
-  Not negligible — it is the main variable cost, and the main reason the price cannot go
-  below EUR 4.
+- Consequence for pricing (updated 13 Sep — flat EUR 199/month per school, not per seat):
+  AI cost now scales with **how many teachers actually use it**, while revenue is flat. At
+  ~55 teachers (the MK secondary average) and Sonnet prices, AI alone is ~46% of the
+  EUR 2,388/year fee. This is the real margin risk of flat pricing — see
+  [[revenue-and-pricing#The real trade-off: margin now depends on school size, not price]].
 
 ## Hosting and realtime
 
@@ -69,7 +71,7 @@ Notes:
 
 | Cost | Scales with | Mitigation |
 |---|---|---|
-| AI inference | seats × lessons | caching, cheaper models for simple calls, lesson reuse, content packs |
+| AI inference | active teachers × lessons, **but revenue per school is flat** | caching, cheaper models, lesson reuse, content packs, watch large-school margin |
 | Support | schools, and teacher churn | onboarding videos, champion teachers, chatbot |
 | Sales | schools (each is a meeting) | municipality deals cover many schools per contract |
 | Realtime | concurrent sessions at 09:00 | managed vendor, per-region |
@@ -77,10 +79,14 @@ Notes:
 
 ## Break-even sketch
 
-At EUR 60 / seat / year and ~EUR 25 variable cost per seat, each seat contributes ~EUR 35.
-A team of three at MK salaries (say EUR 4,500 / month all-in) needs ~1,550 seats — roughly
-30 schools of 50 teachers. That is the year-3 target in [[revenue-and-pricing]]. Grants and
-sponsorship bridge years 1–2.
+At EUR 2,388/year per school and an average school (~55 teachers, ~EUR 1,375 variable
+cost), each school contributes ~EUR 1,000/year. A team of three at MK salaries (say
+EUR 4,500 / month all-in) needs ~54 average-sized schools — well beyond the year-3 target
+of 40 schools in [[revenue-and-pricing]]. That gap is real: **flat per-school pricing
+reaches break-even later than per-seat pricing would have**, unless a few things offset it
+— grants and sponsorship (bridging years 1–2), a size tier on large schools if the margin
+data says so, or the secondary-revenue lines (content packs) coming online sooner than
+planned. Flag this honestly in Q&A rather than paper over it.
 
 ## Related
 

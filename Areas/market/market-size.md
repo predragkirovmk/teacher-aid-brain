@@ -26,15 +26,20 @@ Trend: students −20% in secondary over ten years, teachers −5%. Class sizes 
 schools are consolidating. Nobody is buying tools for growth — they buy for quality and
 reputation. That fits the headmaster pitch.
 
-## TAM / SAM / SOM at EUR 60 per seat per year
+## TAM / SAM / SOM at EUR 199 / month flat per school (EUR 2,388/year)
 
-| | Seats | ARR |
+Decided 13 Sep 2026: pricing is per **school**, flat, whole staff included — not per seat.
+Market math below is schools × EUR 2,388/year, not seats × a per-teacher price.
+
+| | Schools | ARR |
 |---|---|---|
-| **TAM** — every teacher in MK | ~26,500 | ~EUR 1.6 M |
-| **SAM** — upper secondary | ~7,000 | ~EUR 420 k |
-| **SOM** — year 3: ~40 schools | ~2,000 | ~EUR 120 k |
+| **TAM** — every school in MK | ~1,070 | ~EUR 2.6 M |
+| **SAM** — upper secondary | 128 | ~EUR 306 k |
+| **SOM** — year 3: ~40 schools | 40 | ~EUR 95.5 k |
 
 For the slide, three numbers only: **128 schools · ~7,000 teachers · 67,143 students.**
+(Teacher and student counts still matter for the story — "every teacher, every class" — even
+though the price itself no longer depends on the headcount.)
 
 ## Why a small country is the right first market
 

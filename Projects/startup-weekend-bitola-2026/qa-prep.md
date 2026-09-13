@@ -1,7 +1,8 @@
 ---
 created: 2026-09-12
 type: prep
-status: v1 — add real questions from the mentor session and rehearsal
+status: v2 — pricing updated to flat EUR 199/month per school (13 Sep); add real questions
+  from the mentor session and rehearsal
 ---
 
 # Q&A prep — five minutes of judges
@@ -38,8 +39,9 @@ secondary schools, not primary.
 
 Correct — the municipality does, which is why we start with private gymnasiums where the
 headmaster owns the budget and decides in a week. For public schools the municipality is
-one office for seven schools in Bitola; a EUR 3,000 pilot fits under small-value
-procurement. We'll confirm the exact threshold with the municipality next week.
+one office for seven schools in Bitola; a EUR 2,388/year pilot — one flat fee for a whole
+school — fits under small-value procurement. We'll confirm the exact threshold with the
+municipality next week.
 
 ## 5. "The market is tiny."
 
@@ -79,14 +81,18 @@ raised hand. Nothing changes in МОН's grading rules.
 ## 10. "What does the AI cost you? What are your margins?"
 
 About five cents per generated lesson on today's prices — roughly EUR 20 per teacher per
-year at heavy use, against EUR 60 revenue. Hosting and support add about five. Around 55%
-gross margin in year one, improving with caching and lesson reuse.
+year at heavy use. Because we price flat per school — EUR 199 a month, whole staff
+included — margin depends on school size: around 80% at a small school, closer to 40% at
+an average one, thinner at a very large one. We're watching that curve in the pilot, and a
+size tier is the fix if a big school runs too close to the line.
 
 ## 11. "What if a teacher with 25 years' experience refuses?"
 
-Then they don't use it and the school doesn't pay for that seat — pricing is per active
-teacher. We go in through the one or two teachers who already try things; the veteran
-comes when the class next door is quieter than theirs.
+They're still covered — it's a flat fee for the whole staff, not a per-seat charge, so
+nobody has to opt in for the school to be onboarded. In practice we don't need every
+teacher on day one: the champion teachers use it immediately, the veteran comes around
+once the class next door is visibly quieter and more engaged than theirs. The fee doesn't
+wait for that to happen.
 
 ## 12. "Does it work when the school wifi is down?"
 
@@ -94,35 +100,45 @@ Students use their own mobile data — the messages are tiny. The teacher's plan
 device; if everything dies the lesson runs out loud and points pause. We'll test it in a
 concrete-walled Bitola school in the free live session.
 
-## 13. "Why you? Who's on the team?"
+## 13. "Why not price per teacher instead of a flat fee? Doesn't that cap you at big schools?"
+
+It does — flat pricing is deliberately cheap for a big staff, which caps how much a large
+school ever pays us. We made that trade on purpose: one number a headmaster approves in a
+meeting, with nothing to count and no "how many of our teachers actually use it"
+negotiation. It also means the leaderboard and the habit-forming happen across the whole
+school from day one, not just two volunteers' classes. If a school's usage costs us more
+than the flat fee earns, that's a real number we're tracking — the fix is a size band
+above a certain teacher count, not a redesign of the model.
+
+## 14. "Why you? Who's on the team?"
 
 [Names and roles — one line each.] What we don't have yet is a teacher on the team; we're
 recruiting one this month from the teachers we interviewed and the pedagogy faculty at
 UKLO.
 
-## 14. "What about Albanian-language schools?"
+## 15. "What about Albanian-language schools?"
 
 Version one is Macedonian. The AI side is a language setting; the curriculum is the same
 БРО program. Albanian is on the roadmap once the corpus for Macedonian is proven.
 
-## 15. "How is this different from the Ministry's own platform, EDUINO?"
+## 16. "How is this different from the Ministry's own platform, EDUINO?"
 
 EDUINO is a content library — videos and resources. We're the live 45 minutes in the room.
 We'd rather integrate than compete: their content, our lesson engine.
 
-## 16. "Isn't a QR photo from home enough to be marked present?"
+## 17. "Isn't a QR photo from home enough to be marked present?"
 
 Today, yes; a rotating QR every 30 seconds fixes it and is a day of work. Also: attendance
 in TeacherAid is for the dashboard — official attendance stays in e-Дневник, where the
 teacher still sees the empty chair.
 
-## 17. "How much are you raising / what do you need?"
+## 18. "How much are you raising / what do you need?"
 
 We're not raising this weekend. What we need is one private gymnasium to run the free
 month in October and an advising teacher. If anyone in this room knows a headmaster, that's
 the introduction we'd take.
 
-## 18. "What's the name? Teacher Aid sounds like first aid."
+## 19. "What's the name? Teacher Aid sounds like first aid."
 
 Fair. It's the working name; we've shortlisted alternatives — our favourite is Zvono, "the
 bell", which works in every language in the region. We'll decide after we've decided the
@@ -131,8 +147,8 @@ harder things.
 ## Rules
 
 - If two judges ask at once, answer the harder one.
-- Numbers you say must match the deck: 5 euros, 3,000, 128, seven thousand, 67,000,
-  five cents.
+- Numbers you say must match the deck: 199 euros a month, 2,388 a year, 128, seven
+  thousand, 67,000, five cents.
 - If a judge is wrong about a fact, agree with the concern, then give the fact.
 - Never say "great question".
 

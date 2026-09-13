@@ -1,7 +1,7 @@
 ---
 created: 2026-09-12
 type: area
-status: v2 — corrected after discovery, 2026-09-12
+status: v2.1 — corrected after discovery 2026-09-12; pricing switched to flat per-school 2026-09-13
 ---
 
 # Business Model Canvas — TeacherAid (v2)
@@ -50,12 +50,13 @@ why is at the bottom. Each block links to its detailed note.
 
 ## 5. Revenue streams — [[revenue-and-pricing]]
 
-- **Per teacher seat: EUR 5 / month, invoiced yearly per school (EUR 60 / seat / year).**
-  A 50-teacher gymnasium: EUR 3,000 / year. First month free.
+- **Flat, per school: EUR 199 / month, invoiced yearly (EUR 2,388 / year).** Whole staff
+  included — every teacher, not just volunteers. Same price regardless of school size.
+  First month free.
 - Later: sponsorship (telecom / bank CSR — "AI in Bitola's schools"), grants (EU, UNICEF,
   МОН programs), premium content packs per subject.
-- Assumptions needing evidence: willingness to pay at EUR 5; seat count per school; renewal
-  rate after the free month.
+- Assumptions needing evidence: willingness to pay EUR 199 flat; whether large schools stay
+  profitable at a flat fee (see [[cost-structure]]); renewal rate after the free month.
 
 ## 6. Key resources — [[key-partners-resources-activities]]
 
@@ -88,8 +89,9 @@ why is at the bottom. Each block links to its detailed note.
   full use), realtime/hosting per session, support time.
 - **Fixed:** development, curriculum curation, app-store fees, legal (ДПА, privacy), sales
   time.
-- **What gets expensive as it grows:** inference and support scale with seats; sales scales
-  with schools; the national leaderboard is nearly free.
+- **What gets expensive as it grows:** inference scales with active teachers per school, but
+  revenue per school is flat — large schools are the margin risk, not a growth win; sales
+  scales with schools; the national leaderboard is nearly free.
 
 ---
 

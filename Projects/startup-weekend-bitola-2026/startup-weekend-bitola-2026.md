@@ -38,7 +38,8 @@ Highest value first. Owners are placeholders; assign names tonight.
 - [ ] **Log the teacher quotes** already collected into [[validation-log]] tonight, while
       they are fresh. Pick the one for the slide. *Owner: whoever did the interviews.*
 - [ ] **Education mentor, 10 minutes** — show the 45-minute flow, ask: would a teacher do
-      the three sentences? Is EUR 5 sane? Is points-to-participation-grade acceptable?
+      the three sentences? Is EUR 199/month flat for the whole staff sane? Is
+      points-to-participation-grade acceptable?
       *Owner: presenter.*
 - [ ] **Ask the organizers**: judging criteria, slide submission deadline and format,
       whether presenting from a browser tab is allowed, Q&A length. *Owner: any teammate.*

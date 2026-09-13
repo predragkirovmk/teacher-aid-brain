@@ -11,7 +11,8 @@ how much damage being wrong does.
 
 | # | Assumption | Evidence needed | How to get it | Owner | Status |
 |---|---|---|---|---|---|
-| 1 | A private-school headmaster will pay EUR 5 / teacher / month | One verbal yes | Ask the warm contact this week; ask the SW education mentor whether the number is sane | Presenter | Open |
+| 1 | A private-school headmaster will pay EUR 199 / month flat for the whole staff | One verbal yes | Ask the warm contact this week; ask the SW education mentor whether the number is sane | Presenter | Open |
+| 1b | A large school (~80+ teachers) stays profitable at the flat fee — AI cost could exceed EUR 2,388/year revenue if usage is heavy | Measured AI cost per school after 100+ lessons | Instrument from day one; add a size tier if the data says so | Dev | New — flagged 13 Sep |
 | 2 | Teachers will type three sentences (or upload a plan) before class | 3 of 5 interviewed teachers say "yes, that's less than I do now" | Ask in every teacher conversation; log in [[validation-log]] | Team | Partly: teachers interviewed, quotes to log |
 | 3 | Students will authorize focus lock on their own phones | Pilot: ≥ 70% authorize in week 1 | Pilot class | Team | Untested |
 | 4 | Focus lock is technically deliverable on iOS and Android | Working build using Screen Time API / usage access; Apple entitlement granted | Build after the weekend; Apple entitlement request takes weeks — start early | Dev | Untested; mechanism documented in [[technical-architecture]] |

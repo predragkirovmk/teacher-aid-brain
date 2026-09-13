@@ -70,8 +70,8 @@ What this means for TeacherAid:
   the public procurement law; small-value procurements can be direct (verify the current
   threshold in EUR and whether software subscriptions qualify).
 - Private schools: tuition, own budget, decide in days.
-- Teacher net salary: roughly EUR 600–700 / month (verify) — a useful anchor for "EUR 3,000 a
-  year for a whole school".
+- Teacher net salary: roughly EUR 600–700 / month (verify) — a useful anchor for "EUR 2,388 a
+  year for the whole school, every teacher included".
 
 ## Bitola specifically
 

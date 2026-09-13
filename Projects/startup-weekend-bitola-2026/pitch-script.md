@@ -1,7 +1,8 @@
 ---
 created: 2026-09-12
 type: script
-status: v1 — rehearse, then cut per rehearsal.md
+status: v2 — pricing updated to flat EUR 199/month per school (13 Sep); rehearse, then cut
+  per rehearsal.md
 length: ~530 spoken words + ~40 s of live-demo pauses ≈ 4:45 at 130 wpm
 ---
 
@@ -107,8 +108,8 @@ The most progressive headmaster in town, and they never opened the app.
 
 *Slide 8 — price. Slide 9 — market.*
 
-Who pays: the school. Five euros per teacher per month. Fifty teachers — three thousand
-euros a year. Less than one smart board. First month free.
+Who pays: the school. One flat price — a hundred ninety-nine euros a month, for the whole
+staff. Every teacher included, from day one. Less than one smart board. First month free.
 
 We start with private gymnasiums: the headmaster owns the budget and decides in a week.
 Public schools follow, through the municipalities.
@@ -155,7 +156,7 @@ Continue from the hook. You lose 20 seconds and nothing else. Full fallbacks in
 
 - "Nobody checked Instagram."
 - "Does nothing. That's the feature."
-- "Five euros per teacher per month."
+- "A hundred ninety-nine euros a month. For the whole staff."
 - "We want every class to start with a question."
 
 ## Related

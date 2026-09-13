@@ -48,8 +48,10 @@ Use with the warm contact. Introduce in one sentence, then ask, then shut up.
    your school — and who pays if it costs something?"
 2. "If I sent you a one-page report every month — lessons run, attendance, engagement per
    class — who would you forward it to?"
-3. "Five euros per teacher per month, first month free. What's your first reaction?"
-4. (If warm) "Would you let one teacher run it for a month in October?"
+3. "A hundred ninety-nine euros a month, flat, for the whole school — every teacher
+   included, first month free. What's your first reaction?"
+4. (If warm) "Would you let us set it up for your whole staff for a free month in
+   October?"
 
 Log the answers above. A "maybe" with a date is a validation result.
 
@@ -60,7 +62,8 @@ Show [[product-overview]] (the table) on a phone. Ask:
 1. "Would a teacher you know type three sentences before class, or upload their plan?"
 2. "Is 'points inform the participation grade at the teacher's discretion' acceptable, or a
    red flag?"
-3. "Is EUR 5 per teacher per month a number a private-school headmaster nods at?"
+3. "Is EUR 199 a month, flat for the whole staff, a number a private-school headmaster
+   nods at? Or is committing every teacher at once a harder sell than it sounds?"
 4. "What's the first thing a headmaster would object to?"
 
 ## Students (if any are reachable)

@@ -22,12 +22,12 @@ deck. The deck starts at slide 2.
 | 5 | 2:50 | **Class. School. Country.** | Three stacked leaderboard chips: "II-3 vs II-4", "Gymnasium Bitola vs Gymnasium Prilep", "National" | Playful colours (student mood) |
 | 6 | 3:00 | **Three sentences in. A lesson out.** | Left: a text box with three short Macedonian sentences. Right: the generated plan (opener + 3 questions + timing) | Mock it in Canva or screenshot a text file; keep it readable |
 | 7 | 3:15 | **Does nothing. Gets everything.** | A one-page report mock: school name, month, four big numbers (lessons run, attendance %, engagement %, top class), two lines of text | Calm colours (teacher/headmaster mood) |
-| 8 | 3:35 | **EUR 5 per teacher per month.** | Under it: "50 teachers = EUR 3,000 / year · first month free · private gymnasiums first, public via municipalities" | The one slide with a sentence of body text |
+| 8 | 3:35 | **EUR 199 a month. Per school.** | Under it: "Whole staff included · EUR 2,388/year · first month free · private gymnasiums first, public via municipalities" | The one slide with a sentence of body text |
 | 9 | 3:55 | **128 schools · ~7,000 teachers · 67,143 students** | Three numbers, huge. Footnote: "State Statistical Office, 2024/25" | Say "about seven thousand"; footnote the source |
 | 10 | 4:15 | **"[QUOTE]"** — a teacher, Bitola | One quote, full slide. Second line smaller: *"The teacher decides." — Minister of Education, May 2026* | Fill the quote from [[validation-log]] |
 | 11 | 4:30 | **A lesson costs 5 cents.** | Small: "AI generation, Macedonian, in the curriculum" | Optional cut if over time |
 | 12 | 4:40 | **Every class starts with a question.** | Logo / name, nothing else | Hold it through Q&A |
-| 13 | Q&A | **Backup slides** (after the end slide, never shown unless asked) | a) competitor table from [[competitors]] · b) focus-lock mechanism (iOS Screen Time API / Android usage access) · c) cost per seat math · d) team | Jump by slide number in Canva Present mode |
+| 13 | Q&A | **Backup slides** (after the end slide, never shown unless asked) | a) competitor table from [[competitors]] · b) focus-lock mechanism (iOS Screen Time API / Android usage access) · c) margin-by-school-size math · d) team | Jump by slide number in Canva Present mode |
 
 ## Design rules for the deck
 
