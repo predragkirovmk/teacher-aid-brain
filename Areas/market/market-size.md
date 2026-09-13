@@ -40,46 +40,50 @@ unverified — do not put a faculty count on a slide without checking it first.
 
 ## TAM / SAM / SOM at EUR 199 / month flat per institution (EUR 2,388/year)
 
-**Updated 13 Sep 2026 (final): clients are secondary schools and universities. Primary
-schools are excluded** — not a client segment, not counted in TAM/SAM/SOM. Pricing is flat
-per institution, whole staff included, regardless of type or size.
+**Updated 13 Sep 2026 (final): TAM and SAM are genuinely different tiers again.** Clients
+today are secondary schools and universities; primary schools are not a client, but they
+are real and belong in the ceiling, not erased from the picture.
+
+| | Institutions | ARR | What it is |
+|---|---|---|---|
+| **TAM** — every school and college in MK | 1,086 | ~EUR 2.6 M | The full country, every level, if the product eventually served all of it. |
+| **SAM** — secondary schools + universities | 143 | ~EUR 341,500 | What the product actually fits and sells today — the real serviceable market. |
+| **SOM** — year 3 | 45 | ~EUR 107,500 (~31% of SAM) | 40 schools + 5 college faculties, sold nationally, not city-by-city. |
+
+**Why TAM narrows to SAM:** primary-school students are younger, fewer own phones, and the
+opener's debate/prediction format fits a 15-year-old better than a 9-year-old — a real
+product-fit filter, not a pricing one. That gap (943 schools, ~EUR 2.25M of the TAM) is the
+honest future-expansion story, not today's market. **Why SAM narrows to SOM:** one team,
+national reach, three years — execution, not fit. Say the SOM number with confidence: **a
+third of the entire serviceable market, captured in three years, nationally.**
+
+Year-by-year SOM build (secondary schools first, colleges from year 2 — sold nationally,
+not sequenced through one city first):
 
 | | Institutions | ARR |
 |---|---|---|
-| **TAM** — every secondary school and university in MK | 143 | **~EUR 341,500** |
-| **SAM** — same population | 143 | **~EUR 341,500** |
-| **SOM** — year 3: schools + first college pilots | 45 | **~EUR 107,500** (~31% of TAM) |
+| Year 1 (2026/27) | 5 (3 private + 2 public school pilots, anywhere in the country) | ~EUR 12,000 |
+| Year 2 | 15 schools nationally | ~EUR 36,000 |
+| Year 3 | 40 schools + 5 college faculties, nationally | **~EUR 107,500** |
 
-**Why TAM = SAM here, on purpose:** under seat-based pricing there was a further filter —
-willingness to pay per teacher, seat counting, adoption speed. Flat, whole-institution
-pricing removes that filter: the same one-price, whole-staff model works identically for a
-gymnasium or a university faculty. The real narrowing is execution — how many institutions
-one small team can reach in three years — which is exactly what SOM shows: **31% of the
-entire addressable market, captured within three years, by one team.** That is the number
-to say with confidence.
+For the slide, four numbers: **943 primary (future) · 128 secondary · 15 universities ·
+143 institutions we sell to today.**
 
-Year-by-year SOM build (schools-first, colleges as a small addition in year 3):
+## Why the whole country, from day one — not Bitola first
 
-| | Institutions | ARR |
-|---|---|---|
-| Year 1 (2026/27) | 5 (3 private + 2 public school pilots) | ~EUR 12,000 |
-| Year 2 | 15 schools | ~EUR 36,000 |
-| Year 3 | 40 schools + 5 college faculties | **~EUR 107,500** |
+**Decided 13 Sep: the strategy is Macedonia first, not a city-by-city rollout.** The team
+is based in Bitola, but the sale is national from month one — every private gymnasium and
+university in the country is a live target immediately, not something reached only after
+"finishing" one city.
 
-For the slide, three numbers: **128 secondary schools · 15 universities · 143 institutions,
-one product.** Primary schools (943) are real and documented above, but out of scope for
-now — say so plainly if asked: younger students, a different pedagogy fit, and a future
-expansion, not today's market.
-
-## Why a small country is the right first market
-
-- One national curriculum (БРО) — one corpus covers every classroom. A US-style district
-  patchwork would need hundreds.
-- One language for v1. One ministry. One e-register. Seven secondary schools in the team's
-  own city.
-- Small enough to reach every headmaster in person within a year.
-- Judges in Bitola will not believe a global TAM; they will believe "every gymnasium in the
-  country by 2028".
+- One national curriculum (БРО) — one corpus covers every classroom in the country at once.
+  There is no city-by-city localization cost to justify a slower rollout.
+- One language, one ministry, one e-register — the whole country is one market, not 34
+  separate municipal markets.
+- Small enough to reach every headmaster in the country in person within a year — that is
+  the argument *for* going national immediately, not for staying local.
+- Judges will not believe a global TAM; they will believe "every gymnasium and university
+  in the country within three years."
 
 ## The answer to "and then?"
 

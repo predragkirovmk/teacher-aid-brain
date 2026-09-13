@@ -14,10 +14,12 @@ staff rolled out at once (see [[revenue-and-pricing]]). This shifts the sale fro
 bottom-up product-led adoption to a direct, top-down institutional sale — the headmaster
 commits the entire staff in one meeting, not one teacher trying it first. Decided order:
 
-1. **Direct outreach to headmasters.** Call, visit, 20 minutes, the report sample in hand.
-   This is now the primary close — the sale is "your whole staff, one flat fee," which
-   needs the headmaster's direct yes, not organic spread from one teacher. The team is in
-   Bitola; Skopje is two hours.
+1. **Direct outreach to headmasters, nationally.** Call, visit, 20 minutes, the report
+   sample in hand. This is now the primary close — the sale is "your whole staff, one flat
+   fee," which needs the headmaster's direct yes, not organic spread from one teacher.
+   **Macedonia first, not Bitola first:** the team is based in Bitola, but every private
+   gymnasium and university in the country is a live target from month one, wherever it is
+   — Skopje, Bitola, or elsewhere.
 2. **Teacher referral as the door-opener, not the close.** A teacher who's excited about it
    still gets you the meeting and vouches for it inside the building — but the deal itself
    is whole-school from day one, not "let me try it first." The champion's job shifted from
@@ -28,8 +30,10 @@ commits the entire staff in one meeting, not one teacher trying it first. Decide
 4. **Education events and teacher social media.** Teacher Facebook groups, the annual
    education conferences, Instagram for the student side (leaderboard clips) — lead
    generation for the direct-outreach motion, not a self-serve signup path.
-5. **Municipality introductions** (later, public schools). One meeting with the education
-   department opens seven schools in Bitola — each one a flat-fee, whole-staff deal.
+5. **Municipality introductions** (later, public schools). One meeting with any
+   municipality's education department opens several schools at once — Bitola's is one such
+   meeting (seven schools), not the only one; the same motion repeats in every municipality
+   in the country.
 
 Removed from v1 of the canvas: "mobile app" — it is the product, not a channel.
 

@@ -59,41 +59,42 @@ could run at a loss if every teacher uses it heavily. Watch this in the pilot; a
 | Support time (10 h × 15) | −150 |
 | **Contribution** | **~988** |
 
-## Market math (North Macedonia, secondary schools + universities — updated 13 Sep, final)
+## Market math (North Macedonia, every level, sold nationally — updated 13 Sep, final)
 
 Figures from the State Statistical Office, start of 2024/25 (higher ed 2023-25), in
-[[market-size]]. Revenue is **per institution**, flat, regardless of type or size.
-**Clients are secondary schools and universities — primary schools are excluded.**
+[[market-size]]. Revenue is **per institution**, flat, regardless of type or size. Sold
+**nationally from day one — not city-by-city.**
 
-| | Institutions | ARR at EUR 2,388/institution |
-|---|---|---|
-| Secondary schools | 128 | ~EUR 306,000 |
-| Universities | 15 | ~EUR 35,800 |
-| **TAM / SAM — every secondary school and university in MK** | **143** | **~EUR 341,500 / year** |
+| | Institutions | ARR at EUR 2,388/institution | Tier |
+|---|---|---|---|
+| Secondary schools | 128 | ~EUR 306,000 | SAM |
+| Universities | 15 | ~EUR 35,800 | SAM |
+| **SAM — secondary + universities, today's real market** | **143** | **~EUR 341,500 / year** | |
+| Primary schools (future, not a client today) | 943 | ~EUR 2.25 M | TAM only |
+| **TAM — every school and college in MK** | **1,086** | **~EUR 2.6 M / year** | |
 
-TAM and SAM are the same population here, deliberately: flat, whole-institution pricing
-needs no further product-fit narrowing the way per-seat pricing did — see
+TAM narrows to SAM on a genuine product-fit filter — primary-age students don't fit the
+opener's debate/prediction format the way secondary and university students do — not a
+pricing narrowing. See
 [[market-size#TAM / SAM / SOM at EUR 199 / month flat per institution (EUR 2,388/year)]].
-Primary schools (943, ~EUR 2.25M ceiling if ever added) are real but out of scope — future
-context, not today's market.
 
-Obtainable, honestly (SOM):
+Obtainable, honestly (SOM — sold nationally, not sequenced through one city):
 
 | | Institutions | ARR |
 |---|---|---|
-| Year 1 (2026/27) | 5 (3 private + 2 public school pilots) | **~EUR 12,000** |
-| Year 2 | 15 schools | **~EUR 36,000** |
-| Year 3 | 40 schools + 5 college faculties | **~EUR 107,500** |
+| Year 1 (2026/27) | 5 (3 private + 2 public school pilots, anywhere in the country) | **~EUR 12,000** |
+| Year 2 | 15 schools nationally | **~EUR 36,000** |
+| Year 3 | 40 schools + 5 college faculties, nationally | **~EUR 107,500** (~31% of SAM) |
 
 Note: flat per-institution pricing is a **lower ceiling** than a per-seat model would give
 at the same institution count, because it's deliberately cheap for a large staff. That's
 the trade for a simpler, faster, whole-institution sale — say so plainly if a judge asks
 "why not price per teacher."
 
-Say the small number on stage. Judges in Bitola know the country is small; pretending
-otherwise costs credibility. The upside line for Q&A: the same product works in any country
-with one national curriculum — Serbia, Bosnia, Albania, Kosovo are next, and they are 10×
-the schools. (Market scope for the pitch stays MK.)
+Say the small number on stage. Judges know the country is small; pretending otherwise
+costs credibility. The upside line for Q&A: the same product works in any country with one
+national curriculum — Serbia, Bosnia, Albania, Kosovo are next, and they are 10× the
+schools. (Market scope for the pitch stays MK.)
 
 ## Secondary revenue (decided to explore, not in year 1 numbers)
 

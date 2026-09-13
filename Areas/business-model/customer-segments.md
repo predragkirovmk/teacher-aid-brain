@@ -60,12 +60,19 @@ pays is not the person who uses it, and the person who benefits most cannot buy 
 
 ## Order of attack
 
-1. One private gymnasium in Bitola or Skopje (warm contact exists — see
-   [[startup-weekend-bitola-2026]]).
-2. Two more private schools on the strength of the first monthly report.
-3. One public school in Bitola through the municipality, positioned as a pilot the
-   municipality can talk about.
-4. Every other public secondary school in Bitola, then the Pelagonija region.
+**Macedonia first, not city-by-city.** The team is based in Bitola, but the sale is
+national from day one — every private gymnasium and university in the country is a target
+in year one, not a later-stage expansion once one city is "done."
+
+1. The first private gymnasium (warm contact exists — see
+   [[startup-weekend-bitola-2026]]), wherever in the country it is, on the strength of the
+   free month and the report sample.
+2. Two more private schools nationally on the strength of that first monthly report —
+   Skopje, Bitola, or anywhere else a headmaster says yes.
+3. The first public-school pilot through a municipality, positioned as a story that
+   municipality (any municipality) can talk about.
+4. Every other public secondary school and university faculty in the country, sold in
+   parallel — not sequentially city by city.
 
 ## Related
 

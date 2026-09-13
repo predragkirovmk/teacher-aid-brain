@@ -19,7 +19,7 @@ Version 1.1 · compiled 12 September 2026, pricing updated 13 September 2026 · 
 
 **How it makes money.** EUR 199 a month, flat, per school — every teacher included, not just volunteers. EUR 2,388 a year, invoiced yearly. First month free. Private gymnasiums first, public schools through the municipalities second.
 
-**How big.** 128 upper secondary schools, about 7,000 secondary teachers, 67,143 students (State Statistical Office, 2024/25). Every school in the country would be about EUR 2.6 million a year; every secondary school about EUR 306,000. The honest year-3 target is 40 schools, about EUR 95,500 a year.
+**How big.** 128 secondary schools and 15 universities — the real market today, 143 institutions, about EUR 341,500 a year. Every school and college in the country, including primary, would be about EUR 2.6 million a year — that's the ceiling, not today's target. The honest year-3 target, sold nationally rather than city-by-city, is 45 institutions (40 schools + 5 college faculties), about EUR 107,500 a year — roughly a third of the real market, in three years.
 
 **What it costs to run.** About five cents of AI per generated lesson — roughly EUR 20 per teacher per year at heavy use — plus hosting, support and the team.
 
@@ -126,10 +126,12 @@ Parents (informed by the school through a template notice; the objection to expe
 
 ### 4.5 Order of attack
 
-1. One private gymnasium in Bitola or Skopje (a warm contact exists).
-2. Two more private schools on the strength of the first monthly report.
-3. One public school in Bitola through the municipality, positioned as a pilot the municipality can talk about.
-4. Every other public secondary school in Bitola, then the Pelagonija region.
+**Macedonia first, not city-by-city.** The team is based in Bitola, but the sale is national from month one.
+
+1. The first private gymnasium (a warm contact exists), wherever in the country it is.
+2. Two more private schools nationally, on the strength of the first monthly report.
+3. The first public-school pilot through a municipality — any municipality — positioned as a story it can talk about.
+4. Every other public secondary school and university faculty in the country, sold in parallel, not sequentially through one city.
 
 ## 5. Value propositions
 
@@ -201,28 +203,31 @@ size tier above a certain teacher count is the fix if the pilot data says so —
 | Support time (10 h × 15) | −150 |
 | **Contribution** | **~988** |
 
-### 7.4 Market math (North Macedonia only)
+### 7.4 Market math (North Macedonia, every level, sold nationally)
 
-Revenue is now per school, not per seat.
+Revenue is per institution, flat. Clients today are secondary schools and universities;
+primary schools are real but not a client — they belong in the TAM ceiling, not in SAM.
 
-| | Schools | ARR at EUR 2,388/school |
+| | Institutions | ARR at EUR 2,388/institution | Tier |
+|---|---|---|---|
+| Secondary schools | 128 | ~EUR 306,000 | SAM |
+| Universities | 15 | ~EUR 35,800 | SAM |
+| **SAM — secondary + universities, today's real market** | **143** | **~EUR 341,500** | |
+| Primary schools (future, not a client today) | 943 | ~EUR 2.25 M | TAM only |
+| **TAM — every school and college in MK** | **1,086** | **~EUR 2.6 M / year** | |
+
+Obtainable, honestly (SOM) — sold **nationally from day one, not city-by-city**:
+
+| | Institutions | ARR |
 |---|---|---|
-| Upper secondary (SAM) | 128 | ~EUR 306,000 |
-| Primary and lower secondary (later) | 943 | ~EUR 2.25 M |
-| **All MK schools (TAM)** | ~1,070 | **~EUR 2.6 M per year** |
+| Year 1 (2026/27) | 5 (3 private + 2 public pilots, anywhere in the country) | ~EUR 12,000 |
+| Year 2 | 15 schools, nationally | ~EUR 36,000 |
+| Year 3 | 40 schools + 5 college faculties, nationally | **~EUR 107,500** (~31% of SAM) |
 
-Obtainable, honestly:
-
-| | Schools | ARR |
-|---|---|---|
-| Year 1 (2026/27) | 3 private + 2 public pilots | ~EUR 12,000 |
-| Year 2 | 15 | ~EUR 36,000 |
-| Year 3 | 40 (all Bitola, Skopje private, first municipalities) | ~EUR 95,500 |
-
-Note: this ceiling is lower than a per-seat model would give at the same school count,
-because flat pricing is deliberately cheap for a large staff — that's the trade for a
-simpler, faster, whole-school sale. Say the small number on stage. The upside line for
-Q&A: the same product works in any country with one national curriculum — Serbia, Bosnia
+Note: this ceiling is lower than a per-seat model would give at the same institution
+count, because flat pricing is deliberately cheap for a large staff — that's the trade for
+a simpler, faster, whole-institution sale. Say the small number on stage. The upside line
+for Q&A: the same product works in any country with one national curriculum — Serbia, Bosnia
 and Herzegovina, Albania, Kosovo, Montenegro are next and roughly ten times the schools.
 
 ### 7.5 Secondary revenue
@@ -331,11 +336,11 @@ Public schools receive block grants from the state via municipalities; a headmas
 
 ### 11.1 Channels, in decided order
 
-1. **Direct outreach to headmasters (now the primary close, updated 13 Sep).** Since pricing moved to a flat, whole-staff fee, the sale is top-down: the headmaster commits the entire staff in one twenty-minute meeting — call, visit, the sample report in hand — not one teacher trying it first. Bitola is home; Skopje is two hours.
+1. **Direct outreach to headmasters, nationally (now the primary close, updated 13 Sep).** Since pricing moved to a flat, whole-staff fee, the sale is top-down: the headmaster commits the entire staff in one twenty-minute meeting — call, visit, the sample report in hand — not one teacher trying it first. Macedonia first, not Bitola first: the team is based in Bitola, but every private gymnasium and university in the country is a live target from month one.
 2. **Teacher referral as the door-opener.** A champion teacher who's excited about it gets you the introduction and vouches for it inside the building, but the deal itself is whole-school from day one — their job shifted from "adopt it, then convince the headmaster" to "introduce us to the headmaster."
 3. **The free live session.** Two people, one real class, one lesson, filmed with permission. Now doubles as proof for the headmaster meeting that a whole staff can be onboarded in a day, not just a marketing stunt.
 4. **Education events and teacher social media.** Teacher Facebook groups, the annual education conferences, Instagram for the student side.
-5. **Municipality introductions** for public schools: one meeting with the education department opens seven schools in Bitola, each a flat-fee, whole-staff deal.
+5. **Municipality introductions** for public schools: one meeting with any municipality's education department opens several schools at once — Bitola's is one such meeting (seven schools), not the only one; the same motion repeats nationally.
 
 Evaluation happens in a whole-school pilot month; the artefacts that close the sale are the sample monthly report and usage across the actual staff, not just one teacher's results.
 
@@ -494,7 +499,7 @@ Headmaster call (ten minutes, one quotable sentence); log tonight's teacher quot
 - **October–December 2026:** first private school on the free month; the AI planner generating real Macedonian lessons inside the БРО programs for one subject; the native student app with focus lock in a test build; the first monthly report sent; one free live session in a Bitola public school; the ДПА and privacy notice with a lawyer.
 - **Year 1 (school year 2026/27):** three private schools and two public pilots, about 250 seats, about EUR 15,000 ARR; the municipality conversation; a grant or sponsorship application; e-Дневник sync scoped with МОН.
 - **Year 2:** fifteen schools, about 750 seats; Albanian-language UI if a school needs it; premium content packs from the corpus; the first neighboring-country pilot only if a partner brings it.
-- **Year 3:** forty schools — all of Bitola, Skopje's private schools, the first municipalities — about 2,000 seats and EUR 120,000 ARR; break-even for a team of three.
+- **Year 3:** 45 institutions nationally — 40 schools plus 5 college faculties, sold across the country rather than city-by-city — about EUR 107,500 ARR, roughly a third of the real serviceable market (secondary schools + universities); break-even needs more than this alone, see [[cost-structure]].
 
 ## 19. Team and open roles
 
