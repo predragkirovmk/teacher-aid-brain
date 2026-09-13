@@ -59,21 +59,23 @@ could run at a loss if every teacher uses it heavily. Watch this in the pilot; a
 | Support time (10 h × 15) | −150 |
 | **Contribution** | **~988** |
 
-## Market math (North Macedonia, every level — updated 13 Sep)
+## Market math (North Macedonia, secondary schools + universities — updated 13 Sep, final)
 
 Figures from the State Statistical Office, start of 2024/25 (higher ed 2023-25), in
 [[market-size]]. Revenue is **per institution**, flat, regardless of type or size.
+**Clients are secondary schools and universities — primary schools are excluded.**
 
 | | Institutions | ARR at EUR 2,388/institution |
 |---|---|---|
 | Secondary schools | 128 | ~EUR 306,000 |
-| Primary schools | 943 | ~EUR 2.25 M |
-| Universities | 15 | ~EUR 36,000 |
-| **TAM / SAM — every school and college in MK** | **~1,086** | **~EUR 2.6 M / year** |
+| Universities | 15 | ~EUR 35,800 |
+| **TAM / SAM — every secondary school and university in MK** | **143** | **~EUR 341,500 / year** |
 
 TAM and SAM are the same population here, deliberately: flat, whole-institution pricing
-needs no further product-fit narrowing by school level the way per-seat pricing did — see
+needs no further product-fit narrowing the way per-seat pricing did — see
 [[market-size#TAM / SAM / SOM at EUR 199 / month flat per institution (EUR 2,388/year)]].
+Primary schools (943, ~EUR 2.25M ceiling if ever added) are real but out of scope — future
+context, not today's market.
 
 Obtainable, honestly (SOM):
 

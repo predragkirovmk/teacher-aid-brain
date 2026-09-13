@@ -9,17 +9,18 @@ status: numbers verified where marked; teacher count for secondary and faculty c
 # Market size — North Macedonia
 
 Scope for the pitch: North Macedonia only (decided). Balkans as the Q&A answer to "too
-small". **Updated 13 Sep: the pitch now targets every level — primary, secondary, and
-higher education — not secondary schools alone.**
+small". **Updated 13 Sep, twice: clients are secondary schools (гимназија/стручно/
+уметничко) and universities — not primary schools.** Primary is documented below as future
+context, not as part of TAM/SAM/SOM.
 
 ## The numbers (State Statistical Office, start of school year 2024/25; higher ed 2023-25)
 
 | | Institutions | Students | Staff |
 |---|---|---|---|
-| Upper secondary (гимназија + стручно + уметничко) | **128** | **67,143** | **~7,000** (estimate — see note) |
-| Primary + lower secondary | 943 | 180,627 | 19,447 |
-| Higher education (universities) | **15** | **53,535** (first-cycle, 2024/25) | **4,656** (academic staff, 2023/24) |
-| **Total — all schools and colleges** | **~1,086** | **~301,000** | **~31,150** |
+| Secondary (гимназија + стручно + уметничко) — **client** | **128** | **67,143** | **~7,000** (estimate — see note) |
+| Higher education (universities) — **client** | **15** | **53,535** (first-cycle, 2024/25) | **4,656** (academic staff, 2023/24) |
+| **Client total — secondary + universities** | **143** | **~120,700** | **~11,650** |
+| Primary + lower secondary — *not a client, future context only* | 943 | 180,627 | 19,447 |
 
 Note on secondary teachers: the SSO release used for the pitch reports students and schools;
 the teacher figure for primary (19,447) is from the same release as reported by the press.
@@ -39,22 +40,23 @@ unverified — do not put a faculty count on a slide without checking it first.
 
 ## TAM / SAM / SOM at EUR 199 / month flat per institution (EUR 2,388/year)
 
-**Updated 13 Sep 2026: scope widened to every level — primary, secondary, and higher
-education.** Pricing is flat per institution, whole staff included, regardless of type or
-size.
+**Updated 13 Sep 2026 (final): clients are secondary schools and universities. Primary
+schools are excluded** — not a client segment, not counted in TAM/SAM/SOM. Pricing is flat
+per institution, whole staff included, regardless of type or size.
 
 | | Institutions | ARR |
 |---|---|---|
-| **TAM** — every school and college in MK | ~1,086 | **~EUR 2.6 M** |
-| **SAM** — same population | ~1,086 | **~EUR 2.6 M** |
-| **SOM** — year 3: schools + first college pilots | ~45 | **~EUR 107,500** |
+| **TAM** — every secondary school and university in MK | 143 | **~EUR 341,500** |
+| **SAM** — same population | 143 | **~EUR 341,500** |
+| **SOM** — year 3: schools + first college pilots | 45 | **~EUR 107,500** (~31% of TAM) |
 
-**Why TAM = SAM here, on purpose:** under per-seat pricing, SAM used to narrow to secondary
-only, because the product's pedagogy (BYOD phones, 45-minute periods, debate-style
-questions) didn't fit primary-age students as cleanly. Flat, whole-institution pricing
-removes that narrowing — the same one-price, whole-staff model works for a primary school,
-a gymnasium, or a university faculty without modification. The only real narrowing left is
-execution: how many institutions one small team can actually reach. That's what SOM shows.
+**Why TAM = SAM here, on purpose:** under seat-based pricing there was a further filter —
+willingness to pay per teacher, seat counting, adoption speed. Flat, whole-institution
+pricing removes that filter: the same one-price, whole-staff model works identically for a
+gymnasium or a university faculty. The real narrowing is execution — how many institutions
+one small team can reach in three years — which is exactly what SOM shows: **31% of the
+entire addressable market, captured within three years, by one team.** That is the number
+to say with confidence.
 
 Year-by-year SOM build (schools-first, colleges as a small addition in year 3):
 
@@ -64,10 +66,10 @@ Year-by-year SOM build (schools-first, colleges as a small addition in year 3):
 | Year 2 | 15 schools | ~EUR 36,000 |
 | Year 3 | 40 schools + 5 college faculties | **~EUR 107,500** |
 
-For the slide, four numbers: **943 primary schools · 128 secondary schools · 15
-universities · every level of Macedonian education, one product.** Teacher/student/staff
-counts still matter for the story — "every class, every level" — even though the price
-itself no longer depends on headcount or institution type.
+For the slide, three numbers: **128 secondary schools · 15 universities · 143 institutions,
+one product.** Primary schools (943) are real and documented above, but out of scope for
+now — say so plainly if asked: younger students, a different pedagogy fit, and a future
+expansion, not today's market.
 
 ## Why a small country is the right first market
 
