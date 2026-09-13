@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;600;700&family=Sofia+Sans:wght@400;500;600;700&display=swap">
+<style>
+  :root {
+    --paper: #F8F5EE; --paper-2: #EFE8DA; --paper-3: #E4DBC9;
+    --ink: #3B3128; --ink-2: #6E6254; --ink-3: #978A79;
+    --amber: #F2B544; --amber-2: #E2A22E; --amber-deep: #C98A1F; --amber-tint: #F7CC7A;
+    --rule: #DCD2C0;
+    --display: "Bitter", Georgia, serif;
+    --sans: "Sofia Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--sans); }
+  body { width: 1920px; }
+  .stage { padding: 56px 64px 48px; }
+  .caption { display: flex; justify-content: space-between; align-items: center; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 36px; }
+  .caption .mark { display: inline-flex; align-items: center; gap: 8px; text-transform: none; letter-spacing: 0; font-family: var(--display); font-weight: 700; font-size: 18px; color: var(--ink); }
+  .caption .mark svg { width: 22px; height: 22px; }
+  .row { display: flex; gap: 40px; justify-content: center; align-items: flex-start; }
+  .col { display: flex; flex-direction: column; align-items: center; gap: 18px; }
+  .col .lbl { font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-2); }
+  .col .lbl b { color: var(--ink); font-weight: 700; }
+
+  /* Device */
+  .phone { width: 390px; height: 844px; border-radius: 52px; background: #111; padding: 12px; box-shadow: 0 30px 60px -30px rgba(59,49,40,.45), 0 2px 0 #2a2623 inset; position: relative; }
+  .screen { width: 100%; height: 100%; border-radius: 42px; overflow: hidden; position: relative; background: var(--amber); color: var(--ink); display: flex; flex-direction: column; }
+  .screen.dark { background: var(--ink); color: var(--amber); }
+  .island { position: absolute; top: 12px; left: 50%; transform: translateX(-50%); width: 122px; height: 36px; background: #111; border-radius: 22px; z-index: 5; }
+  .status { height: 54px; display: flex; align-items: flex-end; justify-content: space-between; padding: 0 30px 6px; font-weight: 600; font-size: 15px; }
+  .status .r { display: flex; gap: 6px; align-items: center; }
+  .status svg { height: 12px; }
+  .home { position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%); width: 134px; height: 5px; border-radius: 3px; background: currentColor; opacity: .85; }
+
+  .hdr { display: flex; justify-content: space-between; align-items: center; padding: 10px 22px 0; font-size: 15px; }
+  .hdr .mark { display: inline-flex; align-items: center; gap: 7px; font-family: var(--display); font-weight: 700; font-size: 17px; }
+  .hdr .mark svg { width: 20px; height: 20px; }
+  .hdr .cls { opacity: .8; }
+  .body { padding: 22px 22px 0; flex: 1; display: flex; flex-direction: column; }
+  .eyebrow { font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; opacity: .75; font-weight: 600; }
+  .q { font-family: var(--display); font-weight: 600; font-size: 26px; line-height: 1.16; margin: 10px 0 18px; letter-spacing: -0.01em; }
+  .opts { display: grid; gap: 10px; }
+  .opt { min-height: 60px; border: 2px solid var(--ink); border-radius: 12px; display: grid; grid-template-columns: 26px 1fr; align-items: center; gap: 10px; padding: 0 14px; font-size: 17px; line-height: 1.2; background: transparent; }
+  .opt .l { font-family: var(--display); font-weight: 700; font-size: 19px; }
+  .opt.on { background: var(--ink); color: var(--amber); }
+  .field { border-bottom: 2px solid var(--ink); padding: 10px 0 8px; font-size: 18px; margin-top: 18px; display: flex; align-items: center; justify-content: space-between; }
+  .field .caret { width: 2px; height: 20px; background: var(--ink); }
+  .help { font-size: 13px; opacity: .8; margin-top: 8px; line-height: 1.35; }
+  .btn { margin-top: auto; margin-bottom: 30px; height: 62px; border-radius: 12px; background: var(--ink); color: var(--amber); font-family: var(--display); font-weight: 700; font-size: 22px; display: flex; align-items: center; justify-content: center; }
+  .btn.ghost { background: transparent; border: 2px solid var(--ink); color: var(--ink); }
+  .chips { display: flex; gap: 8px; margin-top: 14px; flex-wrap: wrap; }
+  .chip { font-size: 12.5px; font-weight: 600; letter-spacing: .04em; padding: 6px 10px; border-radius: 999px; background: rgba(59,49,40,.12); }
+  .foot { font-size: 14px; opacity: .8; margin-top: 12px; }
+  .ring { display: flex; align-items: center; gap: 14px; margin: 6px 0 4px; }
+  .ring svg { width: 64px; height: 64px; }
+  .ring .t { font-family: var(--display); font-weight: 700; font-size: 26px; line-height: 1; }
+  .ring .s { font-size: 13px; opacity: .8; margin-top: 3px; }
+
+  .card { background: rgba(255,255,255,.28); border: 1.5px solid rgba(59,49,40,.35); border-radius: 12px; padding: 12px 14px; margin-top: 10px; }
+  .card .k { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; font-weight: 700; opacity: .75; }
+  .card .a { font-family: var(--display); font-weight: 600; font-size: 18px; margin: 4px 0 4px; }
+  .card .x { font-size: 14px; line-height: 1.35; opacity: .9; }
+  .sect { margin-top: 20px; font-family: var(--display); font-weight: 600; font-size: 18px; }
+  .sub { font-size: 13px; opacity: .8; margin-top: 2px; }
+  .bubble { margin-top: 10px; align-self: flex-end; max-width: 92%; background: var(--ink); color: var(--amber); border-radius: 14px 14px 4px 14px; padding: 12px 14px; font-size: 16px; line-height: 1.3; }
+  .bubble .m { display: block; font-size: 12px; opacity: .8; margin-top: 6px; color: var(--paper); }
+  .ask { margin-top: 12px; border: 2px solid var(--ink); border-radius: 12px; height: 52px; display: flex; align-items: center; padding: 0 14px; justify-content: space-between; font-size: 16px; opacity: .9; }
+  .ask .send { width: 32px; height: 32px; border-radius: 50%; background: var(--ink); display: grid; place-items: center; }
+  .ask .send svg { width: 16px; height: 16px; stroke: var(--amber); }
+
+  /* leaderboard (dark) */
+  .seg { display: grid; grid-template-columns: 1fr 1fr 1fr; border: 1.5px solid rgba(242,181,68,.5); border-radius: 10px; overflow: hidden; margin-top: 12px; }
+  .seg div { text-align: center; padding: 9px 0; font-size: 14px; font-weight: 600; color: var(--paper); opacity: .8; }
+  .seg .on { background: var(--amber); color: var(--ink); opacity: 1; }
+  .rank { font-family: var(--display); font-weight: 700; font-size: 96px; line-height: .9; margin-top: 18px; letter-spacing: -0.03em; }
+  .rank small { font-size: 40px; vertical-align: top; margin-right: 2px; }
+  .rankmeta { color: var(--paper); font-size: 16px; margin-top: 6px; opacity: .9; }
+  .rows { margin-top: 18px; }
+  .rrow { display: grid; grid-template-columns: 30px 1fr auto; align-items: baseline; gap: 10px; padding: 9px 0; border-top: 1px solid rgba(248,245,238,.18); color: var(--paper); font-size: 17px; }
+  .rrow .n { font-family: var(--display); font-weight: 700; color: var(--amber); }
+  .rrow .p { font-family: var(--display); font-weight: 700; font-variant-numeric: tabular-nums; }
+  .rrow.me { background: rgba(242,181,68,.14); margin: 0 -22px; padding: 9px 22px; border-radius: 0; }
+  .rrow.me .nm { color: var(--amber); font-weight: 700; }
+  .strip { margin-top: auto; margin-bottom: 30px; border: 1.5px solid rgba(242,181,68,.5); border-radius: 12px; padding: 12px 14px; color: var(--paper); font-size: 14px; }
+  .strip b { font-family: var(--display); color: var(--amber); font-size: 16px; }
+  .strip .vs { display: flex; justify-content: space-between; margin-bottom: 6px; }
+  .strip .bar { height: 8px; border-radius: 4px; background: rgba(248,245,238,.18); overflow: hidden; }
+  .strip .bar i { display: block; height: 100%; width: 51%; background: var(--amber); }
+</style>
+</head>
+<body>
+<div class="stage">
+  <div class="caption">
+    <span>Hi-fi prototype · iPhone · student point of view · one 45-minute lesson</span>
+    <span class="mark"><svg viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#F2B544"/><path d="M32 12c-8.8 0-14.5 6.6-14.5 15.5V36c0 2.4-1.2 4.4-3.2 6.1-1.3 1.1-.6 3.2 1.1 3.2h33.2c1.7 0 2.4-2.1 1.1-3.2-2-1.7-3.2-3.7-3.2-6.1v-8.5C46.5 18.6 40.8 12 32 12z" fill="#3B3128"/><circle cx="32" cy="50" r="4.2" fill="#3B3128"/><rect x="30" y="7" width="4" height="6" rx="2" fill="#3B3128"/></svg>TeacherAid</span>
+  </div>
+
+  <div class="row">
+
+    <!-- 1 · OPENER -->
+    <div class="col">
+      <div class="lbl"><b>1 · Minutes 1–5</b> · the opener</div>
+      <div class="phone"><div class="screen">
+        <div class="island"></div>
+        <div class="status"><span>9:03</span><span class="r"><svg viewBox="0 0 20 12"><rect x="0" y="8" width="3" height="4" rx="1" fill="#3B3128"/><rect x="5" y="5" width="3" height="7" rx="1" fill="#3B3128"/><rect x="10" y="2" width="3" height="10" rx="1" fill="#3B3128"/><rect x="15" y="0" width="3" height="12" rx="1" fill="#3B3128"/></svg><svg viewBox="0 0 28 12"><rect x="0" y="0" width="24" height="12" rx="3" fill="none" stroke="#3B3128" stroke-width="1.6"/><rect x="2" y="2" width="17" height="8" rx="1.5" fill="#3B3128"/><rect x="25" y="4" width="2.5" height="4" rx="1" fill="#3B3128"/></svg></span></div>
+        <div class="hdr"><span class="mark"><svg viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#3B3128"/><path d="M32 12c-8.8 0-14.5 6.6-14.5 15.5V36c0 2.4-1.2 4.4-3.2 6.1-1.3 1.1-.6 3.2 1.1 3.2h33.2c1.7 0 2.4-2.1 1.1-3.2-2-1.7-3.2-3.7-3.2-6.1v-8.5C46.5 18.6 40.8 12 32 12z" fill="#F2B544"/><circle cx="32" cy="50" r="4.2" fill="#F2B544"/><rect x="30" y="7" width="4" height="6" rx="2" fill="#F2B544"/></svg>TeacherAid</span><span class="cls">Geography · II-3</span></div>
+        <div class="body">
+          <div class="eyebrow">Opener · minute 2 of 5</div>
+          <div class="q">Will Bitola see snow before the first of December?</div>
+          <div class="opts">
+            <div class="opt"><span class="l">A</span><span>Yes, before 1 December</span></div>
+            <div class="opt on"><span class="l">B</span><span>First snow in December</span></div>
+            <div class="opt"><span class="l">C</span><span>Not until January</span></div>
+            <div class="opt"><span class="l">D</span><span>No snow at all this winter</span></div>
+          </div>
+          <div class="field"><span>Pelister already has some</span><span class="caret"></span></div>
+          <div class="help">One word why? Optional. Reasons score even when you&rsquo;re wrong &middot; <b>+20</b></div>
+          <div class="btn">Send</div>
+        </div>
+        <div class="home"></div>
+      </div></div>
+    </div>
+
+    <!-- 2 · POP-UP -->
+    <div class="col">
+      <div class="lbl"><b>2 · Minute 22</b> · a pop-up during the lesson</div>
+      <div class="phone"><div class="screen">
+        <div class="island"></div>
+        <div class="status"><span>9:23</span><span class="r"><svg viewBox="0 0 20 12"><rect x="0" y="8" width="3" height="4" rx="1" fill="#3B3128"/><rect x="5" y="5" width="3" height="7" rx="1" fill="#3B3128"/><rect x="10" y="2" width="3" height="10" rx="1" fill="#3B3128"/><rect x="15" y="0" width="3" height="12" rx="1" fill="#3B3128"/></svg><svg viewBox="0 0 28 12"><rect x="0" y="0" width="24" height="12" rx="3" fill="none" stroke="#3B3128" stroke-width="1.6"/><rect x="2" y="2" width="17" height="8" rx="1.5" fill="#3B3128"/><rect x="25" y="4" width="2.5" height="4" rx="1" fill="#3B3128"/></svg></span></div>
+        <div class="hdr"><span class="mark"><svg viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#3B3128"/><path d="M32 12c-8.8 0-14.5 6.6-14.5 15.5V36c0 2.4-1.2 4.4-3.2 6.1-1.3 1.1-.6 3.2 1.1 3.2h33.2c1.7 0 2.4-2.1 1.1-3.2-2-1.7-3.2-3.7-3.2-6.1v-8.5C46.5 18.6 40.8 12 32 12z" fill="#F2B544"/><circle cx="32" cy="50" r="4.2" fill="#F2B544"/><rect x="30" y="7" width="4" height="6" rx="2" fill="#F2B544"/></svg>TeacherAid</span><span class="cls">Geography · II-3</span></div>
+        <div class="body">
+          <div class="eyebrow">Pop-up 3 of 6</div>
+          <div class="ring">
+            <svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="27" fill="none" stroke="rgba(59,49,40,.22)" stroke-width="7"/><circle cx="32" cy="32" r="27" fill="none" stroke="#3B3128" stroke-width="7" stroke-linecap="round" stroke-dasharray="101.8 169.6" transform="rotate(-90 32 32)"/></svg>
+            <div><div class="t">18 s</div><div class="s">to answer</div></div>
+          </div>
+          <div class="q">Which wind brings Pelagonija its winter fog?</div>
+          <div class="opts">
+            <div class="opt"><span class="l">A</span><span>Vardarec</span></div>
+            <div class="opt"><span class="l">B</span><span>Föhn from Pelister</span></div>
+            <div class="opt"><span class="l">C</span><span>Košava</span></div>
+            <div class="opt"><span class="l">D</span><span>A sea breeze from Thessaloniki</span></div>
+          </div>
+          <div class="chips"><span class="chip">+100 correct</span><span class="chip">+30 fastest</span><span class="chip">Streak ×4</span></div>
+          <div class="foot">24 of 27 answered</div>
+          <div class="btn ghost" style="margin-top:auto">Tap an answer</div>
+        </div>
+        <div class="home"></div>
+      </div></div>
+    </div>
+
+    <!-- 3 · REVIEW -->
+    <div class="col">
+      <div class="lbl"><b>3 · Minutes 40–45</b> · review + anonymous questions</div>
+      <div class="phone"><div class="screen">
+        <div class="island"></div>
+        <div class="status"><span>9:42</span><span class="r"><svg viewBox="0 0 20 12"><rect x="0" y="8" width="3" height="4" rx="1" fill="#3B3128"/><rect x="5" y="5" width="3" height="7" rx="1" fill="#3B3128"/><rect x="10" y="2" width="3" height="10" rx="1" fill="#3B3128"/><rect x="15" y="0" width="3" height="12" rx="1" fill="#3B3128"/></svg><svg viewBox="0 0 28 12"><rect x="0" y="0" width="24" height="12" rx="3" fill="none" stroke="#3B3128" stroke-width="1.6"/><rect x="2" y="2" width="17" height="8" rx="1.5" fill="#3B3128"/><rect x="25" y="4" width="2.5" height="4" rx="1" fill="#3B3128"/></svg></span></div>
+        <div class="hdr"><span class="mark"><svg viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#3B3128"/><path d="M32 12c-8.8 0-14.5 6.6-14.5 15.5V36c0 2.4-1.2 4.4-3.2 6.1-1.3 1.1-.6 3.2 1.1 3.2h33.2c1.7 0 2.4-2.1 1.1-3.2-2-1.7-3.2-3.7-3.2-6.1v-8.5C46.5 18.6 40.8 12 32 12z" fill="#F2B544"/><circle cx="32" cy="50" r="4.2" fill="#F2B544"/><rect x="30" y="7" width="4" height="6" rx="2" fill="#F2B544"/></svg>TeacherAid</span><span class="cls">Geography · II-3</span></div>
+        <div class="body">
+          <div class="eyebrow">Review · minute 41</div>
+          <div class="q" style="font-size:24px;margin-bottom:6px">What the class got wrong</div>
+          <div class="card">
+            <div class="k">Pop-up 3 · 14 of 27 said Vardarec</div>
+            <div class="a">Föhn from Pelister</div>
+            <div class="x">A warm, dry wind sliding down the mountain — it dries the valley air and sets up the fog that follows at night.</div>
+          </div>
+          <div class="card">
+            <div class="k">Pop-up 5 · 11 of 27 wrong</div>
+            <div class="a">Valley inversion</div>
+            <div class="x">Cold air is heavier. At night it sinks into the Pelagonija basin and traps the fog under warmer air above.</div>
+          </div>
+          <div class="sect">Ask the teacher</div>
+          <div class="sub">Only they see it. Nobody else in the class.</div>
+          <div class="bubble">Why is the valley colder than the mountain at night?<span class="m">Sent · anonymous · 9:31</span></div>
+          <div class="ask"><span>Ask another&hellip;</span><span class="send"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+          <div style="height:30px"></div>
+        </div>
+        <div class="home"></div>
+      </div></div>
+    </div>
+
+    <!-- 4 · LEADERBOARD -->
+    <div class="col">
+      <div class="lbl"><b>4 · After class</b> · leaderboard</div>
+      <div class="phone"><div class="screen dark">
+        <div class="island"></div>
+        <div class="status" style="color:#F8F5EE"><span>9:46</span><span class="r"><svg viewBox="0 0 20 12"><rect x="0" y="8" width="3" height="4" rx="1" fill="#F8F5EE"/><rect x="5" y="5" width="3" height="7" rx="1" fill="#F8F5EE"/><rect x="10" y="2" width="3" height="10" rx="1" fill="#F8F5EE"/><rect x="15" y="0" width="3" height="12" rx="1" fill="#F8F5EE"/></svg><svg viewBox="0 0 28 12"><rect x="0" y="0" width="24" height="12" rx="3" fill="none" stroke="#F8F5EE" stroke-width="1.6"/><rect x="2" y="2" width="17" height="8" rx="1.5" fill="#F8F5EE"/><rect x="25" y="4" width="2.5" height="4" rx="1" fill="#F8F5EE"/></svg></span></div>
+        <div class="hdr"><span class="mark"><svg viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#F2B544"/><path d="M32 12c-8.8 0-14.5 6.6-14.5 15.5V36c0 2.4-1.2 4.4-3.2 6.1-1.3 1.1-.6 3.2 1.1 3.2h33.2c1.7 0 2.4-2.1 1.1-3.2-2-1.7-3.2-3.7-3.2-6.1v-8.5C46.5 18.6 40.8 12 32 12z" fill="#3B3128"/><circle cx="32" cy="50" r="4.2" fill="#3B3128"/><rect x="30" y="7" width="4" height="6" rx="2" fill="#3B3128"/></svg>TeacherAid</span><span class="cls" style="color:#F8F5EE">Geography · II-3</span></div>
+        <div class="body">
+          <div class="eyebrow" style="color:#F8F5EE">Today&rsquo;s class</div>
+          <div class="seg"><div class="on">Class</div><div>School</div><div>National</div></div>
+          <div class="rank"><small>#</small>2</div>
+          <div class="rankmeta">of 27 &middot; <b style="color:#F2B544;font-family:var(--display)">340</b> points &middot; 4-lesson streak</div>
+          <div class="rows">
+            <div class="rrow"><span class="n">1</span><span class="nm">Ана Крстевска</span><span class="p">360</span></div>
+            <div class="rrow me"><span class="n">2</span><span class="nm">You</span><span class="p" style="color:#F2B544">340</span></div>
+            <div class="rrow"><span class="n">3</span><span class="nm">Марко Илиевски</span><span class="p">310</span></div>
+            <div class="rrow"><span class="n">4</span><span class="nm">Елена Петровска</span><span class="p">290</span></div>
+            <div class="rrow"><span class="n">5</span><span class="nm">Филип Наумовски</span><span class="p">250</span></div>
+          </div>
+          <div class="strip">
+            <div class="vs"><span><b>Gymnasium Bitola</b> 12,480</span><span>Gymnasium Prilep 11,930</span></div>
+            <div class="bar"><i></i></div>
+            <div style="margin-top:8px;opacity:.75">School board updates tonight</div>
+          </div>
+        </div>
+        <div class="home" style="color:#F8F5EE"></div>
+      </div></div>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
