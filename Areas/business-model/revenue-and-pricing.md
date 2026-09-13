@@ -59,29 +59,34 @@ could run at a loss if every teacher uses it heavily. Watch this in the pilot; a
 | Support time (10 h × 15) | −150 |
 | **Contribution** | **~988** |
 
-## Market math (North Macedonia only — decided scope)
+## Market math (North Macedonia, every level — updated 13 Sep)
 
-Figures from the State Statistical Office, start of 2024/25, in [[market-size]]. Revenue is
-now **per school**, not per seat.
+Figures from the State Statistical Office, start of 2024/25 (higher ed 2023-25), in
+[[market-size]]. Revenue is **per institution**, flat, regardless of type or size.
 
-| | Schools | ARR at EUR 2,388/school |
+| | Institutions | ARR at EUR 2,388/institution |
 |---|---|---|
-| Upper secondary (SAM) | 128 | **~EUR 306,000** |
-| Primary + lower secondary (later) | 943 | ~EUR 2.25 M |
-| **All MK schools (TAM)** | ~1,070 | **~EUR 2.6 M / year** |
+| Secondary schools | 128 | ~EUR 306,000 |
+| Primary schools | 943 | ~EUR 2.25 M |
+| Universities | 15 | ~EUR 36,000 |
+| **TAM / SAM — every school and college in MK** | **~1,086** | **~EUR 2.6 M / year** |
 
-Obtainable, honestly:
+TAM and SAM are the same population here, deliberately: flat, whole-institution pricing
+needs no further product-fit narrowing by school level the way per-seat pricing did — see
+[[market-size#TAM / SAM / SOM at EUR 199 / month flat per institution (EUR 2,388/year)]].
 
-| | Schools | ARR |
+Obtainable, honestly (SOM):
+
+| | Institutions | ARR |
 |---|---|---|
-| Year 1 (2026/27) | 3 private + 2 public pilots | **~EUR 12,000** |
-| Year 2 | 15 | **~EUR 36,000** |
-| Year 3 | 40 (all Bitola + Skopje private + first municipalities) | **~EUR 95,500** |
+| Year 1 (2026/27) | 5 (3 private + 2 public school pilots) | **~EUR 12,000** |
+| Year 2 | 15 schools | **~EUR 36,000** |
+| Year 3 | 40 schools + 5 college faculties | **~EUR 107,500** |
 
-Note: this is a **lower ceiling** than the per-seat model would have given at the same
-school count, because flat pricing is deliberately cheap for a large staff. That's the
-trade you're making for a simpler, faster, whole-school sale — say so plainly if a judge
-asks "why not price per teacher."
+Note: flat per-institution pricing is a **lower ceiling** than a per-seat model would give
+at the same institution count, because it's deliberately cheap for a large staff. That's
+the trade for a simpler, faster, whole-institution sale — say so plainly if a judge asks
+"why not price per teacher."
 
 Say the small number on stage. Judges in Bitola know the country is small; pretending
 otherwise costs credibility. The upside line for Q&A: the same product works in any country
