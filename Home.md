@@ -3,7 +3,7 @@
 Second brain for TeacherAid — an AI classroom system for Macedonian secondary schools.
 Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 
-- [[teacheraid-handbook]] — the whole business in one document (v1, 12 Sep 2026);
+- [[teacheraid-handbook]] — the whole business in one document (v1.2, 15 Sep 2026);
   shareable page: https://claude.ai/code/artifact/d26086d1-5fde-4fef-982d-69f44615c608
 
 ## Now: the pitch (Sunday 13 Sep)
@@ -12,7 +12,7 @@ Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 - [[pitch-script]] — word for word, with timings
 - [[slide-outline]] — the Canva deck, slide by slide
 - [[demo-plan]] — the live QR opener, room checklist, fallbacks
-- [[qa-prep]] — 18 judge questions with answers
+- [[qa-prep]] — 19 judge questions with answers
 - [[validation-log]] — every teacher and headmaster conversation (fill tonight)
 - [[rehearsal]] — run of show, cut order
 
@@ -26,6 +26,7 @@ Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 ## The product
 
 - [[product-overview]] — the 45-minute class, minute by minute
+- [[feature-spec-v1]] — the v1 build spec; authoritative on what the app does
 - [[features]] · [[user-flows]] · [[technical-architecture]] · [[data-and-privacy]]
 - [[prototype]] — the demo web app: URLs, keys, reset
 
