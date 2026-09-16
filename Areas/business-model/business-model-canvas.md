@@ -21,7 +21,8 @@ why is at the bottom. Each block links to its detailed note.
 
 ## 2. Value propositions — [[value-propositions]]
 
-- **Teacher:** one tool for the whole lesson instead of five. Plan in three sentences.
+- **Teacher:** one tool for the whole lesson instead of five. Plan by picking the unit from
+  the e-учебник.
   Attention handled by the game, not by shouting. Anonymous questions surface what the class
   did not understand.
 - **Student:** a class that starts with a question. Safe to be wrong — reasoning earns
@@ -44,7 +45,9 @@ why is at the bottom. Each block links to its detailed note.
 ## 4. Customer relationships — [[channels-and-relationships]]
 
 - Onboarding: in-app tutorials + short videos; "first lesson in 10 minutes".
-- Support: in-app help + the teacher chatbot; a human behind it for the first schools.
+- Support: in-app help + a direct channel to a human, one tap, for when it is urgent.
+  (The teacher chatbot is cut from v1; lesson refinement is a fixed row of one-tap actions —
+  see [[feature-spec-v1]] 4.6.)
 - Retention: teacher habit (daily use), the monthly report (the headmaster's reason to
   renew), the school-vs-school leaderboard (students ask for it).
 

@@ -15,10 +15,10 @@ Three clients, one backend, one AI provider.
 
 | Client | Form | Why |
 |---|---|---|
-| Student app | **Native** (Expo / React Native, or Capacitor around web views) | Focus lock needs OS APIs a web app cannot touch. QR deep link opens the app. |
-| Teacher app | Web (PWA, installable) + works on phone | Planning at home on a laptop, running the class from a phone. No store review cycle for teacher features. |
-| Headmaster | Email (PDF report) | No login by design. |
-| Projector view | Web page opened by the teacher | The QR, the live bars, the reveal, the leaderboard. |
+| Student app | **Native** (Expo / React Native, or Capacitor around web views) | Focus lock needs OS APIs a web app cannot touch. QR deep link opens the app. Authorization is mandatory to join, so there is no web fallback and no gradual adoption — every participant installs. |
+| Teacher app | Web (PWA, installable), run from a laptop in class | Planning at home, running the class from the laptop. No store review cycle for teacher features. |
+| Headmaster | Email (PDF report) + a permanent private link to past reports | No login by design. |
+| Class view | A **second browser window** the teacher opens onto the projector | The QR, the live bars, the reveal, the leaderboard. Separate from the console so the anonymous inbox and named data are never projected. Opening it must be one click, not a drag. |
 
 Backend: one Node/TypeScript service (Next.js API or a small Fastify app), Postgres, a
 realtime layer for the live session (managed WebSockets — e.g. Supabase Realtime, Ably, or
@@ -37,9 +37,13 @@ This is the claim most likely to be challenged. The answer:
   distraction app, plus a system overlay (`SYSTEM_ALERT_WINDOW`) to cover it, or an
   `AccessibilityService` to intercept. App blockers (AppBlock, Forest, StayFree) use this.
   Google Play policy requires declaring the use case; "productivity/focus" is accepted.
-- **Limits, stated plainly:** the student authorizes once and can revoke. Revocation is
-  detected and surfaces as a **focus flag** for the teacher. The lock is social + technical,
-  not prison-grade. That is also why it is acceptable to parents.
+- **Authorization is mandatory.** A student who has not authorized cannot join a session.
+  Revocation is detected and surfaces as a **focus flag**. A student who will not or cannot
+  authorize takes the same path as a student with a dead battery — marked present, no points,
+  reason shown on the dashboard. **Never marked absent:** a false absence over a phone
+  setting is the incident that reaches a parent and ends a pilot.
+- This replaces the earlier "not blocked, only flagged" design. It is a harder thing to
+  justify to a parent, and the fallback above is what makes it justifiable.
 - **School-owned devices** (if a school has them): Android Enterprise lock-task (kiosk) mode
   or iOS Guided Access / MDM make it absolute. Not the primary path (BYOD is).
 
@@ -65,8 +69,14 @@ This is the claim most likely to be challenged. The answer:
   uploaded plan's relevant pages; output = JSON with opener, pop-ups (question, options,
   correct, explanation), timing, review summary. Structured output, validated before saving.
 - Curriculum: the БРО programs are public documents per subject and year. Load once, chunk
-  per unit, retrieve the unit the teacher picked. This is the moat-in-progress: a corpus of
-  MK lessons and questions that improves with every edit teachers make.
+  per unit, retrieve the unit the teacher picked.
+- **e-учебници.** The national digital textbooks are pre-loaded and chunked per unit for the
+  pilot subjects (history, electronics, physics), and picking a unit from one is the primary
+  planning input — better grounded than three typed sentences. **Rights to use them are a
+  blocking legal item** to settle with МОН/БРО before the feature ships; see
+  [[feature-spec-v1]] 4.1.
+- Together these are the moat-in-progress: a corpus of MK lessons and questions that improves
+  with every edit teachers make, seeded per school by the shared lesson library.
 - Safety: teacher-only exposure; generated content is always reviewed by the teacher before
   students see it. No student-facing generation in v1.
 
@@ -81,6 +91,10 @@ date, teacher, class), `sessions`, `attendance` (student, session, joined_at),
 
 - Students on **mobile data** when school wifi fails (decided). The student app is light:
   events are small JSON messages.
+- **Phones queue answers locally and sync on reconnect**, preserving the original answer
+  time, so a student who answers during a 20-second dropout is still credited. The console
+  must distinguish **offline** from **has not answered** — from the front of the room those
+  look identical, and one of them is about to earn a focus flag nobody deserved.
 - Teacher plan is cached on device; if the network dies mid-lesson the teacher still has the
   questions and can run them out loud. The session degrades to verbal, points pause.
 - Rural coverage gaps are real; the private-school beachhead sidesteps them for the pilot.
@@ -100,4 +114,5 @@ one deliberate exception to "web everywhere" — because of focus lock.
 
 ## Related
 
+[[feature-spec-v1]] — the v1 build spec, authoritative where it disagrees with this note ·
 [[features]] · [[prototype]] · [[data-and-privacy]] · [[cost-structure]]

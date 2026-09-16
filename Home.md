@@ -26,6 +26,7 @@ Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 ## The product
 
 - [[product-overview]] — the 45-minute class, minute by minute
+- [[feature-spec-v1]] — the v1 build spec; authoritative on what the app does
 - [[features]] · [[user-flows]] · [[technical-architecture]] · [[data-and-privacy]]
 - [[prototype]] — the demo web app: URLs, keys, reset
 

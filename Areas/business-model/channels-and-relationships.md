@@ -59,9 +59,16 @@ across the actual staff**, not just one teacher's results.
   colleagues who are slower to adopt — but is no longer the *only* onboarding path.
 
 ### Support
-- In-app help and the teacher chatbot as first line; a human (founder, WhatsApp) behind it
-  for the first schools. Login at 08:05 is the moment that matters — magic links, no
-  passwords to forget.
+- In-app help as first line, plus a direct one-tap channel to a human — a founder on
+  WhatsApp for the first schools. A help article is no use to a teacher standing in front of
+  thirty students.
+- Login at 08:05 is the moment that matters, and **teachers sign in with an email and a
+  password** ([[feature-spec-v1]] 3.1), not a magic link. That choice guarantees the
+  forgotten-password call this note has always warned about: make password reset fast and
+  phone-friendly, and expect it in week one of every school.
+- **Add one more first-week job:** each class needs a setup period before its first real
+  lesson — install, school-email sign-in, focus-lock authorization — because a student who
+  has not authorized cannot join. That is a class-by-class cost, not a per-school one.
 - **Bigger surface area now:** support has to work for a teacher who never asked for this,
   not only for a volunteer who opted in. Expect more first-week friction per school than
   the old bottom-up model — budget for it in the first pilots.

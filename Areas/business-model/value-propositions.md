@@ -14,8 +14,9 @@ the proof.
 - Today a keen teacher assembles a lesson from ChatGPT (plan), Kahoot (quiz), Mentimeter
   (poll), a paper list (attendance) and a hope (attention). TeacherAid is the five in one
   flow, built around the 45-minute period.
-- **Plan in three sentences.** The AI writes the opener, the pop-ups, the timing, the
-  review — in Macedonian, inside the БРО program. Editable. Reusable next year.
+- **Plan by picking today's unit from the e-учебник.** Two taps, plus a sentence if you want
+  one. The AI writes the opener, the pop-ups, the timers, the review — in Macedonian, inside
+  the БРО program. Editable. Reusable next year, and across parallel classes.
 - **Attention handled by the game.** Pop-ups at unpredictable moments; points; the focus
   lock; the teacher sees who drifted instead of guessing.
 - **See what the class did not understand.** Wrong answers collected for the review block;

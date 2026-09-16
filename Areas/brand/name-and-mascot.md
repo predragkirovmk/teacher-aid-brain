@@ -37,7 +37,9 @@ five-minute pitch.
 
 Concept: **Zvonko** — a small school bell with a face, named after the common name Zvonko
 ("the one who rings"). Roles:
-- The teacher chatbot's persona ("Ask Zvonko to make it harder").
+- The face on the one-tap refinement row ("Zvonko, make it harder"). There is no chatbot in
+  v1 — see [[feature-spec-v1]] 4.6 — so the persona attaches to the buttons, not a
+  conversation.
 - The little character on student screens: rings for a pop-up, shrugs at a wrong answer,
   jumps at a streak. Never shames — the app is on the student's side.
 - The mark on the QR screen and the monthly report footer.
