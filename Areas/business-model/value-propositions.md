@@ -14,12 +14,13 @@ the proof.
 - Today a keen teacher assembles a lesson from ChatGPT (plan), Kahoot (quiz), Mentimeter
   (poll), a paper list (attendance) and a hope (attention). TeacherAid is the five in one
   flow, built around the 45-minute period.
-- **Plan in three sentences.** The AI writes the opener, the pop-ups, the timing, the
-  review — in Macedonian, inside the БРО program. Editable. Reusable next year.
+- **Plan by picking today's unit from the e-учебник.** Two taps, plus a sentence if you want
+  one. The AI writes the opener, the pop-ups, the timers, the review — in Macedonian, inside
+  the БРО program. Editable. Reusable next year, and across parallel classes.
 - **Attention handled by the game.** Pop-ups at unpredictable moments; points; the focus
   lock; the teacher sees who drifted instead of guessing.
 - **See what the class did not understand.** Wrong answers collected for the review block;
-  anonymous questions from the students who never raise a hand.
+  questions from the students who never raise a hand; which topics keep coming back wrong.
 - Time saved is the weak claim (unquantified; teachers already have plans). The strong
   claim is *a class that behaves and a teacher who knows what landed*.
 
@@ -28,17 +29,22 @@ the proof.
 - Predict first, learn second. Being wrong earns points for reasoning — the app is on the
   student's side.
 - The phone is allowed, for once, and it is the game controller.
-- Rank in class, in school, nationally. Rewards.
-- A private line to the teacher for the question they would not ask out loud.
+- Rank in the class and against the class next door, in semester seasons. Badges for the
+  things points cannot reward.
+- A line to the teacher no classmate sees, for the question they would not ask out loud.
 
 ## Headmaster — "Does nothing. Gets everything."
 
 - "AI in every classroom" as a sentence they can say to parents this year — without a
   training day, an IT project, or a login.
 - A **monthly one-page report** (lessons run, attendance, engagement, top classes) written
-  to be forwarded. This is the measurable version of "praise".
+  to be forwarded, with a private second page carrying the comparison against other schools.
 - Risk-free: first month free, per-seat pricing, nothing installed on school infrastructure,
   the school owns the data.
+
+> **Stale (flagged 15 Sep):** "per-seat pricing" above predates the 13 Sep switch to a flat
+> per-school fee. Left as-is because pricing is being reconsidered; fix it when the new model
+> lands. See [[revenue-and-pricing]].
 
 ## Why TeacherAid and not the alternatives
 
@@ -56,4 +62,4 @@ students. TeacherAid is the lesson."**
 
 ## Related
 
-[[customer-segments]] · [[competitors]] · [[features]] · [[messaging]]
+[[feature-spec-v1]] · [[customer-segments]] · [[competitors]] · [[features]] · [[messaging]]
