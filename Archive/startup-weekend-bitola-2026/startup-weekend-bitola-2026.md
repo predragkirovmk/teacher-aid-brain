@@ -1,10 +1,27 @@
 ---
 created: 2026-09-12
-status: active
+status: archived 2026-09-16 — the weekend is over
 deadline: 2026-09-13
 ---
 
 # Startup Weekend Bitola 2026
+
+> **Archived 16 September 2026.** The pitch happened on Sunday 13 September. This folder is
+> the record of what was claimed on stage — the script, the slide outline, the demo plan, the
+> rehearsal notes and the Q&A prep — kept because a judge, a headmaster or a mentor may
+> follow up on any of it.
+>
+> **What was lifted out before archiving:** the six durable objection answers now live in
+> [[objections]], written for headmasters rather than judges. Two of them changed after the
+> weekend and the versions in `qa-prep.md` below are **out of date** — focus lock is now
+> mandatory to join, and per-topic correctness is stored per student. Use [[objections]].
+>
+> **What was deleted:** `validation-log.md`, the empty template. Teachers were interviewed on
+> 12 September but the quotes were never written down, and the log went unfilled. The
+> conversations still need having — see assumptions 0 through 0f in
+> [[risks-and-assumptions]].
+>
+> Current work is in [[build-v1]].
 
 ## Goal
 

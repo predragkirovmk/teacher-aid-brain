@@ -35,10 +35,12 @@ will have.
   **teacher-aid-bitola.vercel.app/j/BITOLA**
 - Print sheet: https://teacher-aid-bitola.vercel.app/print
 - Landing with all links: https://teacher-aid-bitola.vercel.app
-- Repo: github.com/predragkirovmk/teacher-aid-app (private) — pushes to `main` deploy
-  automatically; Vercel project `teacher-aid`, Upstash Redis `teacher-aid-redis` attached.
-- Host key: `bitola` (default; set `HOST_KEY` in Vercel to change, then open
-  `/host?key=...`).
+- Repo: github.com/predragkirovmk/teacher-aid-app — **public since 13 Sep** — pushes to
+  `main` deploy automatically; Vercel project `teacher-aid`, Upstash Redis
+  `teacher-aid-redis` attached.
+- Host key: **rotated off the `bitola` default on 13 Sep**, before the repo went public, so
+  the live session cannot be reset by anyone reading the source. The current value is in
+  `HOST_KEY` in Vercel; open `/host?key=...` with it. Do not write the value into this vault.
 
 ## What it is not
 

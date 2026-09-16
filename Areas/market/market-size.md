@@ -17,10 +17,18 @@ context, not as part of TAM/SAM/SOM.
 
 | | Institutions | Students | Staff |
 |---|---|---|---|
-| Secondary (гимназија + стручно + уметничко) — **client** | **128** | **67,143** | **~7,000** (estimate — see note) |
-| Higher education (universities) — **client** | **15** | **53,535** (first-cycle, 2024/25) | **4,656** (academic staff, 2023/24) |
-| **Client total — secondary + universities** | **143** | **~120,700** | **~11,650** |
-| Primary + lower secondary — *not a client, future context only* | 943 | 180,627 | 19,447 |
+| Secondary (гимназија + стручно + уметничко) — **served by v1** | **128** | **67,143** | **~7,000** (estimate — see note) |
+| Higher education (universities) — *in the market, not served by v1* | 15 | 53,535 (first-cycle, 2024/25) | 4,656 (academic staff, 2023/24) |
+| **Addressable total — secondary + universities** | **143** | **~120,700** | **~11,650** |
+| Primary + lower secondary — *in the market, not served by v1* | 943 | 180,627 | 19,447 |
+
+> **Universities are counted, not sold to.** They stay in the market sizing because the
+> product reaches them eventually, but [[feature-spec-v1]] 2 puts them out of v1 for concrete
+> reasons: no headmaster to buy or receive the report, lectures of 90+ minutes against a
+> product built on the 45-minute period, halls far past the 35-student session assumption,
+> and students who are legal adults — so mandatory focus lock has no institutional mandate
+> behind it. Serving them is a second product shape, not a setting. Do not sell to a faculty
+> in year one.
 
 Note on secondary teachers: the SSO release used for the pitch reports students and schools;
 the teacher figure for primary (19,447) is from the same release as reported by the press.
@@ -40,41 +48,46 @@ unverified — do not put a faculty count on a slide without checking it first.
 
 ## TAM / SAM / SOM at EUR 199 / month flat per institution (EUR 2,388/year)
 
-**Updated 13 Sep 2026 (final): TAM and SAM are genuinely different tiers again.** Clients
-today are secondary schools and universities; primary schools are not a client, but they
-are real and belong in the ceiling, not erased from the picture.
+**Updated 16 Sep 2026: TAM and SAM are genuinely different tiers, and so is what v1 serves.**
+The addressable market is secondary schools plus universities; **v1 serves the secondary
+schools only**. Primary schools and universities are both real and both belong in the
+picture — neither is erased, neither is sold to today.
 
 | | Institutions | ARR | What it is |
 |---|---|---|---|
 | **TAM** — every school and college in MK | 1,086 | ~EUR 2.6 M | The full country, every level, if the product eventually served all of it. |
-| **SAM** — secondary schools + universities | 143 | ~EUR 341,500 | What the product actually fits and sells today — the real serviceable market. |
-| **SOM** — year 3 | 45 | ~EUR 107,500 (~31% of SAM) | 40 schools + 5 college faculties, sold nationally, not city-by-city. |
+| **SAM** — secondary schools + universities | 143 | ~EUR 341,500 | The addressable market. **v1 serves the 128 secondary schools only** — universities need a second product shape, see the note above. |
+| **SOM** — year 3 | 40 | ~EUR 95,500 (~28% of SAM) | 40 secondary schools, sold nationally, not city-by-city. |
 
 **Why TAM narrows to SAM:** primary-school students are younger, fewer own phones, and the
 opener's debate/prediction format fits a 15-year-old better than a 9-year-old — a real
 product-fit filter, not a pricing one. That gap (943 schools, ~EUR 2.25M of the TAM) is the
 honest future-expansion story, not today's market. **Why SAM narrows to SOM:** one team,
-national reach, three years — execution, not fit. Say the SOM number with confidence: **a
-third of the entire serviceable market, captured in three years, nationally.**
+national reach, three years — execution, not fit, plus the 15 universities the v1 product
+does not serve.
 
-Year-by-year SOM build (secondary schools first, colleges from year 2 — sold nationally,
-not sequenced through one city first):
+Year-by-year SOM build — secondary schools throughout, sold nationally rather than sequenced
+through one city:
 
 | | Institutions | ARR |
 |---|---|---|
 | Year 1 (2026/27) | 5 (3 private + 2 public school pilots, anywhere in the country) | ~EUR 12,000 |
 | Year 2 | 15 schools nationally | ~EUR 36,000 |
-| Year 3 | 40 schools + 5 college faculties, nationally | **~EUR 107,500** |
+| Year 3 | 40 schools nationally | **~EUR 95,500** |
 
-For the slide, four numbers: **943 primary (future) · 128 secondary · 15 universities ·
-143 institutions we sell to today.**
+> **Changed 16 Sep.** Year 3 previously read "40 schools + 5 college faculties, ~EUR 107,500".
+> The faculties came out because [[feature-spec-v1]] puts universities outside v1, and a
+> three-year target should not count institutions the product does not serve. If the
+> university shape gets built, the faculties come back and the number returns to ~EUR 107,500.
+
+For the slide, four numbers: **943 primary (future) · 128 secondary, which is what v1
+serves · 15 universities (later) · 143 addressable in total.**
 
 ## Why the whole country, from day one — not Bitola first
 
 **Decided 13 Sep: the strategy is Macedonia first, not a city-by-city rollout.** The team
-is based in Bitola, but the sale is national from month one — every private gymnasium and
-university in the country is a live target immediately, not something reached only after
-"finishing" one city.
+is based in Bitola, but the sale is national from month one — every private gymnasium in the
+country is a live target immediately, not something reached only after "finishing" one city.
 
 - One national curriculum (БРО) — one corpus covers every classroom in the country at once.
   There is no city-by-city localization cost to justify a slower rollout.
@@ -82,8 +95,8 @@ university in the country is a live target immediately, not something reached on
   separate municipal markets.
 - Small enough to reach every headmaster in the country in person within a year — that is
   the argument *for* going national immediately, not for staying local.
-- Judges will not believe a global TAM; they will believe "every gymnasium and university
-  in the country within three years."
+- Judges will not believe a global TAM; they will believe "every gymnasium in the country
+  within three years."
 
 ## The answer to "and then?"
 

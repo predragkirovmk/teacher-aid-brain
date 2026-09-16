@@ -67,24 +67,34 @@ Figures from the State Statistical Office, start of 2024/25 (higher ed 2023-25),
 
 | | Institutions | ARR at EUR 2,388/institution | Tier |
 |---|---|---|---|
-| Secondary schools | 128 | ~EUR 306,000 | SAM |
-| Universities | 15 | ~EUR 35,800 | SAM |
-| **SAM — secondary + universities, today's real market** | **143** | **~EUR 341,500 / year** | |
-| Primary schools (future, not a client today) | 943 | ~EUR 2.25 M | TAM only |
+| Secondary schools — **served by v1** | 128 | ~EUR 306,000 | SAM |
+| Universities — *addressable, not served by v1* | 15 | ~EUR 35,800 | SAM |
+| **SAM — secondary + universities** | **143** | **~EUR 341,500 / year** | |
+| Primary schools — *addressable, not served by v1* | 943 | ~EUR 2.25 M | TAM only |
 | **TAM — every school and college in MK** | **1,086** | **~EUR 2.6 M / year** | |
 
 TAM narrows to SAM on a genuine product-fit filter — primary-age students don't fit the
-opener's debate/prediction format the way secondary and university students do — not a
-pricing narrowing. See
-[[market-size#TAM / SAM / SOM at EUR 199 / month flat per institution (EUR 2,388/year)]].
+opener's debate/prediction format the way secondary students do — not a pricing narrowing.
+See [[market-size#TAM / SAM / SOM at EUR 199 / month flat per institution (EUR 2,388/year)]].
 
-Obtainable, honestly (SOM — sold nationally, not sequenced through one city):
+**Universities are in the sizing but not in v1.** [[feature-spec-v1]] 2 puts them out: no
+headmaster to buy or receive the report, 90-minute lectures against a product built on the
+45-minute period, halls past the 35-student session assumption, and adult students, so
+mandatory focus lock has no institutional mandate. Serving them is a second product shape.
+Nothing is sold to a faculty in year one.
+
+Obtainable, honestly (SOM — secondary schools, sold nationally, not sequenced through one
+city):
 
 | | Institutions | ARR |
 |---|---|---|
 | Year 1 (2026/27) | 5 (3 private + 2 public school pilots, anywhere in the country) | **~EUR 12,000** |
 | Year 2 | 15 schools nationally | **~EUR 36,000** |
-| Year 3 | 40 schools + 5 college faculties, nationally | **~EUR 107,500** (~31% of SAM) |
+| Year 3 | 40 schools nationally | **~EUR 95,500** (~28% of SAM) |
+
+> **Changed 16 Sep.** Year 3 previously counted "40 schools + 5 college faculties" at
+> ~EUR 107,500. The faculties came out because the v1 product does not serve them. If the
+> university shape is built, they return and so does the larger number.
 
 Note: flat per-institution pricing is a **lower ceiling** than a per-seat model would give
 at the same institution count, because it's deliberately cheap for a large staff. That's

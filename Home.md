@@ -3,18 +3,15 @@
 Second brain for TeacherAid — an AI classroom system for Macedonian secondary schools.
 Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 
-- [[teacheraid-handbook]] — the whole business in one document (v1, 12 Sep 2026);
+- [[teacheraid-handbook]] — the whole business in one document (v1.2, 15 Sep 2026);
   shareable page: https://claude.ai/code/artifact/d26086d1-5fde-4fef-982d-69f44615c608
 
-## Now: the pitch (Sunday 13 Sep)
+## Now: building v1
 
-- [[startup-weekend-bitola-2026]] — goal, status, next actions per teammate
-- [[pitch-script]] — word for word, with timings
-- [[slide-outline]] — the Canva deck, slide by slide
-- [[demo-plan]] — the live QR opener, room checklist, fallbacks
-- [[qa-prep]] — 18 judge questions with answers
-- [[validation-log]] — every teacher and headmaster conversation (fill tonight)
-- [[rehearsal]] — run of show, cut order
+- [[build-v1]] — goal, status, next actions, and the calendar items that gate everything
+- [[feasibility]] — can it be built, by whom, at what cost
+- [[milestones]] — milestone 1 and 2, session budgets, how "done" is verified
+- [[feature-spec-v1]] — the build spec; authoritative on what the app does
 
 ## The business
 
@@ -39,6 +36,7 @@ Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 
 - [[name-and-mascot]] — working name, alternatives, Zvonko the bell
 - [[messaging]] — one-liners, proof lines, humor beats, words to avoid
+- [[objections]] — the six questions everyone asks, and the answers that hold
 
 ## Resources
 
@@ -47,7 +45,12 @@ Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 
 ## Daily
 
-- [[2026-09-12]] · [[2026-09-13]]
+- [[2026-09-12]] · [[2026-09-13]] · [[2026-09-15]] · [[2026-09-16]]
+
+## Archive
+
+- [[startup-weekend-bitola-2026]] — the pitch, 11–13 Sep 2026. Script, slides, demo plan,
+  rehearsal, Q&A prep. Two answers in its Q&A prep are superseded; use [[objections]].
 
 ---
 

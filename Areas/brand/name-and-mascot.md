@@ -8,9 +8,9 @@ status: working name TeacherAid; team is open to a better one
 
 ## Working name: TeacherAid
 
-Used everywhere this weekend — docs, prototype, script. Do not change it on Saturday night
-unless deck, prototype and script are all updated together (the prototype name is one
-variable in `content/opener.json`).
+Used everywhere — docs, prototype, the pitch script. The name is still undecided as of
+16 September 2026. Do not change it piecemeal: the deck, the prototype and every note move
+together, and the prototype name is one variable in `content/opener.json`.
 
 Why it is not great:
 - Generic and descriptive; "teacher's aide" is a job title; hard to own as a mark.
@@ -37,9 +37,11 @@ five-minute pitch.
 
 Concept: **Zvonko** — a small school bell with a face, named after the common name Zvonko
 ("the one who rings"). Roles:
-- The teacher chatbot's persona ("Ask Zvonko to make it harder").
+- The face on the one-tap refinement row ("Zvonko, make it harder"). There is no chatbot in
+  v1 — see [[feature-spec-v1]] 4.6 — so the persona attaches to the buttons, not a
+  conversation.
 - The little character on student screens: rings for a pop-up, shrugs at a wrong answer,
-  jumps at a streak. Never shames — the app is on the student's side.
+  celebrates a badge. Never shames — the app is on the student's side.
 - The mark on the QR screen and the monthly report footer.
 
 Design direction (when there is time): flat, two-colour, rounded, readable at 24 px on a
@@ -59,4 +61,4 @@ product.
 
 ## Related
 
-[[messaging]] · [[features#Teacher planning with AI]] · [[pitch-script]]
+[[messaging]] · [[feature-spec-v1]] · [[features#Teacher planning with AI]] · [[pitch-script]]
