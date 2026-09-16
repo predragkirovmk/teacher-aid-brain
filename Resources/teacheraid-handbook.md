@@ -455,7 +455,7 @@ Decide after the weekend. Checklist: domain (.mk and .com or .app), no existing 
 | 13 | Curipod does not localize to Macedonian before we have 20 schools | Their language list | Quarterly check | Open |
 | 14 | A teacher on the team or advising by end of September | A named person | UKLO, the mentor, the interviewed teachers | Open |
 
-Risks that will happen regardless: the veteran teacher who refuses (the flat whole-staff fee means the school pays regardless, so nobody has to opt in — the veteran just comes around slower); points gaming (speed bonus, per-device sessions, and teacher discretion on grades removes the stakes); support at 08:05 (password resets, champion teacher as first line); a data incident (minimal data and controller/processor structure keep the blast radius to names and points); a small market (MK is the proving ground; every neighbor has one national curriculum).
+Risks that will happen regardless: the veteran teacher who refuses (the flat whole-staff fee means the school pays regardless, so nobody has to opt in — the veteran just comes around slower); points gaming (shuffled option order, the rotating QR, one session per school-email account, the speed bonus, and teacher discretion on grades removing the stakes); support at 08:05 (password resets, champion teacher as first line); a data incident (controller/processor structure and no standing staff access, with a blast radius of names, attendance, points and per-topic results); a small market (MK is the proving ground; every neighbor has one national curriculum).
 
 ## 17. Startup Weekend Bitola — the pitch
 
