@@ -7,7 +7,9 @@ tags: [handbook, business, reference]
 
 # TeacherAid Handbook
 
-Version 1.1 · compiled 12 September 2026, pricing updated 13 September 2026 · the night before and the morning of the Startup Weekend Bitola pitch. Every section here has a living note in the vault; when they disagree, the vault note is newer. This document exists so that one person — a teammate, a mentor, the first headmaster — can read the whole business in half an hour.
+Version 1.2 · compiled 12 September 2026, pricing updated 13 September, product sections updated 15 September 2026. Every section here has a living note in the vault; when they disagree, the vault note is newer. For anything about what the app does, [[feature-spec-v1]] is authoritative. This document exists so that one person — a teammate, a mentor, the first headmaster — can read the whole business in half an hour.
+
+**Changed on 15 September**, in sections 2.2, 2.4, 2.5, 2.6, 6, 11.2 and 14: focus lock is mandatory to join; anonymous questions are anonymous to classmates but not to the teacher; per-topic correctness is stored per student; optional practice sets exist after class; the e-учебник unit is the planning input and its rights are a blocking legal item; the teacher chatbot is replaced by one-tap refinements; students sign in with a school email; there is no timetable; universities and practical lessons are out of v1. Pricing and cost figures are unchanged and are being revisited separately.
 
 ## 1. The business on one page
 
@@ -35,18 +37,18 @@ The unit of the product is the lesson period — 45 minutes in secondary school 
 
 | Minute | What happens | Who acts |
 |---|---|---|
-| 0 | Teacher projects a QR. Students scan. One scan = joined the session + marked present. Focus lock starts. | Students |
+| 0 | Teacher projects a rotating QR. Students scan. One scan = joined the session + marked present. Focus lock starts, and a student who has not authorized it cannot join. | Students |
 | 1–5 | **Opener.** A prediction or debate question generated from today's topic. Students vote and type a one-line reason. Live results on the projector. Being wrong is expected; reasoning earns points. | Students; teacher moderates |
 | 5–40 | **Teaching.** The teacher teaches normally. Any time they want, one tap sends a pop-up question to every phone: 10–30 seconds to answer, points for correct and for fast. Students can send an anonymous question the teacher alone sees. | Teacher triggers; students answer |
-| 40–45 | **Review.** The teacher goes through what the class got wrong and answers the anonymous questions. Points close. Rewards unlock. | Teacher |
-| after | Points roll into class, school and national leaderboards. Dashboard updates. | App |
+| 40–45 | **Review.** The teacher goes through what the class got wrong and answers the students' questions. Points close. Badges unlock. | Teacher |
+| after | Points roll into the class and school leaderboards. Dashboard updates. The teacher can send a practice set built from what was missed. | App |
 
 ### 2.2 Before the class — the teacher's five minutes
 
-1. Open TeacherAid. Type three sentences: subject, topic, what matters today. Or upload the existing годишен or тематски план and pick the unit.
-2. The AI returns the opener question, 5–8 pop-up questions with answers, a suggested timing, and a short summary for the review block. All in Macedonian. All editable.
-3. Optionally ask the teacher chatbot to adjust: "make it easier", "add a question about X", "make the opener a debate instead of a prediction".
-4. Save. The lesson is ready to run.
+1. Open TeacherAid. Pick today's unit from the e-учебник — subject, year, unit, two taps — and optionally add one sentence of emphasis. (Typing three sentences still works and is the path for subjects with no loaded book.)
+2. The AI returns the opener question, 5–8 pop-up questions with answers, a suggested timer per question, and a short summary for the review block. All in Macedonian. All editable.
+3. Optionally adjust with one tap: easier, harder, more questions, make the opener a debate, shorter timers.
+4. Save. The lesson is ready to run, for this class and any parallel class, with results kept separate.
 
 ### 2.3 After the class
 
@@ -56,36 +58,36 @@ The unit of the product is the lesson period — 45 minutes in secondary school 
 
 ### 2.4 Features
 
-**QR join and attendance.** One QR per lesson, shown on the projector or on the teacher's phone, with a short code for phones whose camera will not scan. Scanning joins the session and marks the student present; late scans are timestamped. Attendance is separate from e-Дневник — the teacher still records official attendance there; TeacherAid attendance feeds the dashboard and the report. A rotating QR (every 30 s) to stop students scanning a photo from home is a day of work, decided after the pilot.
+**QR join and attendance.** One QR per lesson on the projected class view, rotating every 30 seconds so a photographed code is stale before it reaches anyone, with a short code for phones whose camera will not scan. Scanning joins the session and marks the student present; late scans are timestamped. Attendance is separate from e-Дневник — the teacher still records official attendance there; TeacherAid attendance feeds the dashboard and the report, and after each lesson the app hands the teacher a copy-ready list of who was absent.
 
-**Focus lock.** During a live session the student app blocks apps on a distraction list (social media, games, messaging) and shows the teacher who left the app. This is a real feature, not a slogan, and it is technically possible on personal phones: on iOS through the Screen Time API (FamilyControls, ManagedSettings, DeviceActivity — since iOS 16 an app can ask the device owner for individual authorization and then shield chosen apps for a time window; consumer focus apps such as Opal and one sec ship on exactly this, and Apple grants the entitlement on request); on Android through usage-access permission plus an overlay, or an accessibility service — the mechanism app blockers such as AppBlock and Forest use. Both require the student to authorize once at install. A student who revokes is not blocked, but the teacher sees a focus flag. The lock is social plus technical, which is also why parents accept it. Consequence: the student app must be native; the teacher side can be web.
+**Focus lock.** During a live session the student app blocks apps on a distraction list (social media, games, messaging) and shows the teacher who left the app. This is a real feature, not a slogan, and it is technically possible on personal phones: on iOS through the Screen Time API (FamilyControls, ManagedSettings, DeviceActivity — since iOS 16 an app can ask the device owner for individual authorization and then shield chosen apps for a time window; consumer focus apps such as Opal and one sec ship on exactly this, and Apple grants the entitlement on request); on Android through usage-access permission plus an overlay, or an accessibility service — the mechanism app blockers such as AppBlock and Forest use. **Authorization is mandatory: a student who has not authorized cannot join the session.** They are marked present, score nothing, and the reason shows on the dashboard — the same path as a dead battery — and they are never marked absent, because a false absence over a phone setting is the incident that reaches a parent. The distraction list ships as a TeacherAid default the school admin can adjust. Consequence: the student app must be native and every participant installs it, so there is no web fallback and no gradual adoption; the teacher side is web.
 
 **The opener.** Minutes 1–5. One question in one of two modes. Prediction: "What will happen if…?" with 3–4 options, vote, then one line of reasoning. Debate: a claim, pick a side, give one reason; the teacher reads two reasons out loud and lets the class argue for two minutes. Live bars on the projector, then the reveal. Being right earns points; giving a reason earns points whether right or wrong — deliberately, because the pedagogy is productive failure and the pretesting effect and the incentive must reward committing to a guess. Reasons are shown to the teacher with names; to the class anonymously by default.
 
 **Pop-up questions.** Minutes 5–40. The teacher taps once; a question lands on every phone with a 10–30 s timer. Generated with the lesson plan (5–8 per lesson), editable, plus ad-hoc ones ("quick: yes or no?") without preparation. Points for correct and for speed. Wrong answers are collected for the review block. Teacher-triggered, not scheduled — unpredictability is the point.
 
-**Anonymous questions.** Any time during the lesson a student can send a question only the teacher sees. The teacher answers them in the last five minutes or later. Rate-limited (default three per lesson).
+**Anonymous questions.** Any time during the lesson a student can send a question no classmate sees. The teacher does see who sent it: the fear being designed around is peer judgement, not the teacher's, and a side effect is that there is no anonymous channel for abuse. The teacher answers them in the last five minutes or later. Rate-limited (default three per lesson). This must be described accurately to students and in the parent notice — anonymous to the class, not to the teacher.
 
-**Points, rewards, leaderboards.** Points per lesson for the opener (right or reasoned), pop-ups (right or fast) and participation. Rewards are in-app: badges, streaks, rank. At the teacher's discretion, points inform the participation grade — the app shows the numbers, the teacher decides how they count; TeacherAid never grades anyone, which matters for parents and for МОН. Leaderboards at class, school and national level; school versus school is the retention hook and the network effect. Season length is open (a semester is the working assumption).
+**Points, rewards, leaderboards.** Points per lesson for the opener (right or reasoned), pop-ups (right or fast) and participation. Scoring values are fixed and identical in every school so boards compare like with like; the one thing a teacher can change is switching the speed bonus off for a class. Rewards are in-app: badges and rank. No streaks in v1 — they punish the student who was ill for a week. At the teacher's discretion, points inform the participation grade — the app shows the numbers, the teacher decides how they count; TeacherAid does not grade anyone, though it does now hold per-topic correctness per student, which is a distinction to state deliberately rather than assume (see section 14). Leaderboards at class level (real names) and school level (nicknames by default); a national board waits until there are enough schools for it to mean anything. Seasons run per semester.
 
-**Teacher planning with AI.** Input: three typed sentences and/or an uploaded plan (PDF or DOCX). Output: opener, pop-up questions with answers, timing, review summary — in Macedonian, editable. The teacher chatbot refines the plan conversationally and is for teachers only; there is no student-facing AI. The БРО programs for secondary subjects are loaded as reference so generation stays inside what is actually taught.
+**Teacher planning with AI.** Input: the unit picked from the pre-loaded e-учебник, plus an optional sentence of emphasis; three typed sentences is the fallback for subjects with no loaded book. Output: opener, pop-up questions with answers (multiple choice, numeric with a tolerance, true/false, with images and formulas where needed), a timer per question, review summary — in Macedonian, editable. Refinement is a fixed row of one-tap actions — easier, harder, more questions, make it a debate, shorter timers — not an open chatbot; bounded by construction and far cheaper. There is no student-facing AI. The БРО programs and the e-учебници for the pilot subjects are loaded as reference so generation stays inside what is actually taught. **Rights to use the e-учебници are a blocking legal item with МОН/БРО.**
 
 **Teacher dashboard.** Attendance per lesson and per student; per-student points over time; focus flags; the anonymous inbox; lesson history with every generated plan reusable next year. One screen per class, nothing to configure.
 
 **Headmaster report.** Monthly, automatic, one page, PDF by email: lessons run, teachers active, average attendance, average engagement (answers per pop-up), top classes, top teachers, a two-line plain-language summary. Written to be forwarded. The headmaster has no login and nothing to configure.
 
-**Onboarding and support.** In-app tutorials and short videos; a "first lesson in ten minutes" path; in-app help and the teacher chatbot as first line, a human behind it for the first schools. No in-person onboarding in the base offer, but the free live session — the team runs one real class in a school — is the sales stunt.
+**Onboarding and support.** Each class spends one period on setup before its first real lesson — install, sign in with the school email, authorize the lock, teacher in the room. Teachers get a guided first lesson inside the product and finish holding a real lesson rather than having watched a video. Support is in-app help plus a direct one-tap channel to a human, a founder on WhatsApp for the first schools. No in-person onboarding in the base offer, but the free live session — the team runs one real class in a school — is the sales stunt.
 
 ### 2.5 What TeacherAid is not
 
-Not a learning management system: no homework, no grades, no content library in version one. Not a replacement for e-Дневник. Not a student tutor. Not in version one: parent app, Albanian-language UI, e-Дневник sync, primary-school mode. All are roadmap; none are promised on stage.
+Not a learning management system: no grades, no content library in version one. One exception, added 15 September: after a lesson the teacher can send an optional practice set assembled from the questions that class got wrong — voluntary, scores points, not set-and-marked homework, but still the app asking a student to do something outside the 45 minutes. The "we are only the lesson" line has to be said carefully now rather than absolutely. Not a replacement for e-Дневник, though after each lesson the app hands the teacher a copy-ready list of who was absent. Not a student tutor; there is no student-facing AI. Not in version one: universities, practical and лабораториска настава, a national leaderboard, streaks, an open chatbot, a timetable, a parent app, Albanian-language UI, e-Дневник sync, primary-school mode, co-teaching, self-serve data requests. All are roadmap; none are promised on stage.
 
 ### 2.6 User flows in brief
 
-- **Teacher, first time (10 min):** invite link → account (name, subjects, classes) → 90-second video → add one class. Students are added by scanning, never by typing a list.
-- **Teacher, every lesson:** Start → QR on the projector → Open when most are in → moderate the opener → teach and fire pop-ups → glance at the anonymous inbox → Review → End.
-- **Student, first time (2 min):** scan → install the app → name and class once → authorize focus mode once, with a one-sentence explanation and the note that turning it off is visible to the teacher.
-- **Student, every lesson:** scan → vote and reason → answer pop-ups → optionally ask anonymously → see points and rank.
+- **Teacher, first time (10 min):** invite from the school admin, who has already created the classes and rosters → account with email and password → a guided first lesson inside the product, ending with a lesson ready for tomorrow.
+- **Teacher, every lesson:** open the class view onto the projector and keep the private console on the laptop → Start → rotating QR → Open when most are in → moderate the opener → teach and fire pop-ups → glance at the anonymous inbox → Review → End (nothing closes by itself) → copy the absentee list into e-Дневник → optionally send a practice set.
+- **Student, first time — a setup period, whole class together:** install the app → sign in with the school email → authorize focus mode, which is how you join at all → teacher in the room fixing the phones that resist.
+- **Student, every lesson:** scan → vote and reason → answer pop-ups → optionally ask the teacher a question no classmate sees → see points and rank. Between lessons: their own points, rank, badges, answer history and any practice set.
 - **Headmaster, buying (one meeting):** a teacher who has seen or run a free live session brings TeacherAid in; a 20-minute meeting with the class flow, the sample report, the price and the free month; yes; the school admin receives invite links. The headmaster's involvement ends here. Every month: receives the PDF, forwards it.
 
 ## 3. The pedagogy behind it
@@ -135,9 +137,9 @@ Parents (informed by the school through a template notice; the objection to expe
 
 ## 5. Value propositions
 
-**Teacher — "One tool for the whole lesson, not five."** Today a keen teacher assembles a lesson from ChatGPT (plan), Kahoot (quiz), Mentimeter (poll), a paper list (attendance) and a hope (attention). TeacherAid is the five in one flow built around the 45-minute period. Plan in three sentences. Attention handled by the game, not by shouting. See what the class did not understand — wrong answers collected for the review, anonymous questions from the students who never raise a hand. Time saved is the weak claim; a class that behaves and a teacher who knows what landed is the strong one.
+**Teacher — "One tool for the whole lesson, not five."** Today a keen teacher assembles a lesson from ChatGPT (plan), Kahoot (quiz), Mentimeter (poll), a paper list (attendance) and a hope (attention). TeacherAid is the five in one flow built around the 45-minute period. Plan by picking today's unit from the e-учебник. Attention handled by the game, not by shouting. See what the class did not understand — wrong answers collected for the review, anonymous questions from the students who never raise a hand. Time saved is the weak claim; a class that behaves and a teacher who knows what landed is the strong one.
 
-**Student — "A class that starts with a question."** Predict first, learn second. Being wrong earns points for reasoning — the app is on the student's side. The phone is allowed, for once, and it is the game controller. Rank in class, in school, nationally. A private line to the teacher.
+**Student — "A class that starts with a question."** Predict first, learn second. Being wrong earns points for reasoning — the app is on the student's side. The phone is allowed, for once, and it is the game controller. Rank in the class and against the class next door, in semester seasons, with badges for what points cannot reward. A line to the teacher no classmate sees.
 
 **Headmaster — "Does nothing. Gets everything."** "AI in every classroom" as a sentence they can say to parents this year without a training day, an IT project or a login. A monthly one-page report written to be forwarded — the measurable version of praise. Risk-free: first month free, one flat fee covering the whole staff, nothing installed on school infrastructure, the school owns the data.
 
@@ -150,9 +152,9 @@ Version 1 was the handwritten poster from Saturday morning with revenue, costs a
 | Block | Content |
 |---|---|
 | **1. Customer segments** | Buyer: headmasters of private gymnasiums (beachhead), then public secondary via the municipality as payer. User: subject teachers, champions first. End user: students 15–18 on their own phones. Documented but out of the pitch: parents, МОН. |
-| **2. Value propositions** | Teacher: one tool for the whole lesson; plan in three sentences; attention handled by the game; anonymous questions. Student: a class that starts with a question; safe to be wrong; points and rank. Headmaster: AI in every classroom with nothing to learn; a monthly report to forward. Differentiator: MK curriculum and language, the 45-minute period as the unit, the headmaster gets a report not a login. |
+| **2. Value propositions** | Teacher: one tool for the whole lesson; plan by picking the unit from the e-учебник; attention handled by the game; questions from students who never raise a hand. Student: a class that starts with a question; safe to be wrong; points and rank. Headmaster: AI in every classroom with nothing to learn; a monthly report to forward. Differentiator: MK curriculum and language, the 45-minute period as the unit, the headmaster gets a report not a login. |
 | **3. Channels** | Teacher referral (bottom-up); direct outreach to private-school headmasters; the free live session in a school; education events and teacher social media; later, municipality introductions. |
-| **4. Customer relationships** | In-app tutorials and videos; in-app help and the teacher chatbot with a human behind it; the monthly report; the school-versus-school leaderboard as the retention hook. |
+| **4. Customer relationships** | A guided first lesson inside the product; in-app help with a one-tap channel to a human behind it; the monthly report; the school-versus-school leaderboard as the retention hook. |
 | **5. Revenue streams** | EUR 199 a month, flat per school (EUR 2,388/year), whole staff included, no seat count; invoiced yearly; first month free. Later: sponsorship (telecom or bank CSR), grants (EU, UNICEF, МОН programs), premium content packs. |
 | **6. Key resources** | The AI lesson engine and prompt library; the MK curriculum corpus (БРО programs, then teacher-edited lessons — the asset that compounds); the live-session engine including the native focus lock; the team; an advising teacher (missing); AI credits; the trust artefacts (ДПА template, privacy notice, sample report). |
 | **7. Key activities** | Build the planner, live session, dashboard and report; curate curriculum content per subject and year; sell to headmasters and run free live sessions; onboard and support teachers; run the leaderboard seasons; report monthly. |
@@ -346,10 +348,10 @@ Evaluation happens in a whole-school pilot month; the artefacts that close the s
 
 ### 11.2 Relationships
 
-- **Onboard:** because every teacher is on it from day one, not just volunteers, onboarding has to reach the whole staff at once — in-app tutorials, three short videos, a "first lesson in ten minutes" checklist, plus a single kickoff session with the whole staff in week one (the free live session, scaled up). The champion teacher is the in-building point of contact, not the only path in.
-- **Support:** in-app help and the teacher chatbot as first line; a founder on WhatsApp behind it for the first schools. Login at 08:05 is the moment that matters — magic links, no passwords to forget.
+- **Onboard:** because every teacher is on it from day one, not just volunteers, onboarding has to reach the whole staff at once — a guided first lesson inside the product that ends with a real lesson ready for tomorrow, plus a single kickoff session with the whole staff in week one (the free live session, scaled up). Every class also needs its own setup period before its first real lesson, because a student who has not authorized focus lock cannot join; that is a class-by-class cost, not a per-school one. The champion teacher is the in-building point of contact, not the only path in.
+- **Support:** in-app help as first line plus a direct one-tap channel to a human; a founder on WhatsApp for the first schools. Login at 08:05 is the moment that matters, and teachers sign in with an email and a password rather than a magic link — so make password reset fast and phone-friendly, and expect that call in week one of every school. Add one class-by-class cost: each class needs a setup period before its first real lesson, because a student who has not authorized focus lock cannot join.
 - **Retain:** teacher habit measured as lessons run per active teacher per week (intervene below two); the monthly report as the headmaster's reason to renew; the school-versus-school leaderboard as a small real switching cost; a renewal conversation built on the year in numbers and the teachers' own words.
-- **Signals of trouble:** a school where only the champion is active after month two; focus flags rising (students revoking the lock — the game stopped being worth it); anonymous questions at zero (students do not trust it).
+- **Signals of trouble:** a school where only the champion is active after month two; unauthorized students rising (revoking the lock now costs them the game entirely, so it is a louder signal than a focus flag ever was); questions to the teacher at zero (students do not trust it).
 
 ## 12. Partners, resources, activities
 
@@ -371,24 +373,24 @@ Partners reduce two risks: legitimacy (МОН, UKLO) and payment (municipality, 
 
 | Client | Form | Why |
 |---|---|---|
-| Student app | Native (Expo / React Native recommended, or Capacitor around web views) | Focus lock needs OS APIs a web app cannot touch; the QR deep-links into it |
-| Teacher app | Web (PWA, installable), phone-friendly | Planning at home on a laptop, running the class from a phone; no store review cycle |
-| Headmaster | Email (PDF report) | No login by design |
-| Projector view | Web page opened by the teacher | QR, live bars, reveal, leaderboard |
+| Student app | Native (Expo / React Native recommended, or Capacitor around web views) | Focus lock needs OS APIs a web app cannot touch; the QR deep-links into it. Authorization is mandatory to join, so every participant installs — no web fallback, no gradual adoption |
+| Teacher app | Web (PWA, installable), run from a laptop in class | Planning at home, running the class from the laptop; no store review cycle |
+| Headmaster | Email (PDF report) + a permanent private link to past reports | No login by design |
+| Class view | A second browser window the teacher opens onto the projector | QR, live bars, reveal, leaderboard — kept separate from the console so the anonymous inbox and named data are never projected |
 
 Backend: one Node/TypeScript service (Next.js API or a small Fastify app), Postgres, a managed realtime layer for the live session (Supabase Realtime, Ably, or a small Socket.IO process), object storage for uploaded plans. EU hosting.
 
 ### 13.2 Live session
 
-A session is one lesson with a state machine (lobby → opener → teaching → review → ended) and events: join, vote, reason, popup_open, answer, question_anon, focus_lost, focus_back, reveal, end. Scale per session is tiny (≤ 35 students); across sessions a 50-teacher school runs about 25 concurrently at 09:00 and a country a few thousand — any managed realtime service handles it. The server is the timer authority; clients render the countdown.
+A session is one lesson with a state machine (lobby → opener → teaching → review → ended) and events: join, vote, reason, popup_open, answer, question_anon, focus_lost, focus_back, reveal, skip_question, end. The teacher ends it; nothing auto-closes. Scale per session is tiny (≤ 35 students); across sessions a 50-teacher school runs about 25 concurrently at 09:00 and a country a few thousand — any managed realtime service handles it. The server is the timer authority; clients render the countdown, and durations are per question rather than one global setting. One lesson object can drive many sessions, so the same lesson runs for parallel classes with results kept separate.
 
 ### 13.3 AI
 
-One structured call per lesson: system prompt (role, format, Macedonian, the 45-minute frame) + БРО curriculum excerpt for the subject and year + the teacher's text or the relevant pages of the uploaded plan → JSON with opener, pop-ups (question, options, correct, explanation), timing and review summary, validated before saving. Prompt caching for the system prompt and curriculum. Curriculum: the БРО programs are public per subject and year — load once, chunk per unit, retrieve the unit the teacher picked; this is the moat in progress, a corpus of MK lessons and questions that improves with every teacher edit. Student names are never sent to the AI. Generated content is always reviewed by the teacher before students see it.
+One structured call per lesson: system prompt (role, format, Macedonian, the 45-minute frame) + БРО curriculum excerpt and the e-учебник unit for the subject and year + the teacher's optional sentence → JSON with opener, pop-ups (question, options or numeric tolerance, correct, explanation), per-question timers and review summary, validated before saving. Prompt caching for the system prompt and curriculum. Curriculum: the БРО programs are public per subject and year, and the e-учебници are pre-loaded and chunked per unit for the pilot subjects — load once, retrieve the unit the teacher picked; this is the moat in progress, a corpus of MK lessons and questions that improves with every teacher edit, seeded per school by the shared lesson library. **Rights to use the e-учебници are a blocking legal item with МОН/БРО.** Student names are never sent to the AI. Generated content is always reviewed by the teacher before students see it, which is why practice sets re-serve the lesson's own questions rather than generating new ones.
 
 ### 13.4 Data model, offline, the house stack
 
-Minimum tables: schools, users, classes, students, lessons (plan JSON), sessions, attendance, answers, reasons, anon_questions, focus_events, points_ledger, reports. Students use their own mobile data when school wifi fails; the teacher's plan is cached on the device, so a dead network degrades the lesson to verbal with points paused. The teacher web app follows the house defaults — Next.js, Tailwind, Postgres, PWA-first, security headers, mobile-first; the native student app is the one deliberate exception because of focus lock. Not decided: Expo vs Capacitor, the realtime vendor, where the monthly PDF is rendered.
+Minimum tables: schools, users, classes, students (with school email), lessons (plan JSON, unit reference), sessions, attendance (with absent_reason), answers, reasons, anon_questions (with sender id), focus_events, focus_authorizations, topic_results, practice_sets, practice_results, badges, points_ledger, lesson_library, staff_access_log, reports. Students use their own mobile data when school wifi fails, and phones queue answers locally and sync on reconnect so a dropout costs nobody their question; the console must distinguish offline from has-not-answered. The teacher's plan is cached on the device, so a dead network degrades the lesson to verbal with points paused. The teacher web app follows the house defaults — Next.js, Tailwind, Postgres, PWA-first, security headers, mobile-first; the native student app is the one deliberate exception because of focus lock. Not decided: Expo vs Capacitor, the realtime vendor, where the monthly PDF is rendered.
 
 ### 13.5 The demo prototype (built 12 September 2026)
 
@@ -403,15 +405,17 @@ A web app opened by QR — no install, no account — that runs the live opener 
 
 ## 14. Data and privacy
 
-**Stored (minimum viable):** student name and class; attendance per session; answers, points and reasons; anonymous questions (without student id); focus events; teacher lesson plans and uploads. Not stored: grades, student contact details, location, device identifiers beyond a push token, anything from other apps on the phone — focus lock never reads what the student does elsewhere; it only knows TeacherAid is not in the foreground.
+**Stored:** student name, class and school email; attendance per session; answers, points, response times and reasons; **per-topic correctness per student over time**; practice completion and scores; **anonymous questions with the sender's identity**; focus events and whether the lock is authorized; teacher lesson plans. Not stored: grades, student contact details beyond the school email, location, device identifiers beyond a push token, anything from other apps on the phone — focus lock never reads what the student does elsewhere; it only knows TeacherAid is not in the foreground.
+
+Two of those changed on 15 September and both need saying out loud rather than being discovered. **Anonymous questions are anonymous to classmates, not to the teacher** — the fear designed around is peer judgement, and a side effect is that there is no anonymous channel for abuse. **Per-topic correctness is assessment data about a minor**: TeacherAid still does not grade anyone, but it now holds the data a grade could be built from, and that distinction has to be made deliberately. Each needs its own ДПА clause and its own line in the parent notice.
 
 **Legal structure.** The school is the data controller (it already processes attendance and participation under its legal mandate); TeacherAid is the processor under a data processing agreement (ДПА) with each school — the standard edtech structure that lets a school adopt the tool without a parental-consent campaign for the core data. Law: Закон за заштита на личните податоци (ЗЗЛП, 2020), GDPR-aligned — lawful basis, minimization, retention limits, breach notification. Verify the exact age of digital consent in ЗЗЛП before launch (GDPR default 16; member states may lower to 13). Parents are informed by the school through a one-page notice; a consent template is provided for schools that want explicit consent. Leaderboards outside the class use nicknames by default; the school chooses.
 
 **Retention.** Session data: current school year plus one, then aggregated and deleted. Monthly reports kept (aggregate, no names). A student who leaves the school: deleted within 30 days on the school's request.
 
-**Security.** EU hosting, encryption in transit and at rest, role-based access (a teacher sees only their classes), no TeacherAid staff access to student data without a ticket and a log; student names never reach the AI provider.
+**Security.** EU hosting, encryption in transit and at rest, role-based access (a teacher sees only their classes; the school admin sees setup and school-wide usage, never an individual student's answers); student names never reach the AI provider. **TeacherAid staff have no standing access to any school's data** — access is granted per support incident, is time-limited and expires, is written to an audit log, and the school admin can see every occurrence. Data subject requests are handled manually by support on the school's written request, which means the ЗЗЛП clock depends on a person being available.
 
-**The parent answer in one breath.** "The school owns the data, we process it under contract, we store the minimum — name, attendance, points — nothing from the rest of the phone, and we delete it when the student leaves. The teacher decides when phones are used, exactly as the Minister said in May."
+**The parent answer in one breath.** "The school owns the data, we process it under contract, and we store what the lesson produces — who was there, what they answered, which topics they are getting wrong — and nothing from the rest of the phone. Questions a student sends go to their teacher, not to the class. We delete it when the student leaves. The teacher decides when phones are used, exactly as the Minister said in May."
 
 ## 15. Brand
 
@@ -427,7 +431,7 @@ A web app opened by QR — no install, no account — that runs the live opener 
 
 Decide after the weekend. Checklist: domain (.mk and .com or .app), no existing edtech product with the name in the region, trademark search at ДЗИС, says well in Macedonian and English, works as an app icon.
 
-**Mascot (concept only): Zvonko** — a small school bell with a face, named after the common name meaning "the one who rings". The teacher chatbot's persona; the little character on student screens that rings for a pop-up, shrugs at a wrong answer and jumps at a streak, never shaming; the mark on the QR screen and the report footer. Flat, two-colour, rounded, readable at 24 px and at two metres.
+**Mascot (concept only): Zvonko** — a small school bell with a face, named after the common name meaning "the one who rings". The little character on student screens that rings for a pop-up, shrugs at a wrong answer and jumps at a streak, never shaming; the mark on the QR screen and the report footer. Flat, two-colour, rounded, readable at 24 px and at two metres.
 
 **Messaging.** The vision line: "Every class starts with a question." Judges: "We turn the most boring 45 minutes of a teenager's day into the one they don't want to miss." Teacher: "Three sentences in. A whole lesson out. And the phones work for you." Student: "Guess first. Being wrong scores." Headmaster: "Does nothing. Gets everything." Against alternatives: "One tool for the whole lesson, not five." Humor beats, one per minute at most and never at a teacher's expense: "Nobody checked Instagram"; "The teacher has a textbook. The students have phones. The headmaster has a speech about digitalization"; "The headmaster's favourite feature is that there isn't one." Words to avoid: revolutionize, disrupt, empower, gamify, AI-powered as a value, platform, ecosystem, solution, "we will change education".
 
@@ -437,7 +441,7 @@ Decide after the weekend. Checklist: domain (.mk and .com or .app), no existing 
 |---|---|---|---|---|
 | 1 | A private-school headmaster will pay EUR 199/month flat for the whole staff | One verbal yes | Ask the warm contact this week; ask the education mentor if the number is sane | Open |
 | 1b | A large school stays profitable at the flat fee — AI cost could exceed EUR 2,388/year revenue if usage is heavy | Measured AI cost per school after 100+ lessons | Instrument from day one; add a size tier if the data says so | New |
-| 2 | Teachers will type three sentences or upload a plan before class | 3 of 5 interviewed teachers say it is less than they do now | Every teacher conversation, logged | Partly — teachers interviewed, quotes to log |
+| 2 | Teachers will pick the unit from the e-учебник before class (or type three sentences) | 3 of 5 interviewed teachers say it is less than they do now | Every teacher conversation, logged | Partly — teachers interviewed, quotes to log |
 | 3 | Students will authorize focus lock on their own phones | ≥ 70% authorize in week one of the pilot | Pilot class | Untested |
 | 4 | Focus lock is deliverable on iOS and Android | Working build; Apple entitlement granted | Build after the weekend; start the entitlement request early, it takes weeks | Mechanism documented, untested |
 | 5 | No national phone ban arrives for secondary schools | МОН statements | Monitor; build the МОН relationship | Currently favorable (May 2026) |
@@ -451,7 +455,7 @@ Decide after the weekend. Checklist: domain (.mk and .com or .app), no existing 
 | 13 | Curipod does not localize to Macedonian before we have 20 schools | Their language list | Quarterly check | Open |
 | 14 | A teacher on the team or advising by end of September | A named person | UKLO, the mentor, the interviewed teachers | Open |
 
-Risks that will happen regardless: the veteran teacher who refuses (the flat whole-staff fee means the school pays regardless, so nobody has to opt in — the veteran just comes around slower); points gaming (speed bonus, per-device sessions, and teacher discretion on grades removes the stakes); support at 08:05 (magic links, champion teacher as first line); a data incident (minimal data and controller/processor structure keep the blast radius to names and points); a small market (MK is the proving ground; every neighbor has one national curriculum).
+Risks that will happen regardless: the veteran teacher who refuses (the flat whole-staff fee means the school pays regardless, so nobody has to opt in — the veteran just comes around slower); points gaming (speed bonus, per-device sessions, and teacher discretion on grades removes the stakes); support at 08:05 (password resets, champion teacher as first line); a data incident (minimal data and controller/processor structure keep the blast radius to names and points); a small market (MK is the proving ground; every neighbor has one national curriculum).
 
 ## 17. Startup Weekend Bitola — the pitch
 
