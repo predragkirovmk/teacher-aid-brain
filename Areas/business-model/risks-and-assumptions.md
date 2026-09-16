@@ -19,7 +19,7 @@ how much damage being wrong does.
 | 0f | **Apple grants the Family Controls entitlement in time.** Without it there are no iOS students at all | Entitlement granted | Start the request immediately — it takes weeks | Dev | **New — flagged 15 Sep** |
 | 1 | A private-school headmaster will pay EUR 199 / month flat for the whole staff | One verbal yes | Call the warm contact. The Startup Weekend mentor route is gone with the weekend — find a second opinion through UKLO or an interviewed teacher | Presenter | Open since 12 Sep |
 | 1b | A large school (~80+ teachers) stays profitable at the flat fee — AI cost could exceed EUR 2,388/year revenue if usage is heavy | Measured AI cost per school after 100+ lessons | Instrument from day one; add a size tier if the data says so | Dev | New — flagged 13 Sep |
-| 2 | Teachers will pick the unit from the e-учебник before class (typing three sentences is the fallback) | 3 of 5 interviewed teachers say "yes, that's less than I do now" | Ask in every teacher conversation; log in [[validation-log]] | Team | Partly: teachers interviewed, quotes to log |
+| 2 | Teachers will pick the unit from the e-учебник before class (typing three sentences is the fallback) | 3 of 5 interviewed teachers say "yes, that's less than I do now" | Ask in every teacher conversation and update this row the same day | Team | **Unvalidated.** Teachers were interviewed 12 Sep and the quotes were never written down; that log was removed 16 Sep. Start again |
 | 3 | Students will authorize focus lock on their own phones. Stakes are higher than they were: a student who does not authorize cannot play or score at all | Pilot: ≥ 90% authorize in the setup period | Pilot class | Team | Untested |
 | 4 | Focus lock is technically deliverable on iOS and Android | Working build using Screen Time API / usage access; Apple entitlement granted | Build after the weekend; Apple entitlement request takes weeks — start early | Dev | Untested; mechanism documented in [[technical-architecture]] |
 | 5 | No national phone ban arrives for secondary schools | МОН statements; the May 2026 line is "teacher decides" | Monitor; build the relationship with МОН | Presenter | Currently favorable — see [[macedonian-education-system#Phone policy]] |
@@ -60,4 +60,4 @@ how much damage being wrong does.
 ## Related
 
 [[feature-spec-v1]] — rows 0–0f come from its section 14 ·
-[[business-model-canvas]] · [[qa-prep]] · [[validation-log]] · [[data-and-privacy]]
+[[business-model-canvas]] · [[objections]] · [[data-and-privacy]] · [[build-v1]]

@@ -48,9 +48,10 @@ unverified — do not put a faculty count on a slide without checking it first.
 
 ## TAM / SAM / SOM at EUR 199 / month flat per institution (EUR 2,388/year)
 
-**Updated 13 Sep 2026 (final): TAM and SAM are genuinely different tiers again.** Clients
-today are secondary schools and universities; primary schools are not a client, but they
-are real and belong in the ceiling, not erased from the picture.
+**Updated 16 Sep 2026: TAM and SAM are genuinely different tiers, and so is what v1 serves.**
+The addressable market is secondary schools plus universities; **v1 serves the secondary
+schools only**. Primary schools and universities are both real and both belong in the
+picture — neither is erased, neither is sold to today.
 
 | | Institutions | ARR | What it is |
 |---|---|---|---|
@@ -94,8 +95,8 @@ country is a live target immediately, not something reached only after "finishin
   separate municipal markets.
 - Small enough to reach every headmaster in the country in person within a year — that is
   the argument *for* going national immediately, not for staying local.
-- Judges will not believe a global TAM; they will believe "every gymnasium and university
-  in the country within three years."
+- Judges will not believe a global TAM; they will believe "every gymnasium in the country
+  within three years."
 
 ## The answer to "and then?"
 

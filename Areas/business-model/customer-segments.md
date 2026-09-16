@@ -37,7 +37,8 @@ pays is not the person who uses it, and the person who benefits most cannot buy 
 - The **majority**: 20+ years in, competent, tired of new platforms that add work. Wins
   them only if the first lesson takes less than 10 minutes to set up and the class visibly
   behaves better. Loses them at the first login problem.
-- Pain, in their words (to be replaced by real quotes from [[validation-log]]): planning
+- Pain, in their words (still paraphrase — real quotes were never captured, see
+  [[risks-and-assumptions]] row 2): planning
   time at night, phones under desks, the same five students answering, no idea what the
   quiet ones did not understand.
 

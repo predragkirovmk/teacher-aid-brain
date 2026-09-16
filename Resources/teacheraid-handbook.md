@@ -421,7 +421,7 @@ Two of those changed on 15 September and both need saying out loud rather than b
 
 ## 15. Brand
 
-**Working name: TeacherAid.** Used everywhere this weekend. Weaknesses: generic and descriptive, "teacher's aide" is a job title, "aid" reads as first aid or charity, it names the teacher although the loudest channel is students and the buyer is the headmaster, and it says nothing about the lesson, the game or Macedonia. It is fine for Sunday because judges understand it instantly.
+**Working name: TeacherAid.** Used everywhere; still undecided as of 16 Sep 2026. Weaknesses: generic and descriptive, "teacher's aide" is a job title, "aid" reads as first aid or charity, it names the teacher although the loudest channel is students and the buyer is the headmaster, and it says nothing about the lesson, the game or Macedonia. It is fine for Sunday because judges understand it instantly.
 
 | Alternative | Meaning | For | Against |
 |---|---|---|---|
@@ -505,11 +505,11 @@ Headmaster call (ten minutes, one quotable sentence); log tonight's teacher quot
 - **October–December 2026:** first private school on the free month; the AI planner generating real Macedonian lessons inside the БРО programs for one subject; the native student app with focus lock in a test build; the first monthly report sent; one free live session in a Bitola public school; the ДПА and privacy notice with a lawyer.
 - **Year 1 (school year 2026/27):** three private schools and two public pilots, about 250 seats, about EUR 15,000 ARR; the municipality conversation; a grant or sponsorship application; e-Дневник sync scoped with МОН.
 - **Year 2:** fifteen schools, about 750 seats; Albanian-language UI if a school needs it; premium content packs from the corpus; the first neighboring-country pilot only if a partner brings it.
-- **Year 3:** 45 institutions nationally — 40 schools plus 5 college faculties, sold across the country rather than city-by-city — about EUR 107,500 ARR, roughly a third of the real serviceable market (secondary schools + universities); break-even needs more than this alone, see [[cost-structure]].
+- **Year 3:** 40 secondary schools nationally, sold across the country rather than city-by-city — about EUR 95,500 ARR, a bit over a quarter of the addressable market. College faculties are not counted: the v1 product does not serve a university (see 2.5), and they return to the target only if that shape is built. Break-even needs more than this alone, see [[cost-structure]].
 
 ## 19. Team and open roles
 
-Four or more people this weekend; the presenter (pitch, deck, script) presents alone; the demo prototype is built. Roles to name in the deck: product and pitch, engineering, sales and school relationships, content and pedagogy. Missing today and to be filled first: a teacher on or advising the team (every claim about classrooms needs one person who has stood in front of thirty 16-year-olds), and a mobile developer for the focus lock. Runway is undecided; the first paid role is the mobile developer.
+Four or more people at Startup Weekend; the presenter (pitch, deck, script) presented alone; the demo prototype is built. Roles to name in the deck: product and pitch, engineering, sales and school relationships, content and pedagogy. Missing today and to be filled first: a teacher on or advising the team (every claim about classrooms needs one person who has stood in front of thirty 16-year-olds), and a mobile developer for the focus lock. Runway is undecided; the first paid role is the mobile developer.
 
 ## 20. Glossary
 
