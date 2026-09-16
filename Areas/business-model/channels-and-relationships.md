@@ -1,8 +1,8 @@
 ---
 created: 2026-09-12
-updated: 2026-09-13
+updated: 2026-09-15
 type: area
-status: draft — GTM motion revised for flat per-school pricing
+status: draft — GTM motion revised for flat per-school pricing; onboarding and support updated against feature-spec-v1
 ---
 
 # Channels and customer relationships
@@ -18,8 +18,8 @@ commits the entire staff in one meeting, not one teacher trying it first. Decide
    sample in hand. This is now the primary close — the sale is "your whole staff, one flat
    fee," which needs the headmaster's direct yes, not organic spread from one teacher.
    **Macedonia first, not Bitola first:** the team is based in Bitola, but every private
-   gymnasium and university in the country is a live target from month one, wherever it is
-   — Skopje, Bitola, or elsewhere.
+   gymnasium in the country is a live target from month one, wherever it is — Skopje,
+   Bitola, or elsewhere. (Universities are out of v1; see [[feature-spec-v1]] 2.)
 2. **Teacher referral as the door-opener, not the close.** A teacher who's excited about it
    still gets you the meeting and vouches for it inside the building — but the deal itself
    is whole-school from day one, not "let me try it first." The champion's job shifted from
@@ -51,10 +51,14 @@ across the actual staff**, not just one teacher's results.
 ### Onboard
 - Because every teacher is on it from day one — not just volunteers — onboarding has to
   reach the **whole staff at once**, not spread organically from one champion.
-- In-app tutorials, three short videos (teacher first lesson, student first scan, focus
-  lock explained), a "first lesson in 10 minutes" checklist, **plus a single kickoff
-  session with the whole staff** in the first week (the free live session, scaled from one
-  class to the staff meeting).
+- Teachers get a **guided first lesson inside the product**: they finish holding a real
+  lesson ready for tomorrow, not having watched a video. Backed by a single kickoff session
+  with the whole staff in the first week (the free live session, scaled from one class to
+  the staff meeting).
+- **Every class also needs a setup period** before its first real lesson — install,
+  school-email sign-in, focus-lock authorization, teacher in the room. A student who has not
+  authorized cannot join. This is a class-by-class cost, not a per-school one, and it is the
+  single most underestimated line in the rollout.
 - The champion teacher is still valuable — as the in-building point of contact for
   colleagues who are slower to adopt — but is no longer the *only* onboarding path.
 
@@ -66,9 +70,6 @@ across the actual staff**, not just one teacher's results.
   password** ([[feature-spec-v1]] 3.1), not a magic link. That choice guarantees the
   forgotten-password call this note has always warned about: make password reset fast and
   phone-friendly, and expect it in week one of every school.
-- **Add one more first-week job:** each class needs a setup period before its first real
-  lesson — install, school-email sign-in, focus-lock authorization — because a student who
-  has not authorized cannot join. That is a class-by-class cost, not a per-school one.
 - **Bigger surface area now:** support has to work for a teacher who never asked for this,
   not only for a volunteer who opted in. Expect more first-week friction per school than
   the old bottom-up model — budget for it in the first pilots.
@@ -77,7 +78,8 @@ across the actual staff**, not just one teacher's results.
 - **Teacher habit**, but now measured across the whole staff, not just the champions.
   Measure: lessons run per active teacher per week, **and the spread — how many teachers
   are using it at all**, not just the average. A school where only 2 of 50 teachers use it
-  after month 2 is a renewal risk even if those 2 love it.
+  after month 2 is a renewal risk even if those 2 love it. In a technical school, measure
+  per *theory* period: practical lessons are out of v1 and would otherwise halve the number.
 - **The monthly report.** The headmaster's reason to renew arrives every month without
   anyone asking.
 - **School-vs-school leaderboard.** Now real from day one — every class in the building is
@@ -88,9 +90,12 @@ across the actual staff**, not just one teacher's results.
 ### Signals of trouble
 - **Adoption stalls below, say, 30% of staff actively using it** after month 2 — the
   clearest sign the whole-staff rollout didn't take, and the flat fee is buying apathy.
-- Focus flags rising (students revoking the lock) — the game stopped being worth it.
-- Anonymous questions at zero — the students do not trust it.
+- **Students dropping out of focus lock.** Revoking now costs them the game entirely, so a
+  rising count of unauthorized students is a louder signal than a focus flag ever was: the
+  lesson stopped being worth the permission.
+- Questions to the teacher at zero — the students do not trust it.
 
 ## Related
 
-[[customer-segments]] · [[value-propositions]] · [[revenue-and-pricing]] · [[messaging]]
+[[feature-spec-v1]] · [[customer-segments]] · [[value-propositions]] ·
+[[revenue-and-pricing]] · [[messaging]]

@@ -44,30 +44,36 @@ This is the claim most likely to be challenged. The answer:
   setting is the incident that reaches a parent and ends a pilot.
 - This replaces the earlier "not blocked, only flagged" design. It is a harder thing to
   justify to a parent, and the fallback above is what makes it justifiable.
+- The distraction list ships as a TeacherAid default that the school admin can adjust once,
+  school-wide. Per-teacher lists were rejected: students compare rules between teachers.
 - **School-owned devices** (if a school has them): Android Enterprise lock-task (kiosk) mode
   or iOS Guided Access / MDM make it absolute. Not the primary path (BYOD is).
 
 ## Live session
 
 - Session = one lesson: `session_id`, class, teacher, state machine
-  (`lobby → opener → teaching → review → ended`).
+  (`lobby → opener → teaching → review → ended`). The teacher ends it; nothing auto-closes.
 - Events: `join`, `vote`, `reason`, `popup_open`, `answer`, `question_anon`, `focus_lost`,
-  `focus_back`, `reveal`, `end`.
+  `focus_back`, `reveal`, `skip_question`, `end`.
 - Scale per session is tiny (≤ 35 students). Scale across sessions: a school of 50 teachers
   runs ~25 sessions concurrently at 09:00. A country: a few thousand. Any managed realtime
   service handles this.
-- Timer authority is the server (10–30 s pop-ups); clients render the countdown.
+- Timer authority is the server; clients render the countdown. Durations are per question,
+  suggested by the generator and overridable by the teacher before the lesson runs.
+- One lesson object can drive many sessions — the same lesson run for parallel classes, with
+  attendance, answers and points kept separate per session.
 
 ## AI
 
 - **Recommendation: Claude Sonnet 5** for lesson generation (Macedonian quality, instruction
   following) with **prompt caching** of the system prompt + curriculum excerpt; **Claude
-  Haiku 4.5** for cheap ad-hoc pop-ups and chatbot small talk. Cost math in
-  [[cost-structure#AI inference]].
+  Haiku 4.5** for the cheap calls — ad-hoc pop-ups, the one-tap refinements, and clustering
+  the one-line reasons into themes. Cost math in [[cost-structure#AI inference]].
 - Generation is one structured call: input = system prompt (role, format, Macedonian, the
-  45-minute frame) + БРО curriculum excerpt for the subject/grade + teacher's text or the
-  uploaded plan's relevant pages; output = JSON with opener, pop-ups (question, options,
-  correct, explanation), timing, review summary. Structured output, validated before saving.
+  45-minute frame) + БРО curriculum excerpt and the e-учебник unit for the subject/grade +
+  the teacher's optional sentence; output = JSON with opener, pop-ups (question, options or
+  numeric tolerance, correct, explanation), per-question timers, review summary. Structured
+  output, validated before saving.
 - Curriculum: the БРО programs are public documents per subject and year. Load once, chunk
   per unit, retrieve the unit the teacher picked.
 - **e-учебници.** The national digital textbooks are pre-loaded and chunked per unit for the
@@ -78,14 +84,18 @@ This is the claim most likely to be challenged. The answer:
 - Together these are the moat-in-progress: a corpus of MK lessons and questions that improves
   with every edit teachers make, seeded per school by the shared lesson library.
 - Safety: teacher-only exposure; generated content is always reviewed by the teacher before
-  students see it. No student-facing generation in v1.
+  students see it. No student-facing generation in v1. Practice sets are re-served questions
+  from the lesson, not newly generated ones, for exactly this reason.
 
 ## Data model (minimum)
 
-`schools`, `users` (teacher/admin), `classes`, `students` (name, class), `lessons` (plan JSON,
-date, teacher, class), `sessions`, `attendance` (student, session, joined_at),
-`answers` (student, question, choice, correct, ms), `reasons`, `anon_questions`,
-`focus_events`, `points_ledger`, `reports` (monthly PDF per school).
+`schools`, `users` (teacher/admin), `classes`, `students` (name, class, school email),
+`lessons` (plan JSON, unit reference, teacher), `sessions` (lesson, class, state),
+`attendance` (student, session, joined_at, absent_reason), `answers` (student, question,
+response, correct, ms), `reasons`, `anon_questions` (with sender id), `focus_events`,
+`focus_authorizations`, `topic_results` (student, topic, correct/total), `practice_sets`,
+`practice_results`, `badges`, `points_ledger`, `lesson_library` (school-scoped),
+`staff_access_log`, `reports` (monthly PDF per school).
 
 ## Offline and bad network
 

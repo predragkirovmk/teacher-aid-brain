@@ -53,9 +53,9 @@ foreground".
 - Parents are informed by the school through the usual channel (a one-page notice). Where a
   school wants explicit consent — private schools often will — a consent form template is
   provided.
-- The **leaderboard** is the sensitive bit: public ranking of minors. Default to nicknames
-  on school and national boards; real names only inside the class view. Let the school
-  choose.
+- The **leaderboard** is the sensitive bit: ranking of minors. Default to nicknames on the
+  school board; real names only inside the class view. Let the school choose. There is no
+  national board in v1.
 
 ## Retention
 

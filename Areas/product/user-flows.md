@@ -78,13 +78,13 @@ explained, not demonstrated. See [[prototype]].
 
 ### Buying (private school, target: one meeting)
 1. A teacher who has seen or run a free live session brings TeacherAid to the headmaster.
-2. 20-minute meeting: the class flow, the monthly report sample, the price per teacher, the
-   free first month.
+2. 20-minute meeting: the class flow, the monthly report sample, the price, the free first
+   month.
 3. Headmaster says yes; the school admin receives the invite links. The headmaster's
    involvement ends here.
 
 ### Every month
-1. Receives the one-page report by email as PDF.
+1. Receives the one-page report by email as PDF, with a permanent private link to past ones.
 2. Forwards it. That is the whole flow.
 
 ### Renewal (month 12)
@@ -93,4 +93,5 @@ explained, not demonstrated. See [[prototype]].
 
 ## Related
 
-[[product-overview]] · [[features]] · [[prototype]] · [[customer-segments]]
+[[feature-spec-v1]] · [[product-overview]] · [[features]] · [[prototype]] ·
+[[customer-segments]]

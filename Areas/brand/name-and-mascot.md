@@ -41,7 +41,7 @@ Concept: **Zvonko** — a small school bell with a face, named after the common 
   v1 — see [[feature-spec-v1]] 4.6 — so the persona attaches to the buttons, not a
   conversation.
 - The little character on student screens: rings for a pop-up, shrugs at a wrong answer,
-  jumps at a streak. Never shames — the app is on the student's side.
+  celebrates a badge. Never shames — the app is on the student's side.
 - The mark on the QR screen and the monthly report footer.
 
 Design direction (when there is time): flat, two-colour, rounded, readable at 24 px on a
@@ -61,4 +61,4 @@ product.
 
 ## Related
 
-[[messaging]] · [[features#Teacher planning with AI]] · [[pitch-script]]
+[[messaging]] · [[feature-spec-v1]] · [[features#Teacher planning with AI]] · [[pitch-script]]

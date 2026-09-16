@@ -1,8 +1,8 @@
 ---
 created: 2026-09-12
 type: prep
-status: v2 — pricing updated to flat EUR 199/month per school (13 Sep); add real questions
-  from the mentor session and rehearsal
+status: v3 — pricing flat EUR 199/month per school (13 Sep); answers 2, 8, 9 and 17 rewritten
+  against feature-spec-v1 (15 Sep)
 ---
 
 # Q&A prep — five minutes of judges
@@ -111,9 +111,10 @@ wait for that to happen.
 
 ## 12. "Does it work when the school wifi is down?"
 
-Students use their own mobile data — the messages are tiny. The teacher's plan is on their
-device; if everything dies the lesson runs out loud and points pause. We'll test it in a
-concrete-walled Bitola school in the free live session.
+Students use their own mobile data — the messages are tiny, and a phone that drops out
+queues the answer and syncs it when it's back, so nobody loses a question to the network.
+The teacher's plan is on their device; if everything dies the lesson runs out loud and
+points pause. We'll test it in a concrete-walled Bitola school in the free live session.
 
 ## 13. "Why not price per teacher instead of a flat fee? Doesn't that cap you at big schools?"
 
@@ -170,5 +171,6 @@ harder things.
 
 ## Related
 
-[[pitch-script]] · [[competitors]] · [[data-and-privacy]] · [[technical-architecture]] ·
-[[revenue-and-pricing]] · [[macedonian-education-system]] · [[validation-log]]
+[[feature-spec-v1]] · [[pitch-script]] · [[competitors]] · [[data-and-privacy]] ·
+[[technical-architecture]] · [[revenue-and-pricing]] · [[macedonian-education-system]] ·
+[[validation-log]]
