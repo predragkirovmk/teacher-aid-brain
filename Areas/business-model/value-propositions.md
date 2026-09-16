@@ -39,12 +39,8 @@ the proof.
   training day, an IT project, or a login.
 - A **monthly one-page report** (lessons run, attendance, engagement, top classes) written
   to be forwarded, with a private second page carrying the comparison against other schools.
-- Risk-free: first month free, per-seat pricing, nothing installed on school infrastructure,
-  the school owns the data.
-
-> **Stale (flagged 15 Sep):** "per-seat pricing" above predates the 13 Sep switch to a flat
-> per-school fee. Left as-is because pricing is being reconsidered; fix it when the new model
-> lands. See [[revenue-and-pricing]].
+- Risk-free: first month free, one flat fee covering the whole staff, nothing installed on
+  school infrastructure, the school owns the data.
 
 ## Why TeacherAid and not the alternatives
 

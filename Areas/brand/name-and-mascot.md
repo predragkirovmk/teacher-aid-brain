@@ -8,9 +8,9 @@ status: working name TeacherAid; team is open to a better one
 
 ## Working name: TeacherAid
 
-Used everywhere this weekend — docs, prototype, script. Do not change it on Saturday night
-unless deck, prototype and script are all updated together (the prototype name is one
-variable in `content/opener.json`).
+Used everywhere — docs, prototype, the pitch script. The name is still undecided as of
+16 September 2026. Do not change it piecemeal: the deck, the prototype and every note move
+together, and the prototype name is one variable in `content/opener.json`.
 
 Why it is not great:
 - Generic and descriptive; "teacher's aide" is a job title; hard to own as a mark.
