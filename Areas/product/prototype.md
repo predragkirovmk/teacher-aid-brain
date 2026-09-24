@@ -34,7 +34,8 @@ will have.
 - Join (the QR points here): https://teacher-aid-bitola.vercel.app/j/BITOLA — short form to say out loud:
   **teacher-aid-bitola.vercel.app/j/BITOLA**
 - Print sheet: https://teacher-aid-bitola.vercel.app/print
-- Landing with all links: https://teacher-aid-bitola.vercel.app
+- Landing with all links: https://teacher-aid-bitola.vercel.app/demo (moved 24 Sep 2026; the
+  root now serves the website, see [[2026-09-24]])
 - Repo: github.com/predragkirovmk/teacher-aid-app (private) — pushes to `main` deploy
   automatically; Vercel project `teacher-aid`, Upstash Redis `teacher-aid-redis` attached.
 - Host key: `bitola` (default; set `HOST_KEY` in Vercel to change, then open
