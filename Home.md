@@ -32,7 +32,7 @@ Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 ## The market
 
 - [[macedonian-education-system]] — who decides, who pays, the phone policy, sources
-- [[market-size]] — SSO 2024/25 numbers, TAM/SAM/SOM
+- [[market-size]] — TAM/SAM/SOM: Global / Europe / Macedonia at EUR 9/student/year
 - [[competitors]] — Curipod, Kahoot, MagicSchool, Teams, EDUINO — and why us
 
 ## Brand

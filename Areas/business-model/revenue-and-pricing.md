@@ -1,10 +1,17 @@
 ---
 created: 2026-09-12
-updated: 2026-09-13
+updated: 2026-09-28
 status: proposal — price not yet validated with a single headmaster
 ---
 
 # Revenue and pricing
+
+> **Update 28 Sep 2026: the deck now prices per student.** The Canva deck (slide 28) says
+> "9 euro per student", confirmed as **EUR 9 per student per year**. The market size is now
+> computed at that price: see [[market-size]] and the Market math section below. The rest
+> of this note still describes the 13 Sep flat EUR 199/month model, including the margin
+> table and the sample P&L. It needs a redo at the per-student price; that is an open loop
+> in [[2026-09-28]].
 
 ## The model (decided): flat per school, whole staff included
 
@@ -59,42 +66,33 @@ could run at a loss if every teacher uses it heavily. Watch this in the pilot; a
 | Support time (10 h × 15) | −150 |
 | **Contribution** | **~988** |
 
-## Market math (North Macedonia, every level, sold nationally — updated 13 Sep, final)
+## Market math (updated 28 Sep: Global / Europe / Macedonia at EUR 9 per student per year)
 
-Figures from the State Statistical Office, start of 2024/25 (higher ed 2023-25), in
-[[market-size]]. Revenue is **per institution**, flat, regardless of type or size. Sold
-**nationally from day one — not city-by-city.**
+Upper-secondary + university enrolment × EUR 9. Sources and the country-by-country
+breakdown are in [[market-size]].
 
-| | Institutions | ARR at EUR 2,388/institution | Tier |
+| | Geography | Students | ARR |
 |---|---|---|---|
-| Secondary schools | 128 | ~EUR 306,000 | SAM |
-| Universities | 15 | ~EUR 35,800 | SAM |
-| **SAM — secondary + universities, today's real market** | **143** | **~EUR 341,500 / year** | |
-| Primary schools (future, not a client today) | 943 | ~EUR 2.25 M | TAM only |
-| **TAM — every school and college in MK** | **1,086** | **~EUR 2.6 M / year** | |
+| **TAM** | Global | ~553 M | **~EUR 5.0 B / year** |
+| **SAM** | Europe (EU-27, UK, CH, NO, IS, Western Balkans) | ~46.7 M | **~EUR 420 M / year** |
+| **SOM** | North Macedonia | ~124,400 | **~EUR 1.1 M / year** |
 
-TAM narrows to SAM on a genuine product-fit filter — primary-age students don't fit the
-opener's debate/prediction format the way secondary and university students do — not a
-pricing narrowing. See
-[[market-size#TAM / SAM / SOM at EUR 199 / month flat per institution (EUR 2,388/year)]].
+Year-3 target: about a third of the SOM, ~41,000 students, **~EUR 370k a year**. That is
+the "a third of the country in three years" ambition from the 13 Sep plan, restated per
+student. It is an estimate.
 
-Obtainable, honestly (SOM — sold nationally, not sequenced through one city):
+At EUR 9 per student, the average MK secondary school (~525 students) pays ~EUR 4,700 a
+year. That is about double the old EUR 2,388 flat fee. Revenue now grows with school size,
+and so does AI cost, so the flat model's large-school margin problem (see the table above)
+mostly goes away. The table still needs recomputing at the new price.
 
-| | Institutions | ARR |
-|---|---|---|
-| Year 1 (2026/27) | 5 (3 private + 2 public school pilots, anywhere in the country) | **~EUR 12,000** |
-| Year 2 | 15 schools nationally | **~EUR 36,000** |
-| Year 3 | 40 schools + 5 college faculties, nationally | **~EUR 107,500** (~31% of SAM) |
+Superseded 13 Sep figures, which were MK only at EUR 2,388 per institution: TAM 1,086
+institutions, ~EUR 2.6 M; SAM 143, ~EUR 341,500; year-3 SOM 45, ~EUR 107,500. Kept in
+[[market-size]].
 
-Note: flat per-institution pricing is a **lower ceiling** than a per-seat model would give
-at the same institution count, because it's deliberately cheap for a large staff. That's
-the trade for a simpler, faster, whole-institution sale — say so plainly if a judge asks
-"why not price per teacher."
-
-Say the small number on stage. Judges know the country is small; pretending otherwise
-costs credibility. The upside line for Q&A: the same product works in any country with one
-national curriculum — Serbia, Bosnia, Albania, Kosovo are next, and they are 10× the
-schools. (Market scope for the pitch stays MK.)
+Say the small number on stage. The global TAM is the ceiling, not the claim. The first step
+outside MK is the Western Balkans (Serbia, Albania, Bosnia and Herzegovina, Montenegro): ~917,000
+students, ~EUR 8.3 M a year, about 7× Macedonia.
 
 ## Secondary revenue (decided to explore, not in year 1 numbers)
 
