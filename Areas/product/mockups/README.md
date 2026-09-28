@@ -14,6 +14,9 @@ edit the HTML and re-render with headless Chrome to change anything.
 - `mock-dashboard.png` — teacher dashboard, live at minute 22.
 - `teacheraid-vs-competitors.png` — five-feature comparison vs Kahoot and Curipod.
 - `tam-sam-som-concentric.png` / `tam-sam-som-actual-pie.png` — market-size slides.
+  **Outdated since 28 Sep 2026.** These show the MK-only, EUR 199/month figures. The
+  current market slide is in Canva ("teacher aid — app mockups", slide 27): Global /
+  Europe / Macedonia at EUR 9 per student per year. See [[market-size]].
 
 Re-render: `"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new
 --force-device-scale-factor=2 --window-size=1920,1060 --screenshot=out.png file://…/mock-phones.html`

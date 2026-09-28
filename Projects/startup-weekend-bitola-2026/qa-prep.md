@@ -45,10 +45,12 @@ municipality next week.
 
 ## 5. "The market is tiny."
 
-It is — about seven thousand secondary teachers, EUR 420k a year if we had every one. It's
-the right first market: one curriculum, one language, one ministry, and we can meet every
-headmaster in person. Every neighbor has the same shape of system — Serbia alone is ten
-times the seats — and the product changes by curriculum corpus, not by design.
+Macedonia is small on purpose. About 124,000 secondary and university students, about
+1.1 million euros a year at 9 euros a student. It's the right first market: one curriculum,
+one language, one ministry, and we can meet every headmaster in person. Europe is about 47
+million students, about 420 million euros a year, and the product changes by language and
+curriculum, not by design. The Western Balkans next door are about 7× Macedonia. Sources:
+Eurostat and UNESCO, see [[market-size]]. *(Updated 28 Sep.)*
 
 ## 6. "What did you validate this weekend?"
 
@@ -148,7 +150,9 @@ harder things.
 
 - If two judges ask at once, answer the harder one.
 - Numbers you say must match the deck: 199 euros a month, 2,388 a year, 128, seven
-  thousand, 67,000, five cents.
+  thousand, 67,000, five cents. *(28 Sep: the deck now says 9 euros per student a year,
+  and the market slide says 124,000 students, EUR 1.1 M (MK); 46.7 M students, EUR 420 M
+  (Europe); 553 M students, EUR 5.0 B (global). See [[market-size]].)*
 - If a judge is wrong about a fact, agree with the concern, then give the fact.
 - Never say "great question".
 

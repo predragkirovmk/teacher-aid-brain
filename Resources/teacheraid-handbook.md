@@ -19,7 +19,7 @@ Version 1.1 · compiled 12 September 2026, pricing updated 13 September 2026 · 
 
 **How it makes money.** EUR 199 a month, flat, per school — every teacher included, not just volunteers. EUR 2,388 a year, invoiced yearly. First month free. Private gymnasiums first, public schools through the municipalities second.
 
-**How big.** 128 secondary schools and 15 universities — the real market today, 143 institutions, about EUR 341,500 a year. Every school and college in the country, including primary, would be about EUR 2.6 million a year — that's the ceiling, not today's target. The honest year-3 target, sold nationally rather than city-by-city, is 45 institutions (40 schools + 5 college faculties), about EUR 107,500 a year — roughly a third of the real market, in three years.
+**How big (updated 28 Sep 2026).** At EUR 9 per student per year, counting upper-secondary and university students. **SOM, North Macedonia:** ~124,000 students, about EUR 1.1 million a year; the year-3 target is about a third of it, ~EUR 370k. **SAM, Europe** (EU-27, UK, Switzerland, Norway, Iceland, Western Balkans): ~46.7 million students, about EUR 420 million a year. **TAM, global:** ~553 million students, about EUR 5.0 billion a year. The TAM is the ceiling, not the claim. Sources in [[market-size]].
 
 **What it costs to run.** About five cents of AI per generated lesson — roughly EUR 20 per teacher per year at heavy use — plus hosting, support and the team.
 
@@ -204,6 +204,10 @@ size tier above a certain teacher count is the fix if the pilot data says so —
 | **Contribution** | **~988** |
 
 ### 7.4 Market math (North Macedonia, every level, sold nationally)
+
+> **Superseded 28 Sep 2026.** The market is now cut as TAM Global (~EUR 5.0 B), SAM Europe
+> (~EUR 420 M) and SOM Macedonia (~EUR 1.1 M), at EUR 9 per student per year. See
+> [[market-size]]. The tables below are the 13 Sep figures, kept for the record.
 
 Revenue is per institution, flat. Clients today are secondary schools and universities;
 primary schools are real but not a client — they belong in the TAM ceiling, not in SAM.
@@ -484,7 +488,7 @@ Before walking up: tab 1 is the host screen at `/host` showing the QR (session r
 2. How do you block apps on a personal phone? — Apple's Screen Time API and Android usage access, the mechanism Opal and AppBlock use, with the student's one-time permission; revoking shows as a focus flag.
 3. Phones are being banned across Europe. — In May the Minister said the teacher decides; any ban carves out educational use; that is why we start in secondary.
 4. Who pays in a public school? — The municipality; which is why private gymnasiums come first; a EUR 2,388/year flat-fee pilot fits under small-value procurement (confirming next week).
-5. The market is tiny. — Yes, EUR 420k a year if we had every secondary teacher; the right first market because one curriculum, one language, one ministry; Serbia alone is ten times the seats.
+5. The market is tiny. — Macedonia is small on purpose: ~124,000 students, ~EUR 1.1 M a year at EUR 9 a student. It's the right first market because it has one curriculum, one language and one ministry. Europe is ~47 M students, ~EUR 420 M; the Western Balkans next door are ~7× Macedonia. (Updated 28 Sep.)
 6. What did you validate? — [N] teachers, their quotes, what we changed because of them, the headmaster call booked.
 7. Curipod exists. — A slide tool sold to teachers in English, with no attendance, focus or report; our moat is school habit and the school-versus-school board.
 8. Minors' data? — The school is the controller, we are the processor, name-attendance-points only, EU hosting, deleted when the student leaves.
