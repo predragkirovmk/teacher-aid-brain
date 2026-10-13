@@ -6,7 +6,9 @@ status: deployed 2026-09-12 — teacher-aid-bitola.vercel.app
 
 # Prototype — the demo web app
 
-What exists for Sunday, what it is not, how to run it.
+What exists for Sunday, what it is not, how to run it. This is the Startup Weekend opener demo.
+The student app (QR check-in, the full set of student screens) is a separate demo at `/app` in the
+same repo: see [[student-app-demo]].
 
 ## What it is
 

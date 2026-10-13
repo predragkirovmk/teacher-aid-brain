@@ -27,7 +27,8 @@ Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 
 - [[product-overview]] — the 45-minute class, minute by minute
 - [[features]] · [[user-flows]] · [[technical-architecture]] · [[data-and-privacy]]
-- [[prototype]] — the demo web app: URLs, keys, reset
+- [[prototype]] — the Startup Weekend opener demo: URLs, keys, reset
+- [[student-app-demo]] — the student app at `/app`: QR check-in, flows, design and motion decisions
 
 ## The market
 
@@ -37,6 +38,7 @@ Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 
 ## Brand
 
+- [[design-system]] — version 2, blue and yellow: colours, type, navigation, motion rules (12 Oct 2026)
 - [[name-and-mascot]] — working name, alternatives, Zvonko the bell
 - [[messaging]] — one-liners, proof lines, humor beats, words to avoid
 
@@ -47,7 +49,7 @@ Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 
 ## Daily
 
-- [[2026-09-12]] · [[2026-09-13]]
+- [[2026-09-12]] · [[2026-09-13]] · [[2026-09-24]] · [[2026-10-12]] · [[2026-10-13]]
 
 ---
 
