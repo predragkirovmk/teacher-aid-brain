@@ -27,10 +27,14 @@ It is separate from the Startup Weekend opener in [[prototype]].
 
 - **Sections:** Home, Alerts, Profile (swipe sideways between them, or tap the tab bar).
 - **Scan (the main feature):** a yellow button beside the tab bar opens a camera scanner that
-  reads a class QR (native BarcodeDetector first, jsQR fallback for iPhone Safari). Photo
-  upload and typing the code are fallbacks. A class code records attendance, moves attendance
-  from 87% to 88%, adds a notification and unlocks the "First scan" achievement. A code for a
-  class that is not yours, or any other QR, shows a clear message instead.
+  reads a class QR (native BarcodeDetector first, jsQR fallback for iPhone Safari); photo upload
+  is the fallback (typing the code was removed on 13 Oct 2026). A class QR opens the live quiz
+  for that class at `/app/play/<CODE>`: joining records attendance (87% to 88%) and adds a
+  notification, but earns no points. A code for a class that is not yours, or any other QR,
+  shows a clear message instead.
+- **Points and achievements (13 Oct 2026):** points come only from quizzes and achievements
+  (20 each, proposed). First answer (answer a question in a quiz, right or wrong) and Perfect
+  quiz are earned in the quiz; the class leaderboard and the Home rank include them.
 - **A class QR is a link** ending `/app/checkin/<CODE>` (MATH-7B, PHYS-7B, MKD-7B, ENG-7B), so
   a phone's own camera app also checks you in.
 - **Screens:** home with a next-lesson card, schedule, attendance, summary (4 of 5), leaderboard,
