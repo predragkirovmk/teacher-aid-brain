@@ -61,7 +61,8 @@ across the actual staff**, not just one teacher's results.
 ### Support
 - In-app help and the teacher chatbot as first line; a human (founder, WhatsApp) behind it
   for the first schools. Login at 08:05 is the moment that matters — magic links, no
-  passwords to forget.
+  passwords to forget. *(Superseded 13 Oct 2026: [[feature-spec-v1]] 3.1 decided email and
+  password for teachers.)*
 - **Bigger surface area now:** support has to work for a teacher who never asked for this,
   not only for a volunteer who opted in. Expect more first-week friction per school than
   the old bottom-up model — budget for it in the first pilots.

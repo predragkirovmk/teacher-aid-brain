@@ -6,6 +6,11 @@ status: draft
 
 # Technical architecture
 
+> **Partly superseded (13 Oct 2026).** The student app is being built in Flutter
+> (`~/Desktop/teacher-aid-flutter`), so the Expo / Capacitor row and the "Not decided" item below
+> are out of date. Focus lock is mandatory ([[feature-spec-v1]] 6.1), which replaces the
+> "not prison-grade" paragraph. Where this note and [[feature-spec-v1]] disagree, the spec is right.
+
 What the real product needs, as opposed to the demo ([[prototype]]). Written so a developer
 joining after the weekend can start without a meeting.
 

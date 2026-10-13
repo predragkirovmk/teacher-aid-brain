@@ -39,7 +39,7 @@ Concept: **Zvonko** — a small school bell with a face, named after the common 
 ("the one who rings"). Roles:
 - The teacher chatbot's persona ("Ask Zvonko to make it harder").
 - The little character on student screens: rings for a pop-up, shrugs at a wrong answer,
-  jumps at a streak. Never shames — the app is on the student's side.
+  jumps at a streak (no streaks in v1, [[feature-spec-v1]] 13.2, noted 13 Oct 2026). Never shames — the app is on the student's side.
 - The mark on the QR screen and the monthly report footer.
 
 Design direction (when there is time): flat, two-colour, rounded, readable at 24 px on a

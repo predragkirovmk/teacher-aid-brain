@@ -1,7 +1,7 @@
 ---
 created: 2026-09-15
 type: area
-status: draft — not yet integrated into the vault
+status: current — the build spec of record (confirmed 13 Oct 2026); older notes not yet updated, see section 15
 ---
 
 # Feature specification — v1

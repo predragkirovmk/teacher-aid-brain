@@ -74,7 +74,8 @@ also collected in [[risks-and-assumptions]].
 ## Points, rewards, leaderboards
 
 - Points per lesson: opener (right / reasoned), pop-ups (right / fast), participation.
-- Rewards: in-app (badges, streaks, rank). **At the teacher's discretion, points inform the
+- Rewards: in-app (badges, streaks, rank). *(13 Oct 2026: no streaks and no national
+  leaderboard in v1, see [[feature-spec-v1]] 2 and 13.)* **At the teacher's discretion, points inform the
   participation grade** — the app shows the numbers, the teacher decides how they count.
   This framing matters for parents and for МОН: TeacherAid never grades anyone.
 - Leaderboards: class, school, national. School vs school is the retention hook and the

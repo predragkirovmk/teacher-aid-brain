@@ -6,6 +6,11 @@ status: draft
 
 # User flows
 
+> **Partly superseded (13 Oct 2026).** [[feature-spec-v1]] is the build spec of record: school
+> email login instead of "name and class once", rosters managed by the school admin, no "Today"
+> screen and no timetable, one-tap refinements instead of a chatbot, and mandatory focus lock.
+> Its section 15 lists every change this note still needs.
+
 Three actors, three flows. Each step names the screen and the decision the user makes.
 Where a step is a demo simplification, it says so.
 

@@ -27,13 +27,17 @@ how much damage being wrong does.
 | 13 | Curipod does not localize to Macedonian before we have 20 schools | Watch their language list | Quarterly check | Presenter | Open |
 | 14 | A teacher on the team / as advisor by end of September | Named person | UKLO, the education mentor, the interviewed teachers | Presenter | Open |
 
+Not yet in this register (13 Oct 2026): assumptions A to F from [[feature-spec-v1]] section 14.
+
 ## Risks that are not assumptions (they will happen; plan for them)
 
 - **The 25-year veteran who refuses.** Not every teacher needs to use it. Per-seat pricing
-  means the school pays only for those who do.
+  means the school pays only for those who do. *(Flagged 13 Oct 2026: contradicts row 1, which
+  assumes a flat whole-staff fee. Pricing is unvalidated; see [[revenue-and-pricing]].)*
 - **Points gaming.** Students will share answers. Speed bonus and per-device sessions limit
   it; the teacher's discretion on grades removes the stakes that would make it worth it.
 - **Support at 08:05.** Magic-link login, no passwords; the champion teacher as first line.
+  *(Superseded 13 Oct 2026: [[feature-spec-v1]] 3.1 decided email and password for teachers.)*
 - **Data incident.** Minimal data, EU hosting, controller/processor structure — the blast
   radius is names and points.
 - **Small market.** MK is the proving ground; every neighboring country has one national
