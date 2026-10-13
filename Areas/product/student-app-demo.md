@@ -53,8 +53,15 @@ Look and rules are in [[design-system]] (version 2). On top of that, an Apple HI
 - Motion is limited to moments that show a change: the check-in lock-and-draw, the attendance
   count-up, the card-to-subject morph, physical sheets, the sliding tab indicator, the swipe
   pager, the notification badge. Nothing loops in the background.
-- Accessibility: contrast checked, 44px targets, reduced motion, reduced transparency and
-  increased contrast respected, text scales to 200%, a one-time camera pre-prompt.
+- Accessibility: 44px targets, reduced motion, reduced transparency and increased contrast
+  respected, a one-time camera pre-prompt. Text reflows up to 200% (fixed and measured at 320
+  to 430px on 13 Oct 2026: grids drop to one column, labels wrap under their text). Still open:
+  the number and label chips are 4.2:1, below the 4.5:1 WCAG target.
+- Navigation (13 Oct 2026): switching tabs, by swipe or tap, replaces the history entry instead
+  of adding one, so Back leaves the section. Scan closes like a modal: Done and its back button
+  return to the screen it was opened from. A class link opened while logged out goes through
+  Welcome and checks you in after Continue. Damaged saved data falls back to defaults, and a
+  screen that fails shows Try again and Reset demo data.
 
 ## Known limits
 
@@ -64,6 +71,11 @@ Look and rules are in [[design-system]] (version 2). On top of that, an Apple HI
   drag (an Instagram-style pager would render all three at once).
 - No light appearance; the app is blue-ground only.
 - Camera and swipe feel were tested with simulated input, not on a real phone.
+- Open from the 13 Oct 2026 audit: the scanner does not recover when the camera stops, Android
+  reads each camera frame twice, typed codes reject Cyrillic look-alike letters, sheets do not
+  trap keyboard focus, the toast slides in sideways, Home flashes on first load, plus smaller
+  copy and code items. The demo also still shows a timetable, a scheduled pop quiz and a streak
+  badge that [[feature-spec-v1]] rules out.
 
 ## Versions
 
@@ -72,7 +84,8 @@ Look and rules are in [[design-system]] (version 2). On top of that, an Apple HI
 
 ## Ideas not built yet
 
-- Points per check-in so the leaderboard rank moves (4th to 3rd) with a row-swap animation.
+- The leaderboard rank moving after a correct quiz answer, with a row-swap animation. Decided
+  13 Oct 2026: check-ins earn no points ([[feature-spec-v1]] 13.1); points come from the quiz.
 - Real app icons in blue and yellow; teacher-desktop screens in the new system.
 - Bring the website and the Flutter app to the new design system.
 
