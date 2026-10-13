@@ -76,8 +76,9 @@ Look and rules are in [[design-system]] (version 2). On top of that, an Apple HI
   drag (an Instagram-style pager would render all three at once).
 - No light appearance; the app is blue-ground only.
 - Camera and swipe feel were tested with simulated input, not on a real phone.
-- Open from the 13 Oct 2026 audit: the toast slides in sideways, Home flashes on first load,
-  plus smaller copy and code items. Fixed the same day: the camera stops when the app is in the
+- Open from the 13 Oct 2026 audit: Home flashes on first load, the search results are not
+  usable with arrow keys, Windows high-contrast mode hides the notifications switch, a swipe
+  from the right edge competes with Android's Back, and the morph does not play on Back. Fixed the same day: the camera stops when the app is in the
   background and says when another app takes it; Android reads each frame once. The demo also still shows a timetable, a scheduled pop quiz and a streak
   badge that [[feature-spec-v1]] rules out.
 
