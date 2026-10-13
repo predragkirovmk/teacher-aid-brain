@@ -48,6 +48,14 @@ phone and at 2 m on a projector. No 3D, no gradients, no AI-generated look.
 If the name stays TeacherAid, Zvonko still works as the mascot — a bell fits any classroom
 product.
 
+## Update 2026-09-24
+
+The mascot is being redrawn and is not in the product yet. Screens keep a "маскота"
+slot for it. The design direction above ("flat, two-colour, no gradients") is superseded:
+the new mascot has to fit the current system in [[design-system]] (version 2, blue and yellow, since
+12 Oct 2026; the midnight glass system it first referred to is retired). Until it lands, the brand
+mark is a blocky M with a T-shaped cut-out and two eyes.
+
 ## Checklist before committing to a name
 
 - [ ] .mk and .com (or .app) domain available
