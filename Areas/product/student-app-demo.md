@@ -84,8 +84,10 @@ Look and rules are in [[design-system]] (version 2). On top of that, an Apple HI
 
 ## Ideas not built yet
 
-- The leaderboard rank moving after a correct quiz answer, with a row-swap animation. Decided
-  13 Oct 2026: check-ins earn no points ([[feature-spec-v1]] 13.1); points come from the quiz.
+- A row-swap animation when the leaderboard rank moves. Built 13 Oct 2026: points come only
+  from quizzes and achievements (20 each, proposed), check-ins earn none ([[feature-spec-v1]]
+  13.1), and the class leaderboard and the Home rank add them, so a good quiz moves Marko from
+  4th to 2nd. A whole quiz answered right unlocks Perfect quiz.
 - Real app icons in blue and yellow; teacher-desktop screens in the new system.
 - Bring the website and the Flutter app to the new design system.
 

@@ -701,10 +701,15 @@ The ratio that matters: **a reasoned wrong answer must score close to a silent r
 That is the productive-failure mechanism, and it is why reason points are 8 against 10 in
 the proposal above rather than a token 2.
 
+**Decided 13 Oct 2026:** points come only from quizzes and badges. Checking in to a lesson
+records attendance and earns no points. A badge is worth 20 points (proposed, not signed off).
+The student app demo works this way ([[student-app-demo]]).
+
 ### 13.2 Badges
 
 Named achievements for things points cannot reward — reasoning on a wrong answer, a
 comeback, asking a good question. Design work still to do. Empty badges are worse than none.
+Each badge also adds points to the leaderboard (decided 13 Oct 2026, see 13.1).
 
 No streaks in v1: they punish the student who was ill for a week, and streak pressure is the
 part parents notice.
