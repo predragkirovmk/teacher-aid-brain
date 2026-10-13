@@ -59,8 +59,9 @@ Look and rules are in [[design-system]] (version 2). On top of that, an Apple HI
   pager, the notification badge. Nothing loops in the background.
 - Accessibility: 44px targets, reduced motion, reduced transparency and increased contrast
   respected, a one-time camera pre-prompt. Text reflows up to 200% (fixed and measured at 320
-  to 430px on 13 Oct 2026: grids drop to one column, labels wrap under their text). Still open:
-  the number and label chips are 4.2:1, below the 4.5:1 WCAG target.
+  to 430px on 13 Oct 2026: grids drop to one column, labels wrap under their text). All text is
+  at least 4.5:1 (the rank and label chips were darkened on 13 Oct 2026). While a sheet is open
+  the page behind it is inert, so keyboard focus and screen readers stay in the sheet.
 - Navigation (13 Oct 2026): switching tabs, by swipe or tap, replaces the history entry instead
   of adding one, so Back leaves the section. Scan closes like a modal: Done and its back button
   return to the screen it was opened from. A class link opened while logged out goes through
@@ -75,10 +76,9 @@ Look and rules are in [[design-system]] (version 2). On top of that, an Apple HI
   drag (an Instagram-style pager would render all three at once).
 - No light appearance; the app is blue-ground only.
 - Camera and swipe feel were tested with simulated input, not on a real phone.
-- Open from the 13 Oct 2026 audit: the scanner does not recover when the camera stops, Android
-  reads each camera frame twice, typed codes reject Cyrillic look-alike letters, sheets do not
-  trap keyboard focus, the toast slides in sideways, Home flashes on first load, plus smaller
-  copy and code items. The demo also still shows a timetable, a scheduled pop quiz and a streak
+- Open from the 13 Oct 2026 audit: the toast slides in sideways, Home flashes on first load,
+  plus smaller copy and code items. Fixed the same day: the camera stops when the app is in the
+  background and says when another app takes it; Android reads each frame once. The demo also still shows a timetable, a scheduled pop quiz and a streak
   badge that [[feature-spec-v1]] rules out.
 
 ## Versions
