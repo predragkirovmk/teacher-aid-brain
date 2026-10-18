@@ -368,6 +368,11 @@ the absentee list appears, the lesson is archived.
 
 ### 6.1 Mandatory
 
+> **Pilot exception (decided 15 Oct 2026).** The pilot runs on the web student app with a
+> **focus flag** instead of the native lock: the app notices a student leaving the quiz during a
+> question and shows a flag on the teacher's console. Nobody is blocked from joining. The
+> mandatory native lock below stays the target for the product. See [[2026-10-15]].
+
 **A student who has not authorized focus lock cannot join a session.**
 
 This overrides the "not blocked, only flagged" behaviour in [[features]],
