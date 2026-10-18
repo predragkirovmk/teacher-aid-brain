@@ -53,8 +53,9 @@ product.
 The mascot is being redrawn and is not in the product yet. Screens keep a "маскота"
 slot for it. The design direction above ("flat, two-colour, no gradients") is superseded:
 the new mascot has to fit the current system in [[design-system]] (version 2, blue and yellow, since
-12 Oct 2026; the midnight glass system it first referred to is retired). Until it lands, the brand
-mark is a blocky M with a T-shaped cut-out and two eyes.
+12 Oct 2026; the midnight glass system it first referred to is retired). The official logo, decided
+18 Oct 2026, is an M with angled brows, a T-shaped cut-out and two eyes (master file and rules in
+[[design-system]]); the mascot will sit beside it, not replace it.
 
 ## Checklist before committing to a name
 

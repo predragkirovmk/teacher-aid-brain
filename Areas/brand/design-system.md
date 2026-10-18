@@ -1,6 +1,6 @@
 ---
 created: 2026-09-24
-updated: 2026-10-13
+updated: 2026-10-18
 type: area
 status: current — version 2 (blue and yellow); the midnight-glass version 1 is retired
 ---
@@ -11,8 +11,11 @@ The visual identity of TeacherAid. **Version 2, decided 12 Oct 2026:** a bright 
 one sunny yellow. It replaces the midnight-blue glass system of 24 Sep 2026. It applies to the
 student app, the website and decks. It feels clear, warm and quick, still calm and adult.
 
-The mascot is not drawn yet (see [[name-and-mascot]]); the brand mark is a blocky M with a
-T-shaped cut-out and two eyes.
+**Logo (official since 18 Oct 2026):** an M with angled brows, a T-shaped cut-out and two eyes.
+Master file: `~/Desktop/teacher-aid-flutter/design/teacheraid/assets/logo.svg`. Keep its exact
+geometry everywhere; only the colour changes (white or yellow on blue, ink on light grounds). App
+icons are the yellow logo on the blue ground. The mascot is separate and not drawn yet (see
+[[name-and-mascot]]).
 
 ## Where it lives
 
@@ -80,11 +83,11 @@ Macedonian in Cyrillic, no photos of students. The site built on 24 Sep still us
 
 ## Recurring tasks
 
-- [ ] When the mascot lands, add it and replace the M mark.
+- [ ] When the mascot lands, add it beside the logo (the logo stays).
 - [ ] Redo the teacher-desktop screens in this system.
 - [ ] Move the Flutter app (`teacher-aid-flutter`) off the midnight glass and duotone icons.
 - [ ] Bring the website to version 2.
-- [ ] Real app icons in blue and yellow (the demo reuses the old midnight icons).
+- [x] Real app icons in blue and yellow: the official logo on every icon and launch screen (2026-10-18).
 - [ ] A light appearance (the app is blue-ground only).
 
 ## Related
