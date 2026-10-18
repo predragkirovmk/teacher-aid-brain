@@ -31,7 +31,8 @@ Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 - [[student-app-demo]] — the student app at `/app`: QR check-in, flows, design and motion decisions
 - Backend handoff (keep current, see [[CLAUDE]]): [[backend-guide-for-developer]] — the
   simplified guide for the developer · [[backend-spec-for-agents]] — the full spec for his
-  coding agents; shareable page with both: https://claude.ai/artifact/WpYF4hNXxEJ6S5RFMKzHEm
+  coding agents; shareable page with both: https://claude.ai/artifact/WpYF4hNXxEJ6S5RFMKzHEm;
+  the developer's repo (private): https://github.com/predragkirovmk/teacheraid-backend
 
 ## The market
 

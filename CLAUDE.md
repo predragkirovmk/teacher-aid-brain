@@ -78,6 +78,9 @@ the product as it is decided today.
   change is ambiguous, ask the owner before editing the docs.
 - **Keep IDs stable** in the agent file (FR-, BR-, EC-, AC-, OPEN-). Retire an ID; never reuse it.
 - After updating, republish the shareable page of the developer guide (link in [[Home]]).
+- Then copy both files into the backend repo the developer works in, `~/Desktop/teacheraid-backend/docs/`
+  (GitHub `predragkirovmk/teacheraid-backend`, private), commit there and push. The developer
+  never edits `docs/`; his questions come back as issues on that repo.
 
 ## Git
 
