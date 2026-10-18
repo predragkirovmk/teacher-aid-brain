@@ -61,6 +61,24 @@ goes.
 - **Daily notes** are the running log of decisions; the day's decisions get copied
   into the relevant Area note the same day, with the date.
 
+## Backend handoff docs — keep them current
+
+`Areas/product/backend-handoff/` holds the two documents the backend developer builds the API
+from: `backend-spec-for-agents.md` (full detail, for his coding agents) and
+`backend-guide-for-developer.md` (the simplified version, for him). They must always describe
+the product as it is decided today.
+
+- **Any product decision that changes** — in [[feature-spec-v1]], a daily note, an owner answer,
+  or a student-app change that alters what the API must provide — updates **both** files in the
+  same commit: change the content, bump `version` and `updated` in the frontmatter and the title
+  line, and add a changelog row.
+- **Current facts only.** A reversed decision is replaced, not kept beside the new one. Mock data
+  from the demo is never a source.
+- **Unsure means ask.** Anything not signed off is labelled Proposed or Open, never Decided. If a
+  change is ambiguous, ask the owner before editing the docs.
+- **Keep IDs stable** in the agent file (FR-, BR-, EC-, AC-, OPEN-). Retire an ID; never reuse it.
+- After updating, republish the shareable page of the developer guide (link in [[Home]]).
+
 ## Git
 
 This vault is a git repo. Commit changes in small, focused commits — treat git

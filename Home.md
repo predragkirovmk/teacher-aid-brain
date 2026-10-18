@@ -29,6 +29,9 @@ Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 - [[features]] · [[user-flows]] · [[technical-architecture]] · [[data-and-privacy]]
 - [[prototype]] — the Startup Weekend opener demo: URLs, keys, reset
 - [[student-app-demo]] — the student app at `/app`: QR check-in, flows, design and motion decisions
+- Backend handoff (keep current, see [[CLAUDE]]): [[backend-guide-for-developer]] — the
+  simplified guide for the developer · [[backend-spec-for-agents]] — the full spec for his
+  coding agents; shareable page with both: https://claude.ai/artifact/WpYF4hNXxEJ6S5RFMKzHEm
 
 ## The market
 
@@ -49,7 +52,7 @@ Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 
 ## Daily
 
-- [[2026-09-12]] · [[2026-09-13]] · [[2026-09-24]] · [[2026-10-12]] · [[2026-10-13]] · [[2026-10-15]]
+- [[2026-09-12]] · [[2026-09-13]] · [[2026-09-24]] · [[2026-10-12]] · [[2026-10-13]] · [[2026-10-15]] · [[2026-10-18]]
 
 ---
 

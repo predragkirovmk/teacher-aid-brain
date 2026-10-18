@@ -776,3 +776,6 @@ Also on integration:
 [[features]] · [[product-overview]] · [[user-flows]] · [[technical-architecture]] ·
 [[data-and-privacy]] · [[prototype]] · [[risks-and-assumptions]] ·
 [[learning-from-mistakes-research]]
+
+Backend handoff built from this note: [[backend-spec-for-agents]] · [[backend-guide-for-developer]].
+A change here updates both (see [[CLAUDE]]).
