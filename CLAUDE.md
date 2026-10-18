@@ -46,16 +46,22 @@ goes.
 - **Areas are grouped:** `Areas/business-model/`, `Areas/product/`, `Areas/market/`,
   `Areas/brand/` — one subfolder per domain, one topic per note. New notes go into
   the matching subfolder; a new domain gets a new subfolder.
-- **Pitch material lives in the project**, not in Areas:
-  `Projects/startup-weekend-bitola-2026/` holds the script, slide outline, demo
-  plan, Q&A prep, validation log and rehearsal notes. When the weekend is over,
-  move the folder to `Archive/` and lift anything still true into Areas.
+- **The current project is `Projects/build-v1/`** — building version one. It holds the
+  feasibility assessment, the milestones and session budget, and the running next
+  actions. What the app *does* is specified in `Areas/product/feature-spec-v1.md`,
+  which is authoritative over the older product notes wherever they disagree.
+- **Startup Weekend is archived** at `Archive/startup-weekend-bitola-2026/` (pitched
+  13 Sep 2026, archived 16 Sep). Its durable content was lifted into Areas before
+  archiving — the six objection answers are now `Areas/brand/objections.md`. Two
+  answers inside the archived Q&A prep are superseded; do not quote them.
 - **Numbers have sources.** Every figure that could land on a slide is either cited
   (State Statistical Office 2024/25, a dated press quote, a price table) or marked
   `(verify)`. Keep it that way — a judge, a headmaster or a ministry will ask.
 - **Assumptions are tracked**, not buried: `Areas/business-model/risks-and-assumptions.md`
-  is the register; every conversation that proves or disproves one updates it and
-  `Projects/.../validation-log.md`.
+  is the register and the single place they live. Every conversation with a teacher,
+  headmaster, parent or ministry that proves or disproves one updates the row's status the
+  same day, with the date. There is no separate validation log — the earlier one was never
+  filled and was removed on 16 Sep 2026.
 - **The prototype is a separate repo** (`~/Desktop/teacher-aid-app`); this vault
   only documents it (`Areas/product/prototype.md`). Code never lives here.
 - **Daily notes** are the running log of decisions; the day's decisions get copied

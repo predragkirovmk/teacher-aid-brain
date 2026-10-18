@@ -32,10 +32,10 @@ telecom, grants).
   thing a foreign competitor would have to rebuild.
 - **The live-session engine**: QR join, points, timers, focus lock — the native student app
   is the hard part.
-- **The team**: 4+ people this weekend. Missing: a teacher. Missing after the weekend: a
-  mobile developer for the focus lock.
-- **An advising teacher**: recruit one this week. Every claim about classrooms needs one
-  person who has stood in front of thirty 16-year-olds.
+- **The team**: 4+ people at Startup Weekend. Still missing as of 16 Sep 2026: a teacher,
+  and a mobile developer for the focus lock — the latter is the first paid role.
+- **An advising teacher**: still unfilled, and the oldest open item in the vault. Every claim
+  about classrooms needs one person who has stood in front of thirty 16-year-olds.
 - **AI credits and hosting**: the only cash cost in month 1.
 - **Trust artefacts**: the ДПА template, the privacy notice, the monthly report sample.
 

@@ -1,7 +1,7 @@
 ---
 created: 2026-09-15
 type: area
-status: current — the build spec of record (confirmed 13 Oct 2026); older notes not yet updated, see section 15
+status: current — the build spec of record (confirmed 13 Oct 2026); the vault was brought in line on 16 Sep 2026, see section 15
 ---
 
 # Feature specification — v1
@@ -750,7 +750,8 @@ numbered rows on integration.
 
 ## 15. What to update in the vault
 
-The integration work order. Nothing here is done yet.
+The integration work order. Worked through on 16 Sep 2026 across 13 notes ([[2026-09-16]]); that
+work reached this copy of the vault in the merge of 18 Oct 2026.
 
 | # | Note | Now out of date | Becomes |
 |---|---|---|---|

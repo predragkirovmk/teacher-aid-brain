@@ -3,6 +3,7 @@ created: 2026-09-12
 type: resource
 source: Techstars Startup Weekend format; event specifics from the team
 tags: [pitch, judging]
+status: kept as reference for future pitch events — Bitola 2026 is done, see Archive
 ---
 
 # Startup Weekend — format and what wins
@@ -21,7 +22,7 @@ tags: [pitch, judging]
 
 | Criterion | What judges look for | Where TeacherAid scores it |
 |---|---|---|
-| **Customer validation** | Did you leave the building? Who did you talk to, what did they say, what did you change because of it? | Teacher conversations (log them — [[validation-log]]), the warm headmaster contact, the mentor's reaction. **Weakest today — fix before Sunday.** |
+| **Customer validation** | Did you leave the building? Who did you talk to, what did they say, what did you change because of it? | Teacher conversations, the warm headmaster contact, the mentor's reaction. **This was the weakest score in Bitola 2026 and it is still unfixed** — quotes were never captured. Track it in [[risks-and-assumptions]]. |
 | **Execution and design** | What did you build in 54 hours? Does it work? Does it look like a product? | The live QR demo on the judges' phones ([[prototype]]). |
 | **Business model** | Who pays, how much, why, what does it cost, how big is it? | [[revenue-and-pricing]], [[cost-structure]], [[market-size]] — all on one slide. |
 
