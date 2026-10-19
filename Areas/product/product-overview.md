@@ -9,7 +9,8 @@ status: draft
 TeacherAid is a classroom system for secondary schools (гимназија, 15–18) in North
 Macedonia. Three roles, one lesson:
 
-- **Teacher** plans the lesson with AI in minutes and runs it from a phone or laptop.
+- **Teacher** plans the lesson with AI in minutes and runs it from a laptop, with the class
+  view on the projector and a private console on the laptop screen.
 - **Students** join by QR on their own phones and play the lesson: predict, answer, earn points.
 - **Headmaster** does nothing inside the app and receives a monthly one-page report.
 
@@ -20,23 +21,24 @@ is designed around that clock, not around "content" or "courses".
 
 | Minute | What happens | Who acts | Feature |
 |---|---|---|---|
-| 0 | Teacher projects a QR. Students scan. | Students | [[features#QR join and attendance]] |
-| 0–1 | Attendance is complete without a roll call. Focus lock starts. | App | [[features#Focus lock]] |
+| 0 | Teacher projects a rotating QR. Students scan. | Students | [[features#QR join and attendance]] |
+| 0–1 | Attendance is complete without a roll call. Focus lock starts — a student who has not authorized it cannot join, and is marked present with no points. | App | [[features#Focus lock]] |
 | 1–5 | **Opener.** A prediction or debate question generated from today's topic. Students vote and type a one-line reason. Results appear live. Being wrong is expected and rewarded with points for reasoning. | Students, teacher moderates | [[features#The opener]] |
 | 5–40 | **Teaching.** The teacher teaches normally. Any time they want, one tap sends a pop-up question to every phone: 10–30 seconds to answer, points for correct and for fast. | Teacher triggers, students answer | [[features#Pop-up questions]] |
-| 5–40 | Students can send an **anonymous question** the teacher alone sees. | Students | [[features#Anonymous questions]] |
-| 40–45 | **Review.** The teacher goes through what the class got wrong and answers the anonymous questions. Points close. Rewards unlock. | Teacher | [[features#Points, rewards, leaderboards]] |
-| after | Points roll into class, school and national leaderboards. Dashboard updates. | App | [[features#Teacher dashboard]] |
+| 5–40 | Students can send a **question no classmate sees** — the teacher does see who sent it. | Students | [[features#Anonymous questions]] |
+| 40–45 | **Review.** The teacher goes through what the class got wrong and answers the students' questions. Points close. Badges unlock. | Teacher | [[features#Points, badges, leaderboards]] |
+| after | Points roll into the class and school leaderboards. Dashboard updates. The teacher can send a practice set built from what was missed. | App | [[features#Teacher dashboard]] |
 
 ## Before the class — the teacher's five minutes
 
-1. Open TeacherAid. Type three sentences: subject, topic, what matters today. Or upload the
-   existing годишен/тематски план and pick the unit.
-2. The AI returns: the opener question, 5–8 pop-up questions with answers, a suggested timing,
-   and a short summary for the review block. All in Macedonian. All editable.
-3. Optional: ask the teacher chatbot to adjust — "make it easier", "add a question about X",
-   "make the opener a debate instead of a prediction".
-4. Save. The lesson is ready to run.
+1. Open TeacherAid. **Pick today's unit from the e-учебник** — subject, year, unit, two taps.
+   Optionally add one sentence of emphasis. (Typing three sentences still works, and is the
+   path for subjects with no loaded book.)
+2. The AI returns: the opener question, 5–8 pop-up questions with answers, a suggested timer
+   per question, and a short summary for the review block. All in Macedonian. All editable.
+3. Optional: one tap to adjust — easier, harder, more questions, make the opener a debate,
+   shorter timers.
+4. Save. The lesson is ready to run, for this class and any parallel class.
 
 ## After the class — what everyone gets
 
@@ -62,12 +64,19 @@ is designed around that clock, not around "content" or "courses".
 
 ## What TeacherAid is not
 
-- Not a learning management system. No homework, no grades, no content library (yet).
+- Not a learning management system. No grades, no content library (yet). **One exception:**
+  after a lesson the teacher can send an optional practice set, assembled from the questions
+  that class got wrong. It is voluntary and it scores points. It is not homework in the sense
+  of being set, collected and marked — but it is the app asking a student to do something
+  outside the 45 minutes, and the "we are only the lesson" line has to be said carefully now
+  rather than absolutely. See [[feature-spec-v1]] 8.3.
 - Not a replacement for e-Дневник. Attendance stays in the official system; TeacherAid
-  attendance is for the dashboard and the report ([[data-and-privacy]]).
-- Not a student tutor. The chatbot is for teachers only.
+  attendance is for the dashboard and the report, and after each lesson it hands the teacher
+  a copy-ready list of who was absent ([[data-and-privacy]]).
+- Not a student tutor. There is no student-facing AI at all.
 
 ## Related
 
+- [[feature-spec-v1]] — the v1 build spec, authoritative where it disagrees with this note
 - [[features]] · [[user-flows]] · [[technical-architecture]] · [[data-and-privacy]]
 - Business side: [[business-model-canvas]] · [[value-propositions]]

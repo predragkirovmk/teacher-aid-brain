@@ -37,7 +37,8 @@ pays is not the person who uses it, and the person who benefits most cannot buy 
 - The **majority**: 20+ years in, competent, tired of new platforms that add work. Wins
   them only if the first lesson takes less than 10 minutes to set up and the class visibly
   behaves better. Loses them at the first login problem.
-- Pain, in their words (to be replaced by real quotes from [[validation-log]]): planning
+- Pain, in their words (still paraphrase — real quotes were never captured, see
+  [[risks-and-assumptions]] row 2): planning
   time at night, phones under desks, the same five students answering, no idea what the
   quiet ones did not understand.
 
@@ -61,8 +62,12 @@ pays is not the person who uses it, and the person who benefits most cannot buy 
 ## Order of attack
 
 **Macedonia first, not city-by-city.** The team is based in Bitola, but the sale is
-national from day one — every private gymnasium and university in the country is a target
-in year one, not a later-stage expansion once one city is "done."
+national from day one — every private gymnasium in the country is a target in year one, not
+a later-stage expansion once one city is "done."
+
+Universities are **not** in the order of attack. They are counted in the market sizing and
+the product reaches them eventually, but [[feature-spec-v1]] 2 puts them outside v1 and
+nothing is sold to a faculty until that changes.
 
 1. The first private gymnasium (warm contact exists — see
    [[startup-weekend-bitola-2026]]), wherever in the country it is, on the strength of the
@@ -71,8 +76,8 @@ in year one, not a later-stage expansion once one city is "done."
    Skopje, Bitola, or anywhere else a headmaster says yes.
 3. The first public-school pilot through a municipality, positioned as a story that
    municipality (any municipality) can talk about.
-4. Every other public secondary school and university faculty in the country, sold in
-   parallel — not sequentially city by city.
+4. Every other public secondary school in the country, sold in parallel — not sequentially
+   city by city.
 
 ## Related
 

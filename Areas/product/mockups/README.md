@@ -5,6 +5,9 @@ type: area
 
 # Mockups and deck assets
 
+> Historical (Sep 2026 deck). These use the retired paper / ink / amber system. The current look is
+> [[design-system]] (version 2, blue and yellow); the working reference is [[student-app-demo]].
+
 Hi-fi mockups of the app (paper / ink / amber system, Bitter + Sofia Sans), built for the
 Startup Weekend deck on 13 Sep 2026. Each `.png` is a 2x render of its `.html` source —
 edit the HTML and re-render with headless Chrome to change anything.

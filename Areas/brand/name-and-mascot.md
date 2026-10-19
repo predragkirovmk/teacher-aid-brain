@@ -8,9 +8,9 @@ status: working name TeacherAid; team is open to a better one
 
 ## Working name: TeacherAid
 
-Used everywhere this weekend — docs, prototype, script. Do not change it on Saturday night
-unless deck, prototype and script are all updated together (the prototype name is one
-variable in `content/opener.json`).
+Used everywhere — docs, prototype, the pitch script. The name is still undecided as of
+16 September 2026. Do not change it piecemeal: the deck, the prototype and every note move
+together, and the prototype name is one variable in `content/opener.json`.
 
 Why it is not great:
 - Generic and descriptive; "teacher's aide" is a job title; hard to own as a mark.
@@ -37,9 +37,11 @@ five-minute pitch.
 
 Concept: **Zvonko** — a small school bell with a face, named after the common name Zvonko
 ("the one who rings"). Roles:
-- The teacher chatbot's persona ("Ask Zvonko to make it harder").
+- The face on the one-tap refinement row ("Zvonko, make it harder"). There is no chatbot in
+  v1 — see [[feature-spec-v1]] 4.6 — so the persona attaches to the buttons, not a
+  conversation.
 - The little character on student screens: rings for a pop-up, shrugs at a wrong answer,
-  jumps at a streak. Never shames — the app is on the student's side.
+  celebrates a badge. Never shames — the app is on the student's side.
 - The mark on the QR screen and the monthly report footer.
 
 Design direction (when there is time): flat, two-colour, rounded, readable at 24 px on a
@@ -47,6 +49,15 @@ phone and at 2 m on a projector. No 3D, no gradients, no AI-generated look.
 
 If the name stays TeacherAid, Zvonko still works as the mascot — a bell fits any classroom
 product.
+
+## Update 2026-09-24
+
+The mascot is being redrawn and is not in the product yet. Screens keep a "маскота"
+slot for it. The design direction above ("flat, two-colour, no gradients") is superseded:
+the new mascot has to fit the current system in [[design-system]] (version 2, blue and yellow, since
+12 Oct 2026; the midnight glass system it first referred to is retired). The official logo, decided
+18 Oct 2026, is an M with angled brows, a T-shaped cut-out and two eyes (master file and rules in
+[[design-system]]); the mascot will sit beside it, not replace it.
 
 ## Checklist before committing to a name
 
@@ -59,4 +70,4 @@ product.
 
 ## Related
 
-[[messaging]] · [[features#Teacher planning with AI]] · [[pitch-script]]
+[[messaging]] · [[feature-spec-v1]] · [[features#Teacher planning with AI]] · [[pitch-script]]

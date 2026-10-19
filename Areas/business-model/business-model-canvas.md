@@ -1,7 +1,7 @@
 ---
 created: 2026-09-12
 type: area
-status: v2.1 — corrected after discovery 2026-09-12; pricing switched to flat per-school 2026-09-13
+status: v2.1 — corrected after discovery 2026-09-12; pricing switched to flat per-school 2026-09-13; blocks 2 and 4 updated against feature-spec-v1 2026-09-15
 ---
 
 # Business Model Canvas — TeacherAid (v2)
@@ -21,9 +21,10 @@ why is at the bottom. Each block links to its detailed note.
 
 ## 2. Value propositions — [[value-propositions]]
 
-- **Teacher:** one tool for the whole lesson instead of five. Plan in three sentences.
-  Attention handled by the game, not by shouting. Anonymous questions surface what the class
-  did not understand.
+- **Teacher:** one tool for the whole lesson instead of five. Plan by picking the unit from
+  the e-учебник.
+  Attention handled by the game, not by shouting. Questions no classmate sees surface what
+  the class did not understand.
 - **Student:** a class that starts with a question. Safe to be wrong — reasoning earns
   points. Compete with the class next door.
 - **Headmaster:** "AI in every classroom" with nothing to learn, install or maintain. A
@@ -43,8 +44,12 @@ why is at the bottom. Each block links to its detailed note.
 
 ## 4. Customer relationships — [[channels-and-relationships]]
 
-- Onboarding: in-app tutorials + short videos; "first lesson in 10 minutes".
-- Support: in-app help + the teacher chatbot; a human behind it for the first schools.
+- Onboarding: a guided first lesson inside the product — the teacher finishes holding a real
+  lesson, not having watched a video. Plus one setup period per class, because a student who
+  has not authorized focus lock cannot join.
+- Support: in-app help + a direct channel to a human, one tap, for when it is urgent.
+  (The teacher chatbot is cut from v1; lesson refinement is a fixed row of one-tap actions —
+  see [[feature-spec-v1]] 4.6.)
 - Retention: teacher habit (daily use), the monthly report (the headmaster's reason to
   renew), the school-vs-school leaderboard (students ask for it).
 
@@ -60,8 +65,9 @@ why is at the bottom. Each block links to its detailed note.
 
 ## 6. Key resources — [[key-partners-resources-activities]]
 
-- The AI lesson engine and prompt library; the **МК curriculum corpus** (БРО programs, then
-  teacher-edited lessons — the asset that compounds).
+- The AI lesson engine and prompt library; the **МК curriculum corpus** (БРО programs and the
+  e-учебници, then teacher-edited lessons — the asset that compounds). Rights to the
+  e-учебници are an open legal item, not a settled resource.
 - The live-session engine (QR, points, focus lock).
 - The team; an **advising teacher** (missing today — to recruit this week).
 - AI credits / provider relationship.
@@ -76,7 +82,7 @@ why is at the bottom. Each block links to its detailed note.
 
 ## 8. Key partners — [[key-partners-resources-activities]]
 
-- МОН / БРО (endorsement, curriculum data).
+- МОН / БРО (endorsement, curriculum data, and the e-учебник rights question).
 - Municipality of Bitola (payer for public schools, door-opener).
 - UKLO pedagogy faculty and teacher associations (credibility, research on the opener).
 - Telecom (A1 / Telekom: school connectivity, CSR sponsorship).
@@ -91,7 +97,7 @@ why is at the bottom. Each block links to its detailed note.
   time.
 - **What gets expensive as it grows:** inference scales with active teachers per school, but
   revenue per school is flat — large schools are the margin risk, not a growth win; sales
-  scales with schools; the national leaderboard is nearly free.
+  scales with schools; leaderboards are nearly free.
 
 ---
 
@@ -111,4 +117,5 @@ why is at the bottom. Each block links to its detailed note.
 
 ## Related
 
-[[risks-and-assumptions]] · [[market-size]] · [[competitors]] · [[pitch-script]]
+[[feature-spec-v1]] · [[risks-and-assumptions]] · [[market-size]] · [[competitors]] ·
+[[pitch-script]]

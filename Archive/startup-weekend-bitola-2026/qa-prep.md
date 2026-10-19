@@ -1,8 +1,8 @@
 ---
 created: 2026-09-12
 type: prep
-status: v2 — pricing updated to flat EUR 199/month per school (13 Sep); add real questions
-  from the mentor session and rehearsal
+status: v3 — pricing flat EUR 199/month per school (13 Sep); answers 2, 8, 9 and 17 rewritten
+  against feature-spec-v1 (15 Sep)
 ---
 
 # Q&A prep — five minutes of judges
@@ -24,9 +24,15 @@ not the teacher — free tools never get a headmaster's signature.
 
 It is, with the student's one-time permission. On iOS it's Apple's Screen Time API —
 FamilyControls and ManagedSettings — the same mechanism focus apps like Opal use; on
-Android it's usage-access plus an overlay, like AppBlock. A student can revoke it — and
-then the teacher sees a focus flag. It's social and technical, not a prison, and that's why
-parents accept it. *(Backup slide b.)*
+Android it's usage-access plus an overlay, like AppBlock. Authorizing it is how you join the
+lesson: a student who doesn't is marked present and sits the game out, the same as a student
+with a dead battery. Nobody is marked absent over a phone setting. *(Backup slide b.)*
+
+> **Updated 15 Sep.** The old answer was "a student can revoke it and the teacher just sees
+> a focus flag — it's social and technical, not a prison, and that's why parents accept it."
+> That is no longer true: authorization is now required to join ([[feature-spec-v1]] 6.1).
+> The harder sentence has to be said honestly, and the fallback — present, no points, never
+> absent — is the part that makes it acceptable to a parent. Do not give the old answer.
 
 ## 3. "Phones are being banned in schools across Europe. What about Macedonia?"
 
@@ -68,15 +74,24 @@ school we add.
 ## 8. "Students are minors. What about the data?"
 
 The school is the data controller — it already processes attendance — and we're the
-processor under a data-processing agreement, exactly like any school software. We store
-name, class, attendance and points; nothing from the rest of the phone; EU hosting; deleted
-when the student leaves. Leaderboards outside the class use nicknames.
+processor under a data-processing agreement, exactly like any school software. We store what
+the lesson produces: name, class, attendance, points, and which topics each student keeps
+getting wrong. Nothing from the rest of the phone; EU hosting; deleted when the student
+leaves. The school leaderboard uses nicknames. Nobody at TeacherAid can open a school's data
+without a logged, time-limited grant the school can see.
 
 ## 9. "Points count toward grades? Is that fair? Is it allowed?"
 
-The app never grades. It shows the teacher participation numbers, and the teacher decides
-if and how they inform the participation grade — the same discretion they have today with a
-raised hand. Nothing changes in МОН's grading rules.
+The app never grades — the teacher decides if and how the numbers inform a participation
+grade, the same discretion they have today with a raised hand, and nothing changes in МОН's
+grading rules. What the app does do is show the teacher which topics a student keeps getting
+wrong, which is information a good teacher already tries to hold in their head. The school
+owns that data and it's covered in the processing agreement.
+
+> **Updated 15 Sep.** The old answer stopped at "the app never grades" and did not mention
+> that per-topic correctness is now stored per student ([[feature-spec-v1]] 8.4). Volunteer
+> that second half rather than being caught by it — a judge or a headmaster who discovers it
+> after the flat denial will hear the whole answer as evasion. See [[data-and-privacy]].
 
 ## 10. "What does the AI cost you? What are your margins?"
 
@@ -96,9 +111,10 @@ wait for that to happen.
 
 ## 12. "Does it work when the school wifi is down?"
 
-Students use their own mobile data — the messages are tiny. The teacher's plan is on their
-device; if everything dies the lesson runs out loud and points pause. We'll test it in a
-concrete-walled Bitola school in the free live session.
+Students use their own mobile data — the messages are tiny, and a phone that drops out
+queues the answer and syncs it when it's back, so nobody loses a question to the network.
+The teacher's plan is on their device; if everything dies the lesson runs out loud and
+points pause. We'll test it in a concrete-walled Bitola school in the free live session.
 
 ## 13. "Why not price per teacher instead of a flat fee? Doesn't that cap you at big schools?"
 
@@ -128,9 +144,10 @@ We'd rather integrate than compete: their content, our lesson engine.
 
 ## 17. "Isn't a QR photo from home enough to be marked present?"
 
-Today, yes; a rotating QR every 30 seconds fixes it and is a day of work. Also: attendance
-in TeacherAid is for the dashboard — official attendance stays in e-Дневник, where the
-teacher still sees the empty chair.
+No — the QR rotates every 30 seconds, so a photograph is stale before it reaches anyone.
+Signing in with the school email means a student can't play as someone else either. Also:
+attendance in TeacherAid is for the dashboard — official attendance stays in e-Дневник,
+where the teacher still sees the empty chair.
 
 ## 18. "How much are you raising / what do you need?"
 
@@ -154,5 +171,6 @@ harder things.
 
 ## Related
 
-[[pitch-script]] · [[competitors]] · [[data-and-privacy]] · [[technical-architecture]] ·
-[[revenue-and-pricing]] · [[macedonian-education-system]] · [[validation-log]]
+[[feature-spec-v1]] · [[pitch-script]] · [[competitors]] · [[data-and-privacy]] ·
+[[technical-architecture]] · [[revenue-and-pricing]] · [[macedonian-education-system]] ·
+[[validation-log]]

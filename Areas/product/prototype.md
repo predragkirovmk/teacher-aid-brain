@@ -6,7 +6,9 @@ status: deployed 2026-09-12 — teacher-aid-bitola.vercel.app
 
 # Prototype — the demo web app
 
-What exists for Sunday, what it is not, how to run it.
+What exists for Sunday, what it is not, how to run it. This is the Startup Weekend opener demo.
+The student app (QR check-in, the full set of student screens) is a separate demo at `/app` in the
+same repo: see [[student-app-demo]].
 
 ## What it is
 
@@ -34,11 +36,15 @@ will have.
 - Join (the QR points here): https://teacher-aid-bitola.vercel.app/j/BITOLA — short form to say out loud:
   **teacher-aid-bitola.vercel.app/j/BITOLA**
 - Print sheet: https://teacher-aid-bitola.vercel.app/print
-- Landing with all links: https://teacher-aid-bitola.vercel.app
-- Repo: github.com/predragkirovmk/teacher-aid-app (private) — pushes to `main` deploy
-  automatically; Vercel project `teacher-aid`, Upstash Redis `teacher-aid-redis` attached.
-- Host key: `bitola` (default; set `HOST_KEY` in Vercel to change, then open
-  `/host?key=...`).
+- Landing with all links: https://teacher-aid-bitola.vercel.app/demo (moved 24 Sep 2026; the
+  root now serves the website, see [[2026-09-24]])
+- Repo: github.com/predragkirovmk/teacher-aid-app — **public since 13 Sep** — pushes to
+  `main` deploy automatically; Vercel project `teacher-aid`, Upstash Redis
+  `teacher-aid-redis` attached.
+- Host screen: **open on purpose** (decided 18 Oct 2026). `/host` runs and resets the live
+  session without a key, so anyone with the link can host; fine for a demo. No `HOST_KEY` is
+  set in Vercel, so the key is the public default `bitola` (the rotation of 13 Sep had lapsed).
+  Lock it before the page is used with a real class.
 
 ## What it is not
 

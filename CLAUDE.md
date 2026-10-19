@@ -46,20 +46,47 @@ goes.
 - **Areas are grouped:** `Areas/business-model/`, `Areas/product/`, `Areas/market/`,
   `Areas/brand/` — one subfolder per domain, one topic per note. New notes go into
   the matching subfolder; a new domain gets a new subfolder.
-- **Pitch material lives in the project**, not in Areas:
-  `Projects/startup-weekend-bitola-2026/` holds the script, slide outline, demo
-  plan, Q&A prep, validation log and rehearsal notes. When the weekend is over,
-  move the folder to `Archive/` and lift anything still true into Areas.
+- **The current project is `Projects/build-v1/`** — building version one. It holds the
+  feasibility assessment, the milestones and session budget, and the running next
+  actions. What the app *does* is specified in `Areas/product/feature-spec-v1.md`,
+  which is authoritative over the older product notes wherever they disagree.
+- **Startup Weekend is archived** at `Archive/startup-weekend-bitola-2026/` (pitched
+  13 Sep 2026, archived 16 Sep). Its durable content was lifted into Areas before
+  archiving — the six objection answers are now `Areas/brand/objections.md`. Two
+  answers inside the archived Q&A prep are superseded; do not quote them.
 - **Numbers have sources.** Every figure that could land on a slide is either cited
   (State Statistical Office 2024/25, a dated press quote, a price table) or marked
   `(verify)`. Keep it that way — a judge, a headmaster or a ministry will ask.
 - **Assumptions are tracked**, not buried: `Areas/business-model/risks-and-assumptions.md`
-  is the register; every conversation that proves or disproves one updates it and
-  `Projects/.../validation-log.md`.
+  is the register and the single place they live. Every conversation with a teacher,
+  headmaster, parent or ministry that proves or disproves one updates the row's status the
+  same day, with the date. There is no separate validation log — the earlier one was never
+  filled and was removed on 16 Sep 2026.
 - **The prototype is a separate repo** (`~/Desktop/teacher-aid-app`); this vault
   only documents it (`Areas/product/prototype.md`). Code never lives here.
 - **Daily notes** are the running log of decisions; the day's decisions get copied
   into the relevant Area note the same day, with the date.
+
+## Backend handoff docs — keep them current
+
+`Areas/product/backend-handoff/` holds the two documents the backend developer builds the API
+from: `backend-spec-for-agents.md` (full detail, for his coding agents) and
+`backend-guide-for-developer.md` (the simplified version, for him). They must always describe
+the product as it is decided today.
+
+- **Any product decision that changes** — in [[feature-spec-v1]], a daily note, an owner answer,
+  or a student-app change that alters what the API must provide — updates **both** files in the
+  same commit: change the content, bump `version` and `updated` in the frontmatter and the title
+  line, and add a changelog row.
+- **Current facts only.** A reversed decision is replaced, not kept beside the new one. Mock data
+  from the demo is never a source.
+- **Unsure means ask.** Anything not signed off is labelled Proposed or Open, never Decided. If a
+  change is ambiguous, ask the owner before editing the docs.
+- **Keep IDs stable** in the agent file (FR-, BR-, EC-, AC-, OPEN-). Retire an ID; never reuse it.
+- After updating, republish the shareable page of the developer guide (link in [[Home]]).
+- Then copy both files into the backend repo the developer works in, `~/Desktop/teacheraid-backend/docs/`
+  (GitHub `predragkirovmk/teacheraid-backend`, private), commit there and push. The developer
+  never edits `docs/`; his questions come back as issues on that repo.
 
 ## Git
 
