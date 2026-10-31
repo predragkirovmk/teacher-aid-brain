@@ -29,6 +29,10 @@ Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 - [[features]] · [[user-flows]] · [[technical-architecture]] · [[data-and-privacy]]
 - [[prototype]] — the demo web app: URLs, keys, reset
 
+## The website
+
+- [[seo-geo-plan]] — how teacheraid.education gets found and cited; pages, decisions, results
+
 ## The market
 
 - [[macedonian-education-system]] — who decides, who pays, the phone policy, sources
@@ -47,7 +51,7 @@ Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 
 ## Daily
 
-- [[2026-09-12]] · [[2026-09-13]]
+- [[2026-09-12]] · [[2026-09-13]] · [[2026-10-31]]
 
 ---
 
