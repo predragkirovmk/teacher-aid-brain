@@ -43,6 +43,11 @@ also collected in [[risks-and-assumptions]].
 
 ## The opener
 
+> **Dropped 2026-11-06.** The team removed the first-five-minutes guess from the product. The
+> idea that stays is the positioning: TeacherAid encourages students to get it wrong, so they
+> learn more ([[learning-from-mistakes-research]]). What, if anything, takes its place in the
+> lesson is open. The text below is kept as the record of what was planned.
+
 - Minutes 1–5. One question generated from today's topic, in one of two modes:
   - **Prediction:** "What will happen if…?" with 3–4 options. Students vote, then type one
     line of reasoning.
