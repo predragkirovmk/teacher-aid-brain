@@ -6,6 +6,9 @@ status: draft
 
 # Product overview — the 45-minute class
 
+> **2026-11-06:** the opener (minutes 1–5 below) was dropped. The table still shows it until the
+> new lesson flow is decided; see [[features#The opener]].
+
 TeacherAid is a classroom system for secondary schools (гимназија, 15–18) in North
 Macedonia. Three roles, one lesson:
 

@@ -9,7 +9,18 @@ status: draft
 Lines to reuse across the pitch, the deck, the website and the headmaster meeting. Pick,
 do not stack — one line per moment.
 
+## Official slogan (decided 2026-11-06)
+
+**"Supporting teachers. Empowering learners."**
+
+The team's official slogan. Use it as the sign-off on the site, the deck and films. It is the one
+exception to "empower" in [[#Words to avoid]].
+
 ## The vision line (the close)
+
+> 2026-11-06: this line was written for the opener, which has been dropped
+> ([[features#The opener]]). Check it still fits before reusing it; the official slogan above is
+> the safe close.
 
 **"Every class starts with a question."**
 
