@@ -1,7 +1,7 @@
 ---
 created: 2026-11-12
 type: area
-status: direction approved 2026-11-12 (light look); step 1 of 7 in progress
+status: direction approved 2026-11-12 (light look); step 1 of 7 shown 2026-11-13, waiting for the owner
 ---
 
 # Teacher app redesign
@@ -82,7 +82,30 @@ owner approves the one before.
 ## Status
 
 - 2026-11-12: direction approved (light look). Step 1 in progress.
+- 2026-11-13: step 1 (foundation and frame) built and shown on the review page; it waits
+  for the owner's decision. Steps 2 to 7 have not started.
+
+## Step 1 as built (2026-11-13)
+
+Every teacher screen changed skin at once. No layout, flow, wording or feature changed, and
+nothing new is asked of the API.
+
+- Light palette and one scale for type and sizes: white panels on a pale ground, dark teal
+  ink, Golos Text everywhere, 17px for reading, nothing under 16px.
+- One main button a screen, deep teal and 48px. Every other button is quiet and 44px. End
+  is white with a red edge. Yellow is kept for a live lesson: the band on Today, the mark in
+  the sidebar, the open question.
+- The sidebar is a floating white panel with who is signed in at its foot; the name left
+  the top right of every page. Back is a quiet link above the title.
+- The browser's own colour, the installed app and the offline page are light too.
+- The projected class view is unchanged, pixel for pixel.
+
+Left for the later steps on purpose: the layouts (rows instead of stacks of boxes, one
+button a row, the live lesson on one screen).
+
+Detail and the test changes: `docs/teacher-redesign-plan.md` in the app repo, "Step 1 as
+built".
 
 ## Related
 
-[[prototype]] · [[features]] · [[user-flows]] · [[2026-11-12]]
+[[prototype]] · [[features]] · [[user-flows]] · [[2026-11-12]] · [[2026-11-13]]
