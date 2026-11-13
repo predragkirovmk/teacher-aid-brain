@@ -1,7 +1,7 @@
 ---
 created: 2026-11-12
 type: area
-status: direction approved 2026-11-12 (light look); step 1 of 7 shown 2026-11-13, waiting for the owner
+status: direction approved 2026-11-12 (light look); step 1 approved 2026-11-13; step 2 of 7 shown 2026-11-13, waiting for the owner
 ---
 
 # Teacher app redesign
@@ -84,6 +84,9 @@ owner approves the one before.
 - 2026-11-12: direction approved (light look). Step 1 in progress.
 - 2026-11-13: step 1 (foundation and frame) built and shown on the review page; it waits
   for the owner's decision. Steps 2 to 7 have not started.
+- 2026-11-13, 10:09 UTC: the owner approved step 1 on the review page, with no note.
+- 2026-11-13: step 2 (Today, Lessons, Classes and the Library as rows) built and shown on
+  the review page; it waits for the owner's decision. Steps 3 to 7 have not started.
 
 ## Step 1 as built (2026-11-13)
 
@@ -104,6 +107,30 @@ Left for the later steps on purpose: the layouts (rows instead of stacks of boxe
 button a row, the live lesson on one screen).
 
 Detail and the test changes: `docs/teacher-redesign-plan.md` in the app repo, "Step 1 as
+built".
+
+## Step 2 as built (2026-11-13)
+
+The four lists stopped being stacks of boxes. Every feature is where it was or one press
+away, and nothing new is asked of the API.
+
+- A list is one white panel with a hairline between its rows. A row is a title and one line
+  under it (two in the Library), with a chevron at its right end.
+- The row opens: its title is the link and the link covers the whole row. The separate
+  "Отвори", "Прегледај" and "Види резултати" are gone.
+- One button a row at the most. A lesson, prepared or held, has "Започни час". A class, a
+  Library lesson and a draft have none; a draft's one link is the words "Продолжи" or
+  "Отвори".
+- "Подготви лекција" is in the header, at the right of the title, on Today and on Lessons.
+- Throwing a draft away moved to the end of the draft's own page ("Фрли ја лекцијата", or
+  "Фрли ги измените" for changes to a saved lesson). It asks first, as before.
+- The subject filter is drawn as a segmented control over the same radio buttons.
+- The Lessons page of the demo teacher went from 2051px to 1287px tall at 1440 wide
+  (measured on the two builds, 2026-11-13).
+- The lesson page, the editor's questions, the class results, the live lesson and the
+  projector are untouched: steps 3 to 7.
+
+Detail and the test changes: `docs/teacher-redesign-plan.md` in the app repo, "Step 2 as
 built".
 
 ## Related
