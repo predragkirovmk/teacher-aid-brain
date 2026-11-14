@@ -93,6 +93,8 @@ owner approves the one before.
   decision. Steps 4 to 7 have not started.
 - 2026-11-14, 14:43 UTC: the owner approved step 3 on the review page with one note: the
   prepare form should use the full width. Done the same day. Step 4 (the live lesson) started.
+- 2026-11-14: step 4 (the live lesson) is built and waits for the owner on the review page
+  (`decisions/step-4`).
 
 ## Step 1 as built (2026-11-13)
 
@@ -168,6 +170,29 @@ nothing new is asked of the API.
   untouched: steps 4 to 7.
 
 Detail and the test changes: `docs/teacher-redesign-plan.md` in the app repo, "Step 3 as
+built".
+
+## Step 4 as built (2026-11-14)
+
+The live lesson: the screen a teacher uses in front of the class.
+
+- **The lesson has the whole window.** No sidebar on the console. "Назад кон Денес" is the way
+  out; the lesson keeps running and the reminder on every other page brings the teacher back.
+- **A top bar**: the button that opens the projected window, a line under it that says whether
+  that window is open, and the red End. End was at the foot of a long page.
+- **The question stays in one place**, at the left: the one thing to do now (start the lesson,
+  send the question, show the answer).
+- **Three tabs at the right**: "Класот", "Прашања" (with "Брзо прашање") and "Анонимни (2)".
+  The count of anonymous questions is in the tab's own words, and a new one is read out
+  whichever tab is open. In the lobby the class stands alone.
+- **One screen.** Measured with the demo's class of 26 at 1280 x 800, the same scripted walk on
+  the build before and the build after: the page was 2,424px tall in the lobby, 3,121px while
+  teaching and 3,083px with a question open; it is 804px, 828px and 846px.
+- **The projected view did not change**: the same, pixel for pixel, in five states.
+- No library was added (the tabs are hand-written). Four new words in each language, for the
+  tabs. Nothing new is asked of the API.
+
+Detail and the test changes: `docs/teacher-redesign-plan.md` in the app repo, "Step 4 as
 built".
 
 ## Related
