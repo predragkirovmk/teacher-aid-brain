@@ -91,6 +91,8 @@ owner approves the one before.
 - 2026-11-14: step 3 (preparing a lesson: the form, the wait, the editor, the lesson page,
   the Library's preview) built and shown on the review page; it waits for the owner's
   decision. Steps 4 to 7 have not started.
+- 2026-11-14, 14:43 UTC: the owner approved step 3 on the review page with one note: the
+  prepare form should use the full width. Done the same day. Step 4 (the live lesson) started.
 
 ## Step 1 as built (2026-11-13)
 
@@ -156,8 +158,9 @@ nothing new is asked of the API.
   first question.
 - The save bar says where saving stands at its left and has the one main button at its
   right.
-- The prepare form is one narrow panel: year, material, emphasis, then the button with its
-  line of reassurance. The wait keeps the same width.
+- The prepare form is one panel, as wide as the page's other panels: year, material,
+  emphasis, then the button with its line of reassurance. (Built narrow at first; widened
+  on the owner's note when approving.)
 - The editor of the demo's six-question lesson went from 3921px to 2611px tall, and
   the Library's preview from 2733px to 1818px, at 1280 wide (measured on the two builds,
   2026-11-14).
