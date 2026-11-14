@@ -87,6 +87,10 @@ owner approves the one before.
 - 2026-11-13, 10:09 UTC: the owner approved step 1 on the review page, with no note.
 - 2026-11-13: step 2 (Today, Lessons, Classes and the Library as rows) built and shown on
   the review page; it waits for the owner's decision. Steps 3 to 7 have not started.
+- 2026-11-14, 00:53 UTC: the owner approved step 2 on the review page, with no note.
+- 2026-11-14: step 3 (preparing a lesson: the form, the wait, the editor, the lesson page,
+  the Library's preview) built and shown on the review page; it waits for the owner's
+  decision. Steps 4 to 7 have not started.
 
 ## Step 1 as built (2026-11-13)
 
@@ -133,6 +137,36 @@ away, and nothing new is asked of the API.
 Detail and the test changes: `docs/teacher-redesign-plan.md` in the app repo, "Step 2 as
 built".
 
+## Step 3 as built (2026-11-14)
+
+Preparing a lesson reads as one calm page at each stop. Every feature is where it was, and
+nothing new is asked of the API.
+
+- Questions are rows of one white panel wherever a lesson is read (the lesson page, the
+  Library's preview, the editor): the number in a small disc, the question, one quiet line
+  with its kind and timer, the answers, the explanation as one line. Each question was a
+  box of its own with every answer in a box inside it.
+- Answers stand two side by side where there is room. The right one has a tint under it, a
+  tick and the words "Точен одговор", so it is never colour alone.
+- In the editor "Уреди" is at the right end of the question's first line. The open question
+  is the same row with a teal edge.
+- "Промени ги сите прашања" (Полесни, Потешки, Повеќе прашања, Пократко време) stays after
+  the questions. Putting it above them was tried and undone the same day: an earlier design
+  decision, held by the tests, is that nothing but the lesson's name stands in front of the
+  first question.
+- The save bar says where saving stands at its left and has the one main button at its
+  right.
+- The prepare form is one narrow panel: year, material, emphasis, then the button with its
+  line of reassurance. The wait keeps the same width.
+- The editor of the demo's six-question lesson went from 3921px to 2611px tall, and
+  the Library's preview from 2733px to 1818px, at 1280 wide (measured on the two builds,
+  2026-11-14).
+- The question's own form, the live lesson, the class results and the projector are
+  untouched: steps 4 to 7.
+
+Detail and the test changes: `docs/teacher-redesign-plan.md` in the app repo, "Step 3 as
+built".
+
 ## Related
 
-[[prototype]] · [[features]] · [[user-flows]] · [[2026-11-12]] · [[2026-11-13]]
+[[prototype]] · [[features]] · [[user-flows]] · [[2026-11-12]] · [[2026-11-13]] · [[2026-11-14]]
