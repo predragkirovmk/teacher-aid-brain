@@ -101,6 +101,23 @@ owner approves the one before.
   waits for the owner on the review page (`decisions/step-5`).
 - 2026-11-15, 19:36 UTC: the owner approved step 5 on the review page, with no note.
   Step 6 (Settings, Help, sign-in, first run and the loading, empty and error states) started.
+- 2026-11-15: step 6 is built and waits for the owner on the review page (`decisions/step-6`).
+
+## Step 6 as built (2026-11-15)
+
+- Settings is three groups of rows (how the app speaks; the guide and install; the demo), each
+  with its name on the left and its control at the right. Language and type of institution are
+  two-piece switches. It was five tall cards, 1,935px at 1280 x 800; it is 973px.
+- The install steps wait behind "Како?", a button that says "Сокриј ги чекорите" while they are
+  shown.
+- Help's six questions are rows of one list that open in place; "Пишете ни" is the one main
+  button, in a row under them. The page fits one screen (it was 960px).
+- A page that could not load says so in one white panel with "Обиди се повторно" at the right.
+- The other states were walked on purpose (no lessons, no classes, a slow page, no internet, a
+  session that ended, a failed sign-in): each already said what happened and offered one way on.
+  Sign-in, the guide and the offline page are unchanged.
+- Nothing new is asked of the API. The full record is "Step 6 as built" in the app repo's
+  `docs/teacher-redesign-plan.md`.
 
 ## Step 5 as built (2026-11-15)
 
