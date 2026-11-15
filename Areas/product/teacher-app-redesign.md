@@ -1,7 +1,7 @@
 ---
 created: 2026-11-12
 type: area
-status: direction approved 2026-11-12 (light look); step 1 approved 2026-11-13; step 2 of 7 shown 2026-11-13, waiting for the owner
+status: direction approved 2026-11-12 (light look); steps 1 to 6 approved by 2026-11-15; step 7 of 7 shown 2026-11-15, waiting for the owner
 ---
 
 # Teacher app redesign
@@ -104,6 +104,23 @@ owner approves the one before.
 - 2026-11-15: step 6 is built and waits for the owner on the review page (`decisions/step-6`).
 - 2026-11-15, 22:07 UTC: the owner approved step 6 with one note: "the faq should have an
   animation". Done the same day (Help's answers grow open and fade in). Step 7 started.
+- 2026-11-15: step 7, the last (the projector and the final checks), is built and waits for the
+  owner on the review page (`decisions/step-7`).
+
+## Step 7 as built (2026-11-15)
+
+- The projector keeps a hyphenated word whole: at 1024 wide "QR-кодот" broke at its hyphen in
+  the line that tells students how to join. The line is one row taller there; at 1280 and 1920
+  nothing changed. Sizes and colours of the projector are as they were.
+- Windows high contrast drops soft shadows, so four surfaces had lost their outline (Settings'
+  and Help's groups, a page that could not load, the live lesson's question rows). Each has a
+  line now, as cards and lists already did.
+- The final sweep: 15 screens at 1024 x 768, 1920 x 1080, 200% zoom and in English, 60 of 60
+  clean (no sideways scroll, no text under 16px, English throughout). Reduce Motion and high
+  contrast looked at on four screens; the accessibility scan stays clean on every screen.
+- Left alone by the fence: the website's pictures of the teacher app, which still show the old
+  look. The owner is asked whether to refresh them.
+- Nothing new is asked of the API; no words changed.
 
 ## Step 6 as built (2026-11-15)
 
