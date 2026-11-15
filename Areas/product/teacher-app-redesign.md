@@ -97,6 +97,26 @@ owner approves the one before.
   (`decisions/step-4`).
 - 2026-11-15, 18:50 UTC: the owner approved step 4 on the review page, with no note, and
   said so in the chat. Step 5 (the end page and a class's results) started.
+- 2026-11-15: step 5 (after the lesson: the end page and a class's results) is built and
+  waits for the owner on the review page (`decisions/step-5`).
+
+## Step 5 as built (2026-11-15)
+
+After the lesson. Nothing new is asked of the API: the fast-answer bonus makes the same call
+from its new place.
+
+- The end page has "Оди на Денес" at the right of its title (it was at the foot). The
+  attendance list has copy and print in its head and the counts as one row; on a laptop the
+  most missed questions and the practice stand beside the list. Print and copy are unchanged.
+- A class's results are six tabs: "Накратко", "Кој доаѓа", "Часови", "Слаби теми",
+  "Прашања", "Вежби". Leaving the app is under the attendance. Each tab has its own address,
+  kept on reload and on Back; the old links to sections still open their place.
+- The fast-answer bonus is in a small window behind "Поставки" at the right of the class's
+  name.
+- Measured at 1280 x 800 on the demo school: a class's results were one page 4,564px tall;
+  the first tab is 800px (one screen), the longest 1,492px. The end page of a lesson just
+  ended was 2,313px with the way on at the foot; it is 1,813px with the way on, the most missed
+  and the practice in the first screen.
 
 ## Step 1 as built (2026-11-13)
 
