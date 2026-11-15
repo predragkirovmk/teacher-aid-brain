@@ -1,7 +1,7 @@
 ---
 created: 2026-11-12
 type: area
-status: direction approved 2026-11-12 (light look); steps 1 to 6 approved by 2026-11-15; step 7 of 7 shown 2026-11-15, waiting for the owner
+status: complete 2026-11-15; direction and all seven steps approved by the owner; merged to main of the app repo
 ---
 
 # Teacher app redesign
@@ -106,6 +106,10 @@ owner approves the one before.
   animation". Done the same day (Help's answers grow open and fade in). Step 7 started.
 - 2026-11-15: step 7, the last (the projector and the final checks), is built and waits for the
   owner on the review page (`decisions/step-7`).
+- 2026-11-15, 23:25 UTC: the owner approved step 7 with one note: "make the projector the same
+  color as the rest of the app please", and asked in the chat for the website's pictures to be
+  refreshed too. Both done the same day. The redesign is complete, and went to `main` of the app
+  repo at the owner's request, so their partner can build the AI into it.
 
 ## Step 7 as built (2026-11-15)
 
@@ -118,8 +122,11 @@ owner approves the one before.
 - The final sweep: 15 screens at 1024 x 768, 1920 x 1080, 200% zoom and in English, 60 of 60
   clean (no sideways scroll, no text under 16px, English throughout). Reduce Motion and high
   contrast looked at on four screens; the accessibility scan stays clean on every screen.
-- Left alone by the fence: the website's pictures of the teacher app, which still show the old
-  look. The owner is asked whether to refresh them.
+- On the owner's note when approving: the projected screen wears the app's light colours (the pale
+  ground, white panels with a hairline ring, dark teal words, a tint for the right answer). This
+  replaces the earlier rule that the projector is the one dark place. Its sizes did not change.
+- On the owner's word: the website's pictures of the teacher app (Today and a prepared lesson, in
+  both languages) were taken again and show the new look.
 - Nothing new is asked of the API; no words changed.
 
 ## Step 6 as built (2026-11-15)
