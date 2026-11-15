@@ -95,6 +95,8 @@ owner approves the one before.
   prepare form should use the full width. Done the same day. Step 4 (the live lesson) started.
 - 2026-11-14: step 4 (the live lesson) is built and waits for the owner on the review page
   (`decisions/step-4`).
+- 2026-11-15, 18:50 UTC: the owner approved step 4 on the review page, with no note, and
+  said so in the chat. Step 5 (the end page and a class's results) started.
 
 ## Step 1 as built (2026-11-13)
 
