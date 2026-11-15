@@ -102,6 +102,8 @@ owner approves the one before.
 - 2026-11-15, 19:36 UTC: the owner approved step 5 on the review page, with no note.
   Step 6 (Settings, Help, sign-in, first run and the loading, empty and error states) started.
 - 2026-11-15: step 6 is built and waits for the owner on the review page (`decisions/step-6`).
+- 2026-11-15, 22:07 UTC: the owner approved step 6 with one note: "the faq should have an
+  animation". Done the same day (Help's answers grow open and fade in). Step 7 started.
 
 ## Step 6 as built (2026-11-15)
 
