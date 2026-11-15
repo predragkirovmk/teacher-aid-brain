@@ -99,6 +99,8 @@ owner approves the one before.
   said so in the chat. Step 5 (the end page and a class's results) started.
 - 2026-11-15: step 5 (after the lesson: the end page and a class's results) is built and
   waits for the owner on the review page (`decisions/step-5`).
+- 2026-11-15, 19:36 UTC: the owner approved step 5 on the review page, with no note.
+  Step 6 (Settings, Help, sign-in, first run and the loading, empty and error states) started.
 
 ## Step 5 as built (2026-11-15)
 
