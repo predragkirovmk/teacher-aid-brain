@@ -32,6 +32,7 @@ Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 ## The website
 
 - [[seo-geo-plan]] — how teacheraid.education gets found and cited; pages, decisions, results
+- [[ranking-plan]] — why the site does not show up in Google yet, and who does what about it
 
 ## The market
 
@@ -51,7 +52,7 @@ Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 
 ## Daily
 
-- [[2026-09-12]] · [[2026-09-13]] · [[2026-10-31]]
+- [[2026-09-12]] · [[2026-09-13]] · [[2026-10-31]] · [[2026-11-24]]
 
 ---
 
