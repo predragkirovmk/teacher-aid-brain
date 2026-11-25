@@ -11,15 +11,15 @@ do not stack — one line per moment.
 
 ## The slogan (decided 2026-11-25)
 
-**„Иднината на наставата."** The founders chose it on 2026-11-25. It replaces „Целиот клас
+**„Иднината на Наставата."** The founders chose it on 2026-11-25. It replaces „Целиот клас
 одговара.", which was the website's headline until then. It leads the website's home page, the
 share pictures, every profile cover, the first post and the demo video ([[social-kit]]).
 
 - **Macedonian only.** The brand speaks Macedonian: profiles, posts, pictures and videos, and
   the team films in Macedonian. The website keeps its English pages for search; there, and only
-  there, the slogan reads "The future of teaching."
-- Write it in sentence case, as Macedonian spells it: „Иднината на наставата", not
-  „Иднината на Наставата". On a line break, „на" stays with „наставата".
+  there, the slogan reads "The Future of Teaching."
+- Write it with a capital Н: „Иднината на Наставата" (the founders' choice, 2026-11-25). In
+  English, title case: "The Future of Teaching." On a line break, „на" stays with „Наставата".
 - Pitch lines below are for talks; the slogan is the one line that appears everywhere.
 
 ## The vision line (the close)

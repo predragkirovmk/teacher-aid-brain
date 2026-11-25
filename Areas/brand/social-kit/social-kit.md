@@ -17,7 +17,7 @@ Every fact here is already on teacheraid.education. No team names, no pricing (d
 
 ## The rules for every profile
 
-- **Slogan:** `Иднината на наставата.` (decided by the founders 2026-11-25; it replaced
+- **Slogan:** `Иднината на Наставата.` (decided by the founders 2026-11-25; it replaced
   "Целиот клас одговара"). It leads the covers, the first post and the video.
 - **Language:** the brand speaks Macedonian only: profiles, posts, pictures and videos. The
   website keeps its English pages for search, but nothing on the profiles is in English.
@@ -49,7 +49,7 @@ All screens in the pictures are the real app with its demo data.
 ## Video (`video/`)
 
 `teacheraid-demo-mk.mp4`: 60 seconds, 1920x1080, in Macedonian, made from the real teacher and
-student screens. It opens on the slogan, "Иднината на наставата." Seven steps: the lesson goes in, the questions are ready, students scan,
+student screens. It opens on the slogan, "Иднината на Наставата." Seven steps: the lesson goes in, the questions are ready, students scan,
 one click sends the question, each answers on their phone, answers arrive live, the list is
 ready at the end; then "Првиот час е бесплатен". It has no voice or music; the words are on
 screen. `teacheraid-demo-mk.srt` is the same text as subtitles, for YouTube.
@@ -64,7 +64,7 @@ for Reels, ask Claude; it can rebuild it from the same screens.
 - **Title:** `TeacherAid: часот за 60 секунди`
 - **Description:**
 
-  > Иднината на наставата.
+  > Иднината на Наставата.
   >
   > TeacherAid е апликација за часот за средни училишта и факултети во Македонија. Од
   > лекцијата на наставникот прави прашања, учениците одговараат на своите телефони,
@@ -83,17 +83,17 @@ for Reels, ask Claude; it can rebuild it from the same screens.
 
 **Short (up to 150 characters; Instagram, X, the YouTube tagline)**
 
-> Иднината на наставата. Апликација за часот, на македонски: прашања од вашата лекција, присуство со QR-код.
+> Иднината на Наставата. Апликација за часот, на македонски: прашања од вашата лекција, присуство со QR-код.
 
 **Medium (Facebook "Intro", LinkedIn tagline is the first sentence)**
 
-> Иднината на наставата. TeacherAid е апликација за часот за средните училишта и факултетите
+> Иднината на Наставата. TeacherAid е апликација за часот за средните училишта и факултетите
 > во Македонија. Од лекцијата прави прашања, учениците одговараат на своите телефони, а присуството се
 > запишува со едно скенирање. Првиот час е бесплатен: teacheraid.education
 
 **Long (LinkedIn "About", YouTube "Description", Facebook "About")**
 
-> Иднината на наставата.
+> Иднината на Наставата.
 >
 > TeacherAid е апликација за часот за средни училишта и факултети во Македонија, направена во
 > Битола.
@@ -135,7 +135,7 @@ and LinkedIn; on Instagram the link goes in the bio, not the post.
 
 **Post 1, with `post-1-idninata-na-nastavata` or the video**
 
-> Иднината на наставата.
+> Иднината на Наставата.
 >
 > TeacherAid од вашата лекција прави прашања за часот. Ги испраќате од лаптопот, учениците
 > одговараат на своите телефони, а вие веднаш гледате кој разбрал.
