@@ -36,6 +36,7 @@ Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 - [[outreach-texts]] — ready-to-send texts that get other sites to link to us
 - [[search-console-access]] — let Claude read real Search Console data (setup once)
 - [[geo-analysis-2026-11-25]] — GEO audit: how ready the site is for AI search, top 5 changes
+- [[social-kit]] — profile pictures, bios, first posts, the 60-second demo video, Google Business Profile text
 
 ## The market
 

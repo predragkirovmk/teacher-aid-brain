@@ -108,6 +108,18 @@ In order of impact.
     [[search-console-access]].
 14. GEO audit with /seo-geo and /seo-google, 2026-11-25: readiness 60/100, weakest area brand
     authority. Full report: [[geo-analysis-2026-11-25]].
+15. App PR #20 merged and live 2026-11-25 (press page, speed fix, question headings); IndexNow
+    accepted all 14 URLs.
+16. Five more pages for what teachers search, app PR #21 (2026-11-25): honest comparisons with
+    Mentimeter, Wayground (Quizizz) and Google Forms, and two guides, "how to make a quiz from a
+    lesson" and "attendance with a QR code". Other tools' facts from their own pages, dated.
+    The sitemap goes to 24 URLs once it is merged.
+17. A profile kit so the team can open the profiles in about 30 minutes: [[social-kit]]
+    (pictures at every size, bios, first three posts, Google Business Profile text) and a
+    60-second demo video in Macedonian, made from the real app screens.
+18. The outreach emails are drafts in the founder's Gmail (Startup Weekend Bitola, УКЛО,
+    media, director after a lesson), with the addresses left empty. A weekly 15-minute
+    Search Console check is in the founder's calendar, Mondays 10:00.
 
 ## How we will know it works
 

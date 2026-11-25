@@ -18,6 +18,8 @@ Rules:
   `teacheraid.education/za-mediumi` (live once app PR #20 is merged).
 - Log every text sent in [[validation-log]] or the day's note: who, when, and whether a link
   appeared.
+- Texts 2 to 5 are also waiting as drafts in the founder's Gmail (2026-11-25): add the address,
+  fill the brackets, send. Text 1 is inside the director's email.
 
 ## 1. A news post the school publishes on its own site
 
