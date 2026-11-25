@@ -73,17 +73,25 @@ In order of impact.
 ## What Claude does (in the code and the vault)
 
 1. Keep the student app out of crawling: `robots.txt` disallows `/app`, `/app?` and `/app/`
-   exactly, so the icons and the manifest stay crawlable. (2026-11-24, pull request)
+   exactly, so the icons and the manifest stay crawlable. **Done 2026-11-24**, app PR #19.
 2. Tell Google the site's name and its short forms (WebSite `alternateName`: "TeacherAid
-   Македонија", "teacheraid.education"), so results show "TeacherAid", not a guess.
+   Македонија", "teacheraid.education"), so results show "TeacherAid", not a guess. **Done
+   2026-11-25**, app PR #19.
 3. Add each official profile to `sameAs` as soon as the team sends the links.
 4. Write two new pages for the real queries above, in Macedonian first: "Дигитални алатки во
    наставата" (an honest guide to the tools a Macedonian teacher can use, ours among them) and
    "Вештачка интелигенција во образованието" (what AI can and cannot do in a Macedonian lesson,
    and how student data is protected). Each is reviewed by a teacher before it goes live.
-5. Link the reading pages from the home page itself, not only from the footer.
+   **Written 2026-11-25**, app PR #19: `/digitalni-alatki-vo-nastavata` and
+   `/vestachka-inteligencija-vo-obrazovanieto` (English at `/en/digital-tools-for-teaching`,
+   `/en/ai-in-education`). **Waiting for a teacher's review before merge.**
+5. Link the reading pages from the home page itself, not only from the footer. **Done
+   2026-11-25**: a "Прочитајте повеќе" list before the booking scene, app PR #19.
 6. Speed up the home page on phones: its largest paint is about 4.4 s on a slow phone
-   (Lighthouse, 2026-10-31), held back by the hero's entrance animation.
+   (Lighthouse, 2026-10-31), held back by the hero's entrance animation. **Measured 2026-11-25**:
+   4.1 to 4.2 s, performance 75 to 78, SEO 100, CLS 0. The largest element is now the hero's
+   laptop capture; it loads in about 50 ms and waits about 460 ms for the motion scripts. The
+   rest is a design change to the hero, left as its own task.
 7. Tell Bing and IndexNow after every website change (`node scripts/indexnow.mjs`).
 8. Once a month, re-run the SEO checks (`/seo`, `/geo`) and record what changed here.
 
