@@ -29,6 +29,15 @@ Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 - [[features]] · [[user-flows]] · [[technical-architecture]] · [[data-and-privacy]]
 - [[prototype]] — the demo web app: URLs, keys, reset
 
+## The website
+
+- [[seo-geo-plan]] — how teacheraid.education gets found and cited; pages, decisions, results
+- [[ranking-plan]] — why the site does not show up in Google yet, and who does what about it
+- [[outreach-texts]] — ready-to-send texts that get other sites to link to us
+- [[search-console-access]] — let Claude read real Search Console data (setup once)
+- [[geo-analysis-2026-11-25]] — GEO audit: how ready the site is for AI search, top 5 changes
+- [[social-kit]] — profile pictures, bios, first posts, the 60-second demo video, Google Business Profile text
+
 ## The market
 
 - [[macedonian-education-system]] — who decides, who pays, the phone policy, sources
@@ -47,7 +56,7 @@ Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 
 ## Daily
 
-- [[2026-09-12]] · [[2026-09-13]]
+- [[2026-09-12]] · [[2026-09-13]] · [[2026-10-31]] · [[2026-11-24]] · [[2026-11-25]]
 
 ---
 

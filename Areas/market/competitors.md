@@ -24,7 +24,9 @@ one-line answer for each and the honest view of where TeacherAid is weaker.
 
 ## One line each
 
-- **Curipod** (Norway) — the closest: AI-generated interactive lessons, students join by
+- **Curipod** (Norway) — *update 2026-10-31: Curipod now sells itself as "writing practice
+  with feedback" (curipod.com/pricing); the description below is from September and may no
+  longer hold.* The closest: AI-generated interactive lessons, students join by
   code, polls, drawings, word clouds. Strong product, freemium with a paid teacher tier
   (verify current price). It is a **teacher tool sold to teachers**, English-first, no
   attendance, no focus lock, no headmaster report, nothing tied to the БРО programs. If
@@ -32,7 +34,7 @@ one-line answer for each and the honest view of where TeacherAid is weaker.
   system with a buyer-side product.
 - **Kahoot** — the game everyone knows. Great for a 10-minute quiz; nothing before or after
   it. Priced per teacher; schools rarely pay.
-- **Quizizz (now Wayground)**, **Blooket**, **Gimkit** — Kahoot variants with different
+- **Quizizz (now Wayground, renamed June 2025)**, **Blooket**, **Gimkit** — Kahoot variants with different
   game modes.
 - **Mentimeter / Wooclap** — polls and word clouds for lectures; the opener could be built
   with them, nothing else could.
