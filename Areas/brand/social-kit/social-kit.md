@@ -17,6 +17,10 @@ Every fact here is already on teacheraid.education. No team names, no pricing (d
 
 ## The rules for every profile
 
+- **Slogan:** `Иднината на наставата.` (decided by the founders 2026-11-25; it replaced
+  "Целиот клас одговара"). It leads the covers, the first post and the video.
+- **Language:** the brand speaks Macedonian only: profiles, posts, pictures and videos. The
+  website keeps its English pages for search, but nothing on the profiles is in English.
 - **Name:** `TeacherAid`, exactly. Not "Teacher Aid", not "TeacherAid MK".
 - **Link:** `https://teacheraid.education`, always the full address. The name alone is read as
   "teacher aide" ([[ranking-plan]]).
@@ -36,7 +40,7 @@ Every fact here is already on teacheraid.education. No team names, no pricing (d
 | `facebook-cover-820x312@2x.png` | Facebook page, cover | Words are central, so phones do not cut them |
 | `youtube-banner-2560x1440.png` | YouTube channel, banner | Everything important is in the middle 1235x338 that phones show |
 | `youtube-thumbnail-1280x720.png` | The demo video's thumbnail | |
-| `post-1-celiot-klas-1080x1350.png` | First post | Instagram, Facebook, LinkedIn |
+| `post-1-idninata-na-nastavata-1080x1350.png` | First post | Instagram, Facebook, LinkedIn |
 | `post-2-prisustvo-1080x1350.png` | Second post | |
 | `post-3-besplaten-chas-1080x1350.png` | Third post | |
 
@@ -45,7 +49,7 @@ All screens in the pictures are the real app with its demo data.
 ## Video (`video/`)
 
 `teacheraid-demo-mk.mp4`: 60 seconds, 1920x1080, in Macedonian, made from the real teacher and
-student screens. Seven steps: the lesson goes in, the questions are ready, students scan,
+student screens. It opens on the slogan, "Иднината на наставата." Seven steps: the lesson goes in, the questions are ready, students scan,
 one click sends the question, each answers on their phone, answers arrive live, the list is
 ready at the end; then "Првиот час е бесплатен". It has no voice or music; the words are on
 screen. `teacheraid-demo-mk.srt` is the same text as subtitles, for YouTube.
@@ -60,6 +64,8 @@ for Reels, ask Claude; it can rebuild it from the same screens.
 - **Title:** `TeacherAid: часот за 60 секунди`
 - **Description:**
 
+  > Иднината на наставата.
+  >
   > TeacherAid е апликација за часот за средни училишта и факултети во Македонија. Од
   > лекцијата на наставникот прави прашања, учениците одговараат на своите телефони,
   > присуството се запишува со скенирање на QR-код, а директорот секој месец добива
@@ -77,16 +83,18 @@ for Reels, ask Claude; it can rebuild it from the same screens.
 
 **Short (up to 150 characters; Instagram, X, the YouTube tagline)**
 
-> Апликација за часот, на македонски. Прашања од вашата лекција, присуство со QR-код. Направено во Битола.
+> Иднината на наставата. Апликација за часот, на македонски: прашања од вашата лекција, присуство со QR-код.
 
 **Medium (Facebook "Intro", LinkedIn tagline is the first sentence)**
 
-> TeacherAid е апликација за часот за средните училишта и факултетите во Македонија. Од
-> лекцијата прави прашања, учениците одговараат на своите телефони, а присуството се
+> Иднината на наставата. TeacherAid е апликација за часот за средните училишта и факултетите
+> во Македонија. Од лекцијата прави прашања, учениците одговараат на своите телефони, а присуството се
 > запишува со едно скенирање. Првиот час е бесплатен: teacheraid.education
 
 **Long (LinkedIn "About", YouTube "Description", Facebook "About")**
 
+> Иднината на наставата.
+>
 > TeacherAid е апликација за часот за средни училишта и факултети во Македонија, направена во
 > Битола.
 >
@@ -106,18 +114,11 @@ for Reels, ask Claude; it can rebuild it from the same screens.
 >
 > https://teacheraid.education
 
-**English (LinkedIn allows a second language; use it there only)**
-
-> TeacherAid is a classroom app for secondary schools and universities in North Macedonia, made
-> in Bitola. It turns the teacher's lesson into questions, students answer on their phones,
-> attendance is taken by scanning a QR code, and the director gets a report every month. The
-> first lesson at your school is free: https://teacheraid.education
-
 ## Where to open, in order
 
 1. **YouTube channel.** Banner, picture, long bio, links (site first). Upload the video.
 2. **LinkedIn company page.** Industry: E-Learning Providers (or the closest LinkedIn offers).
-   Size: 2-10. Location: Bitola. Website, cover, logo, long bio, English bio.
+   Size: 2-10. Location: Bitola. Website, cover, logo, long bio. Language: Macedonian.
 3. **Facebook page.** Category: Education (or Software). Cover, picture, medium bio, website,
    email. Instagram can be linked from the page's settings.
 4. **Instagram.** Business or creator account, short bio, link to the site.
@@ -132,9 +133,9 @@ page. This is about the team's own profiles, not the website, so the 2026-10-31 
 Post them a few days apart, the same week the profiles open. Same text on Facebook, Instagram
 and LinkedIn; on Instagram the link goes in the bio, not the post.
 
-**Post 1, with `post-1-celiot-klas` or the video**
+**Post 1, with `post-1-idninata-na-nastavata` or the video**
 
-> Целиот клас одговара.
+> Иднината на наставата.
 >
 > TeacherAid од вашата лекција прави прашања за часот. Ги испраќате од лаптопот, учениците
 > одговараат на своите телефони, а вие веднаш гледате кој разбрал.
