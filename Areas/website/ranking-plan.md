@@ -113,7 +113,7 @@ In order of impact.
 16. Five more pages for what teachers search, app PR #21 (2026-11-25): honest comparisons with
     Mentimeter, Wayground (Quizizz) and Google Forms, and two guides, "how to make a quiz from a
     lesson" and "attendance with a QR code". Other tools' facts from their own pages, dated.
-    The sitemap goes to 24 URLs once it is merged.
+    **Live 2026-11-25**: 24 URLs in the sitemap, IndexNow accepted all 24.
 17. A profile kit so the team can open the profiles in about 30 minutes: [[social-kit]]
     (pictures at every size, bios, first three posts, Google Business Profile text) and a
     60-second demo video in Macedonian, made from the real app screens.
