@@ -35,6 +35,7 @@ Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 - [[ranking-plan]] — why the site does not show up in Google yet, and who does what about it
 - [[outreach-texts]] — ready-to-send texts that get other sites to link to us
 - [[search-console-access]] — let Claude read real Search Console data (setup once)
+- [[geo-analysis-2026-11-25]] — GEO audit: how ready the site is for AI search, top 5 changes
 
 ## The market
 

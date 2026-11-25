@@ -106,6 +106,8 @@ In order of impact.
     LCP 4.0-4.2 s → 2.6-2.7 s, CLS 0.
 13. Real Search Console data for Claude: setup once on a team member's computer,
     [[search-console-access]].
+14. GEO audit with /seo-geo and /seo-google, 2026-11-25: readiness 60/100, weakest area brand
+    authority. Full report: [[geo-analysis-2026-11-25]].
 
 ## How we will know it works
 
