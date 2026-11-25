@@ -34,6 +34,7 @@ Started at Startup Weekend Bitola, 11–13 September 2026. Keep this page a map.
 - [[seo-geo-plan]] — how teacheraid.education gets found and cited; pages, decisions, results
 - [[ranking-plan]] — why the site does not show up in Google yet, and who does what about it
 - [[outreach-texts]] — ready-to-send texts that get other sites to link to us
+- [[search-console-access]] — let Claude read real Search Console data (setup once)
 
 ## The market
 

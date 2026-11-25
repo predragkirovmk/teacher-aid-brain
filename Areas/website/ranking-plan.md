@@ -98,6 +98,14 @@ In order of impact.
    `/za-mediumi` and `/en/press`. **App PR #20, 2026-11-25.**
 10. Ready-to-send outreach texts in Macedonian (a school news post, emails to directors,
     Startup Weekend Bitola, УКЛО and media, a LinkedIn post): [[outreach-texts]].
+11. A monthly check-up, as a scheduled task: on the 3rd of each month at 09:32 Skopje time a
+    fresh Claude session re-audits the live site, re-checks dated facts, records the numbers here
+    and opens fix branches (never merges). First run 2026-12-03.
+12. Home page speed on phones (app PR #20, 2026-11-25): the hero was being moved in the page by
+    the scroll animation and faded in from invisible. Lighthouse mobile performance 75-81 → 92-93,
+    LCP 4.0-4.2 s → 2.6-2.7 s, CLS 0.
+13. Real Search Console data for Claude: setup once on a team member's computer,
+    [[search-console-access]].
 
 ## How we will know it works
 
